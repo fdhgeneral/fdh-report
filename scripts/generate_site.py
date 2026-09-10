@@ -325,6 +325,8 @@ def draft_grade_row(m: dict, rank: int) -> str:
 def gen_index(stats: dict):
     managers = sorted(stats["managers"], key=lambda x: x.get("goat_score", 0), reverse=True)
     active   = [m for m in managers if m.get("seasons", 0) > 0]
+    for _m in managers:  # apply DIVISION_MAP to every manager dict
+        _m["division"] = DIVISION_MAP.get(str(_m.get("user_id", "")), "")
 
     goat_cards    = "".join(hof_card_html(m, i+1) for i, m in enumerate(active[:3]))
     win_leader    = active[0] if active else {}
