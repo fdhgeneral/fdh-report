@@ -16,23 +16,7 @@ DIVISION_MAP = {
     "1119830811148156928": "FDH East",    # BangBang4949
 }
 
-DIVISION_MAP = {
-    # FDH North
-    "1032906633749307392": "FDH North",   # Prettygrlrck
-    "1114330483623694336": "FDH North",   # RedZoneGuru
-    "1120105892286025728": "FDH North",   # justEATit
-    "1116252821541830656": "FDH North",   # BigKens
-    # FDH West
-    "1034350371830968320": "FDH West",    # PaulyDsWalnuts
-    "1034270560295006208": "FDH West",    # 2headedblindsquirrel
-    "1116173850477277184": "FDH West",    # LeftofCenter25
-    "201958586610356224":  "FDH West",    # theFFChef
-    # FDH East
-    "1128420934681079808": "FDH East",    # TheRealTea
-    "887435530135252992":  "FDH East",    # Jarrin
-    "1088314152050929664": "FDH East",    # Delvineo
-    "1119830811148156928": "FDH East",    # BangBang4949
-}
+
 
 #!/usr/bin/env python3
 """
