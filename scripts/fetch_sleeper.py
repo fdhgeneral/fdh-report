@@ -325,6 +325,20 @@ def compute_stats(
                 # Weekly high
                 stats[uid]["weekly_highs"].append({"week": wk, "league_id": lid, "score": pts, "season": season_year})
 
+
+        # Detect champion: matchup_id=1 in final playoff week
+        if week_groups:
+            fw = max(wk for wk, mid in week_groups.keys())
+            if fw >= playoff_start:
+                cp = week_groups.get((fw, 1), [])
+                if len(cp) == 2:
+                    pa = cp[0].get('points') or 0
+                    pb = cp[1].get('points') or 0
+                    wr = (cp[0] if pa >= pb else cp[1])['roster_id']
+                    cu = ru_map.get(wr)
+                    if cu and cu in stats:
+                        stats[cu]['championships'] += 1
+
         # Mark seasons for users who appeared in this league's roster map
         for rid, uid in ru_map.items():
             if uid and uid in stats:

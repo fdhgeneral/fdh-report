@@ -16,7 +16,7 @@
       "pf": 4467.18,
       "pa": 4190.12,
       "playoff_apps": 0,
-      "championships": 0,
+      "championships": 1,
       "weekly_highs": [
         {
           "week": 1,
@@ -328,11 +328,11 @@
       "win_pct": 0.6286,
       "goat_raw": {
         "win": 22.001,
-        "title": 0,
+        "title": 10,
         "playoff": 0.0,
         "pf": 15.0
       },
-      "goat_score": 37.0
+      "goat_score": 47.0
     },
     {
       "user_id": "887435530135252992",
@@ -3592,7 +3592,7 @@
       "pf": 4205.82,
       "pa": 3868.78,
       "playoff_apps": 0,
-      "championships": 0,
+      "championships": 1,
       "weekly_highs": [
         {
           "week": 1,
@@ -3898,11 +3898,11 @@
       "win_pct": 0.5,
       "goat_raw": {
         "win": 17.5,
-        "title": 0,
+        "title": 10,
         "playoff": 0.0,
         "pf": 14.12
       },
-      "goat_score": 31.62
+      "goat_score": 41.62
     },
     {
       "user_id": "1128420934681079808",
@@ -4814,5 +4814,5 @@
       "pf_b": 205.82
     }
   ],
-  "generated_at": "2026-09-10T20:42:53.231222+00:00"
+  "generated_at": "2026-09-10T21:54:07.538000+00:00"
 }

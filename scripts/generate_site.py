@@ -344,7 +344,8 @@ def gen_index(stats: dict):
 
     goat_cards    = "".join(hof_card_html(m, i+1) for i, m in enumerate(active[:3]))
     win_leader    = active[0] if active else {}
-    pct_leader    = max(active, key=lambda x: x.get("win_pct", 0), default={})
+    _pp = [m for m in active if m.get("wins", 0) + m.get("losses", 0) >= 8]
+    pct_leader    = max(_pp or active, key=lambda x: x.get("win_pct", 0), default={})
     title_king    = max(active, key=lambda x: x.get("championships", 0), default={})
     top_rivals    = stats.get("rivalries", [])[:2]
     rivalry_cards = "".join(rivalry_card_preview(r) for r in top_rivals)
@@ -355,6 +356,27 @@ def gen_index(stats: dict):
         members = [m for m in active if m.get("division") == div]
         div_cards += division_card(div, members)
 
+    # Compute most trades in one season
+    import json as _tj
+    from pathlib import Path as _TP
+    _tD = _TP('_data')
+    _tn, _tu = 0, None
+    for _ty in ['2024', '2025', '2026']:
+        _rp  = _tD / ('rosters_' + _ty + '.json')
+        _tp2 = _tD / ('trades_'  + _ty + '.json')
+        if not (_rp.exists() and _tp2.exists()): continue
+        _rm = {r['roster_id']: r.get('owner_id') for r in _tj.loads(_rp.read_text())}
+        _tl = _tj.loads(_tp2.read_text())
+        if not isinstance(_tl, list): continue
+        _sc = {}
+        for _tr in _tl:
+            for _ri in (_tr.get('roster_ids') or []):
+                _ui = _rm.get(_ri)
+                if _ui: _sc[_ui] = _sc.get(_ui, 0) + 1
+        for _ui, _c in _sc.items():
+            if _c > _tn: _tn, _tu = _c, _ui
+    _un = {m['user_id']: m['display_name'] for m in managers}
+    _tk = _un.get(_tu, '-') if _tu else '-'
     replacements = {
         "LEAGUE_FOUNDED":            "2019",
         "TOTAL_MANAGERS":            len(active),
@@ -368,8 +390,8 @@ def gen_index(stats: dict):
         "BEST_WIN_PCT_OWNER":        pct_leader.get("display_name", "—"),
         "MOST_CHAMPIONSHIPS":        title_king.get("championships", 0),
         "CHAMPIONSHIP_KING":         title_king.get("display_name", "—"),
-        "MOST_TRADES_SINGLE":        "—",
-        "TRADE_KING":                "—",
+        "MOST_TRADES_SINGLE":        str(_tn) if _tn else "0",
+        "TRADE_KING":                _tk,
         "TOP_RIVALRY_CARDS":         rivalry_cards,
         "CHAMPIONS_TIMELINE":        champions_tl,
         "DIVISION_CARDS":            div_cards,
@@ -385,7 +407,8 @@ def gen_hof(stats: dict):
     cards    = "".join(hof_card_html(m, i+1)  for i, m in enumerate(active))
     rows     = "".join(hof_table_row(m, i+1)  for i, m in enumerate(active))
     win_king = active[0] if active else {}
-    pct_l    = max(active, key=lambda x: x.get("win_pct", 0), default={})
+    _pl = [m for m in active if m.get("wins", 0) + m.get("losses", 0) >= 8]
+    pct_l    = max(_pl or active, key=lambda x: x.get("win_pct", 0), default={})
     title_k  = max(active, key=lambda x: x.get("championships", 0), default={})
     po_k     = max(active, key=lambda x: x.get("playoff_apps", 0) / max(x.get("seasons", 1), 1), default={})
     accolades = (accolade_block("GOAT Champion",    win_king.get("display_name", "—"), "🐐") +
