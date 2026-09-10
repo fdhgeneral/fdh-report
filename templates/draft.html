@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FDH Draft History — every pick, every round, every season in Fantasy Die Hards history." />
+  <title>Draft History | FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+  <style>
+    .pick-cell {
+      padding: .35rem .5rem;
+      border-radius: 4px;
+      font-size: .82rem;
+      text-align: center;
+      min-width: 90px;
+    }
+    .pick-cell__name { font-weight: 600; color: var(--fdh-slate); display: block; line-height: 1.2; }
+    .pick-cell__pos  { font-size: .72rem; color: var(--fdh-text-muted); }
+    .pos-qb { border-left: 3px solid #e63946; }
+    .pos-rb { border-left: 3px solid #2a9d8f; }
+    .pos-wr { border-left: 3px solid #457b9d; }
+    .pos-te { border-left: 3px solid #e9c46a; }
+    .pos-k  { border-left: 3px solid #a8dadc; }
+    .pos-def{ border-left: 3px solid #6d6875; }
+    .draft-board-wrap { overflow-x: auto; }
+    .draft-board { border-collapse: collapse; min-width: 900px; }
+    .draft-board th {
+      background: var(--fdh-slate); color: #fff;
+      font-family: var(--font-display); font-size: .75rem;
+      letter-spacing: .08em; text-transform: uppercase;
+      padding: .6rem .75rem; text-align: center;
+      white-space: nowrap;
+    }
+    .draft-board td {
+      padding: .4rem .5rem;
+      border: 1px solid rgba(0,0,0,.07);
+      vertical-align: top;
+      background: #fff;
+    }
+    .draft-board tr:nth-child(even) td { background: rgba(0,0,0,.02); }
+    .round-label {
+      background: var(--fdh-red) !important;
+      color: #fff !important;
+      font-family: var(--font-display);
+      font-size: .8rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      text-align: center !important;
+      font-weight: 700;
+      width: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link">Standings</a>
+      <a href="rivalries.html" class="nav__link">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link active">Draft History</a>
+      <a href="records.html"   class="nav__link">Records</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:3rem 0 2.5rem;">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero__eyebrow">The War Room</div>
+    <h1 class="hero__title">FDH <span>Draft History</span></h1>
+    <p class="hero__sub">Every pick from every season. Who went where, who won the draft, and who picked the busts.</p>
+    <div class="hero__meta">
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-counter data-target="{{TOTAL_DRAFT_PICKS}}">{{TOTAL_DRAFT_PICKS}}</span>
+        <span class="hero__stat-label">Total Picks</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">{{BEST_DRAFT_GRADE_MANAGER}}</span>
+        <span class="hero__stat-label">Best Draft Grade</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">{{MOST_COMMON_FIRST_PICK}}</span>
+        <span class="hero__stat-label">Most Common #1 Pick</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Synced from Sleeper: <strong id="last-updated-ts" data-ts="{{BUILD_TS}}">{{BUILD_TS}}</strong></span>
+  </div>
+
+  <!-- Season selector tabs -->
+  <div data-tabs>
+    <div class="tabs">
+      {{DRAFT_SEASON_TABS}}
+    </div>
+    {{DRAFT_SEASON_PANELS}}
+  </div>
+
+  <!-- Draft Grade Leaderboard -->
+  <div class="section-header" style="margin-top:3rem;">
+    <span class="section-header__eyebrow">Who Won the Draft</span>
+    <h2>All-Time Draft Grades</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <p style="color:var(--fdh-text-muted); font-size:.88rem; margin-bottom:1.25rem;">
+    Draft grade = weighted average of picks' end-of-season fantasy points vs. ADP expectation.
+  </p>
+  <div class="table-wrap" style="margin-bottom:3rem;">
+    <table class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">#</th>
+          <th data-sort="1">Manager</th>
+          <th data-sort="2">Seasons</th>
+          <th data-sort="3">Avg Draft Grade</th>
+          <th data-sort="4">Best Grade</th>
+          <th data-sort="5">Worst Grade</th>
+          <th data-sort="6">Best Pick</th>
+          <th data-sort="7">Biggest Bust</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{DRAFT_GRADE_TABLE_ROWS}}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Position breakdown -->
+  <div class="section-header">
+    <span class="section-header__eyebrow">Draft Tendencies</span>
+    <h2>Position Breakdown by Manager</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <div class="table-wrap">
+    <table class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">Manager</th>
+          <th data-sort="1">Total Picks</th>
+          <th data-sort="2">QB %</th>
+          <th data-sort="3">RB %</th>
+          <th data-sort="4">WR %</th>
+          <th data-sort="5">TE %</th>
+          <th data-sort="6">K %</th>
+          <th data-sort="7">DEF %</th>
+          <th data-sort="8">Fav Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{DRAFT_POSITION_ROWS}}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div style="padding:3rem 0;"></div>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <div class="footer__links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="hof.html" class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html" class="footer__link">Trades</a>
+      <a href="draft.html" class="footer__link">Draft History</a>
+      <a href="records.html" class="footer__link">Records</a>
+    </div>
+    <p class="footer__copy">&copy; {{YEAR}} Fantasy Die Hards.</p>
+    <p class="footer__build">Auto-generated · Build {{BUILD_TS}}</p>
+  </div>
+</footer>
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>

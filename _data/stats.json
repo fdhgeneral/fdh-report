@@ -1,0 +1,4818 @@
+{
+  "managers": [
+    {
+      "user_id": "201958586610356224",
+      "display_name": "theFFChef",
+      "latest_team": "House of 9",
+      "all_team_names": [
+        "Breece is the Word",
+        "House of 9"
+      ],
+      "avatar": "594fa2350b5a9263dd57f764c3d71ae9",
+      "seasons": 3,
+      "wins": 22,
+      "losses": 13,
+      "ties": 0,
+      "pf": 4467.18,
+      "pa": 4190.12,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 124.98,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 157.74,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 102.08,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 125.98,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 132.04,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 132.3,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 131.28,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 143.66,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 133.16,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 104.9,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 201.02,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 139.4,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 136.3,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 109.16,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 134.36,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 119.68,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 171.14,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 115.52,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 149.64,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 93.9,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 116.78,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 145.38,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 114.18,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 153.96,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 135.92,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 120.44,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 136.38,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 99.8,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 125.64,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 136.74,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 141.96,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 132.3,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 140.56,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 94.4,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 14.5,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 1,
+      "lose_streak": 0,
+      "max_win_streak": 4,
+      "max_lose_streak": 3,
+      "season_records": [],
+      "h2h": {
+        "1120105892286025728": {
+          "w": 3,
+          "l": 2,
+          "pf": 519.82,
+          "pa": 541.14,
+          "meetings": 5,
+          "playoff_meetings": 1
+        },
+        "1034270560295006208": {
+          "w": 2,
+          "l": 1,
+          "pf": 381.08,
+          "pa": 354.9,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1116252821541830656": {
+          "w": 3,
+          "l": 1,
+          "pf": 513.38,
+          "pa": 467.4,
+          "meetings": 4,
+          "playoff_meetings": 2
+        },
+        "1114330483623694336": {
+          "w": 2,
+          "l": 0,
+          "pf": 225.78,
+          "pa": 163.62,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1116173850477277184": {
+          "w": 2,
+          "l": 2,
+          "pf": 552.54,
+          "pa": 547.74,
+          "meetings": 4,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 1,
+          "l": 2,
+          "pf": 345.88,
+          "pa": 394.76,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1018417144801357824": {
+          "w": 2,
+          "l": 0,
+          "pf": 267.2,
+          "pa": 209.86,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 2,
+          "l": 2,
+          "pf": 562.6199999999999,
+          "pa": 533.6600000000001,
+          "meetings": 4,
+          "playoff_meetings": 2
+        },
+        "1032906633749307392": {
+          "w": 1,
+          "l": 2,
+          "pf": 362.08000000000004,
+          "pa": 373.86,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 2,
+          "l": 1,
+          "pf": 443.44,
+          "pa": 373.36,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 2,
+          "l": 0,
+          "pf": 293.36,
+          "pa": 229.82,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.6286,
+      "goat_raw": {
+        "win": 22.001,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 15.0
+      },
+      "goat_score": 37.0
+    },
+    {
+      "user_id": "887435530135252992",
+      "display_name": "Jarrin1225",
+      "latest_team": "",
+      "all_team_names": [],
+      "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+      "seasons": 3,
+      "wins": 20,
+      "losses": 13,
+      "ties": 0,
+      "pf": 4271.88,
+      "pa": 3915.76,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 140.12,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 131.9,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 106.78,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 135.38,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 151.06,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 132.64,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 152.96,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 156.34,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 141.36,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 121.56,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 140.88,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 103.62,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 132.98,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 180.02,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 161.46,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 133.54,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 129.96,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 84.32,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 116.62,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 131.46,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 165.92,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 122.7,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 99.16,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 151.32,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 129.8,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 102.74,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 183.88,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 115.22,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 110.32,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 114.84,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 113.82,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 177.2,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 1,
+      "max_win_streak": 6,
+      "max_lose_streak": 4,
+      "season_records": [],
+      "h2h": {
+        "1018417144801357824": {
+          "w": 1,
+          "l": 3,
+          "pf": 491.06000000000006,
+          "pa": 566.16,
+          "meetings": 4,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 3,
+          "l": 0,
+          "pf": 495.8,
+          "pa": 283.15999999999997,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1034270560295006208": {
+          "w": 1,
+          "l": 2,
+          "pf": 346.9,
+          "pa": 384.46000000000004,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 2,
+          "l": 1,
+          "pf": 429.2,
+          "pa": 405.62,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1088314152050929664": {
+          "w": 2,
+          "l": 2,
+          "pf": 585.34,
+          "pa": 548.4399999999999,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1114330483623694336": {
+          "w": 1,
+          "l": 1,
+          "pf": 216.95999999999998,
+          "pa": 265.2,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1116173850477277184": {
+          "w": 2,
+          "l": 0,
+          "pf": 304.28,
+          "pa": 166.48,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 2,
+          "l": 2,
+          "pf": 533.6600000000001,
+          "pa": 562.6199999999999,
+          "meetings": 4,
+          "playoff_meetings": 2
+        },
+        "1120105892286025728": {
+          "w": 2,
+          "l": 0,
+          "pf": 244.26,
+          "pa": 194.26,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1116252821541830656": {
+          "w": 2,
+          "l": 1,
+          "pf": 421.64,
+          "pa": 361.04,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 2,
+          "l": 0,
+          "pf": 202.78,
+          "pa": 147.12,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1128420934681079808": {
+          "w": 0,
+          "l": 1,
+          "pf": 0.0,
+          "pa": 31.2,
+          "meetings": 1,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.6061,
+      "goat_raw": {
+        "win": 21.2135,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 14.34
+      },
+      "goat_score": 35.55
+    },
+    {
+      "user_id": "1018417144801357824",
+      "display_name": "JHud01",
+      "latest_team": "Not like Us",
+      "all_team_names": [
+        "Not like Us"
+      ],
+      "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+      "seasons": 2,
+      "wins": 10,
+      "losses": 22,
+      "ties": 0,
+      "pf": 3780.36,
+      "pa": 4171.7,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 176.06,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 121.82,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 110.66,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 140.24,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 102.38,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 93.92,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 118.54,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 119.12,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 96.82,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 100.96,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 132.4,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 145.62,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 118.82,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 91.0,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 121.6,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 71.96,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 128.02,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 111.84,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 82.04,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 128.16,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 164.38,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 109.54,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 115.76,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 91.32,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 141.5,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 116.12,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 133.82,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 155.16,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 146.6,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 86.94,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 79.46,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 127.78,
+          "season": "2025"
+        }
+      ],
+      "win_streak": 1,
+      "lose_streak": 0,
+      "max_win_streak": 4,
+      "max_lose_streak": 9,
+      "season_records": [],
+      "h2h": {
+        "887435530135252992": {
+          "w": 3,
+          "l": 1,
+          "pf": 566.16,
+          "pa": 491.06000000000006,
+          "meetings": 4,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 0,
+          "l": 3,
+          "pf": 322.36,
+          "pa": 374.24,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 0,
+          "l": 3,
+          "pf": 348.02,
+          "pa": 513.72,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1116252821541830656": {
+          "w": 1,
+          "l": 2,
+          "pf": 428.34000000000003,
+          "pa": 401.4,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 2,
+          "l": 2,
+          "pf": 491.36,
+          "pa": 514.22,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1116173850477277184": {
+          "w": 1,
+          "l": 1,
+          "pf": 205.76,
+          "pa": 240.22,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 0,
+          "l": 2,
+          "pf": 209.86,
+          "pa": 267.2,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1114330483623694336": {
+          "w": 0,
+          "l": 2,
+          "pf": 247.14000000000001,
+          "pa": 272.38,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1034270560295006208": {
+          "w": 1,
+          "l": 3,
+          "pf": 401.17999999999995,
+          "pa": 492.22,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1034350371830968320": {
+          "w": 1,
+          "l": 1,
+          "pf": 260.56,
+          "pa": 237.22,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1120105892286025728": {
+          "w": 1,
+          "l": 2,
+          "pf": 299.62,
+          "pa": 367.82,
+          "meetings": 3,
+          "playoff_meetings": 1
+        }
+      },
+      "division": "",
+      "win_pct": 0.3125,
+      "goat_raw": {
+        "win": 10.9375,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 12.68
+      },
+      "goat_score": 23.62
+    },
+    {
+      "user_id": "1032906633749307392",
+      "display_name": "Prettygrlrck",
+      "latest_team": "Victorious Secret 🔒",
+      "all_team_names": [
+        "Remarkable Rico’s Team",
+        "Victorious Secret 🔒"
+      ],
+      "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+      "seasons": 3,
+      "wins": 16,
+      "losses": 18,
+      "ties": 0,
+      "pf": 4189.04,
+      "pa": 4389.22,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 113.38,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 61.96,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 194.72,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 120.4,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 99.64,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 88.2,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 118.02,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 110.32,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 114.1,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 118.0,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 104.18,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 123.86,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 122.22,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 196.68,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 130.18,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 179.86,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 123.08,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 109.42,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 123.9,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 131.24,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 148.4,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 135.06,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 93.64,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 139.14,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 86.42,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 150.64,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 132.1,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 126.7,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 164.52,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 105.22,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 123.34,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 146.52,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 153.98,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 3,
+      "max_win_streak": 3,
+      "max_lose_streak": 3,
+      "season_records": [],
+      "h2h": {
+        "1116252821541830656": {
+          "w": 1,
+          "l": 3,
+          "pf": 359.5,
+          "pa": 383.08000000000004,
+          "meetings": 4,
+          "playoff_meetings": 0
+        },
+        "1114330483623694336": {
+          "w": 1,
+          "l": 3,
+          "pf": 540.22,
+          "pa": 605.4,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1018417144801357824": {
+          "w": 3,
+          "l": 0,
+          "pf": 513.72,
+          "pa": 348.02,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "887435530135252992": {
+          "w": 1,
+          "l": 2,
+          "pf": 405.62,
+          "pa": 429.2,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1034350371830968320": {
+          "w": 1,
+          "l": 2,
+          "pf": 323.16,
+          "pa": 429.24,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 1,
+          "l": 1,
+          "pf": 214.9,
+          "pa": 213.07999999999998,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 3,
+          "l": 1,
+          "pf": 496.53999999999996,
+          "pa": 438.66,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 0,
+          "l": 2,
+          "pf": 196.74,
+          "pa": 382.46000000000004,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 2,
+          "l": 1,
+          "pf": 373.86,
+          "pa": 362.08000000000004,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1116173850477277184": {
+          "w": 2,
+          "l": 2,
+          "pf": 492.52,
+          "pa": 497.84,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1034270560295006208": {
+          "w": 1,
+          "l": 1,
+          "pf": 272.26,
+          "pa": 300.15999999999997,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.4706,
+      "goat_raw": {
+        "win": 16.471,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 14.06
+      },
+      "goat_score": 30.53
+    },
+    {
+      "user_id": "1034270560295006208",
+      "display_name": "2headedblindsquirrel",
+      "latest_team": "",
+      "all_team_names": [],
+      "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+      "seasons": 3,
+      "wins": 16,
+      "losses": 18,
+      "ties": 0,
+      "pf": 4260.9,
+      "pa": 4191.14,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 121.62,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 136.1,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 123.7,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 115.8,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 74.56,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 108.4,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 96.28,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 130.26,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 162.0,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 133.74,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 133.02,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 158.68,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 174.7,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 137.34,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 136.14,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 157.1,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 91.24,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 137.44,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 129.02,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 141.48,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 125.38,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 81.46,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 135.58,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 126.98,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 129.22,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 167.9,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 123.32,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 148.06,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 131.54,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 115.38,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 135.38,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 119.78,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 106.5,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 15.8,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 1,
+      "lose_streak": 0,
+      "max_win_streak": 4,
+      "max_lose_streak": 5,
+      "season_records": [],
+      "h2h": {
+        "1116173850477277184": {
+          "w": 3,
+          "l": 1,
+          "pf": 621.3199999999999,
+          "pa": 480.5,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "201958586610356224": {
+          "w": 1,
+          "l": 2,
+          "pf": 354.9,
+          "pa": 381.08,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 2,
+          "l": 1,
+          "pf": 384.46000000000004,
+          "pa": 346.9,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 2,
+          "l": 1,
+          "pf": 388.62,
+          "pa": 351.72,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 2,
+          "l": 2,
+          "pf": 463.94,
+          "pa": 520.92,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1116252821541830656": {
+          "w": 1,
+          "l": 2,
+          "pf": 383.44,
+          "pa": 392.46,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 0,
+          "l": 3,
+          "pf": 328.15999999999997,
+          "pa": 369.24,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1119830811148156928": {
+          "w": 1,
+          "l": 2,
+          "pf": 281.64000000000004,
+          "pa": 347.64,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1018417144801357824": {
+          "w": 3,
+          "l": 1,
+          "pf": 492.22,
+          "pa": 401.17999999999995,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1114330483623694336": {
+          "w": 0,
+          "l": 2,
+          "pf": 262.04,
+          "pa": 327.24,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 1,
+          "l": 1,
+          "pf": 300.15999999999997,
+          "pa": 272.26,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.4706,
+      "goat_raw": {
+        "win": 16.471,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 14.3
+      },
+      "goat_score": 30.77
+    },
+    {
+      "user_id": "1034350371830968320",
+      "display_name": "scheeper",
+      "latest_team": "PaulyDsWalnuts ",
+      "all_team_names": [
+        "PauliesWalnuts ",
+        "PaulyDsWalnuts "
+      ],
+      "avatar": "e7af4deab0289b4f5505646424895246",
+      "seasons": 3,
+      "wins": 19,
+      "losses": 15,
+      "ties": 0,
+      "pf": 4121.24,
+      "pa": 3949.66,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 119.52,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 112.08,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 132.28,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 122.54,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 174.22,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 150.82,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 120.84,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 110.86,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 152.1,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 185.4,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 108.38,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 88.78,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 112.98,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 147.82,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 117.08,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 130.82,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 102.92,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 115.98,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 126.86,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 128.84,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 133.12,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 101.9,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 58.34,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 134.72,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 119.0,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 92.52,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 98.06,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 142.76,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 90.12,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 178.36,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 141.74,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 154.2,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 115.28,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 1,
+      "max_win_streak": 8,
+      "max_lose_streak": 6,
+      "season_records": [],
+      "h2h": {
+        "1114330483623694336": {
+          "w": 2,
+          "l": 3,
+          "pf": 545.58,
+          "pa": 624.1800000000002,
+          "meetings": 5,
+          "playoff_meetings": 0
+        },
+        "1116252821541830656": {
+          "w": 1,
+          "l": 2,
+          "pf": 361.79999999999995,
+          "pa": 412.6,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 2,
+          "l": 1,
+          "pf": 402.46,
+          "pa": 335.38,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 1,
+          "l": 2,
+          "pf": 310.72,
+          "pa": 314.4,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 2,
+          "l": 1,
+          "pf": 429.24,
+          "pa": 323.16,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 2,
+          "l": 1,
+          "pf": 394.76,
+          "pa": 345.88,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1034270560295006208": {
+          "w": 3,
+          "l": 0,
+          "pf": 369.24,
+          "pa": 328.15999999999997,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1116173850477277184": {
+          "w": 2,
+          "l": 1,
+          "pf": 371.6,
+          "pa": 375.90000000000003,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1088314152050929664": {
+          "w": 3,
+          "l": 1,
+          "pf": 551.5,
+          "pa": 426.66,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1018417144801357824": {
+          "w": 1,
+          "l": 1,
+          "pf": 237.22,
+          "pa": 260.56,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 0,
+          "l": 2,
+          "pf": 147.12,
+          "pa": 202.78,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.5588,
+      "goat_raw": {
+        "win": 19.558,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 13.83
+      },
+      "goat_score": 33.39
+    },
+    {
+      "user_id": "1088314152050929664",
+      "display_name": "Delvineo",
+      "latest_team": "Fire in my bones 🔥 ",
+      "all_team_names": [
+        "Tears of a clown ",
+        "BIG TOE N THE DOE",
+        "Fire in my bones 🔥 "
+      ],
+      "avatar": "4f4090e5e9c3941414db40a871e3e909",
+      "seasons": 3,
+      "wins": 14,
+      "losses": 19,
+      "ties": 1,
+      "pf": 4057.46,
+      "pa": 4196.5,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 116.06,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 135.2,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 145.9,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 142.48,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 149.14,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 145.88,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 123.34,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 144.1,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 143.04,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 124.88,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 142.7,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 125.28,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 169.88,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 118.42,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 161.34,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 116.46,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 112.8,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 112.28,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 117.64,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 153.64,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 139.8,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 107.6,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 120.62,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 104.54,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 94.16,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 121.9,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 92.62,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 67.2,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 96.36,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 160.6,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 84.0,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 91.6,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 76.0,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 0,
+      "max_win_streak": 3,
+      "max_lose_streak": 4,
+      "season_records": [],
+      "h2h": {
+        "1119830811148156928": {
+          "w": 1,
+          "l": 2,
+          "pf": 380.1,
+          "pa": 377.32,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1018417144801357824": {
+          "w": 3,
+          "l": 0,
+          "pf": 374.24,
+          "pa": 322.36,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1116173850477277184": {
+          "w": 2,
+          "l": 1,
+          "pf": 375.53999999999996,
+          "pa": 344.76,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1034270560295006208": {
+          "w": 1,
+          "l": 2,
+          "pf": 351.72,
+          "pa": 388.62,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "887435530135252992": {
+          "w": 2,
+          "l": 2,
+          "pf": 548.4399999999999,
+          "pa": 585.34,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1032906633749307392": {
+          "w": 1,
+          "l": 1,
+          "pf": 213.07999999999998,
+          "pa": 214.9,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1114330483623694336": {
+          "w": 2,
+          "l": 2,
+          "pf": 567.1800000000001,
+          "pa": 483.22,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1116252821541830656": {
+          "w": 0,
+          "l": 2,
+          "pf": 256.38,
+          "pa": 265.26,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 1,
+          "l": 3,
+          "pf": 426.66,
+          "pa": 551.5,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 1,
+          "l": 2,
+          "pf": 334.29999999999995,
+          "pa": 369.86,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 0,
+          "l": 2,
+          "pf": 229.82,
+          "pa": 293.36,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.4118,
+      "goat_raw": {
+        "win": 14.413,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 13.61
+      },
+      "goat_score": 28.02
+    },
+    {
+      "user_id": "1114330483623694336",
+      "display_name": "RedZoneGuru",
+      "latest_team": "RedZoneGuru",
+      "all_team_names": [
+        "RedZoneGuru"
+      ],
+      "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+      "seasons": 3,
+      "wins": 21,
+      "losses": 13,
+      "ties": 0,
+      "pf": 4408.88,
+      "pa": 4323.18,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 105.76,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 126.28,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 158.06,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 122.58,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 150.86,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 130.92,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 130.04,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 126.06,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 154.34,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 126.62,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 194.24,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 167.66,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 204.46,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 147.16,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 130.94,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 120.08,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 146.32,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 134.28,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 133.0,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 111.42,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 135.54,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 146.16,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 105.34,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 162.58,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 137.6,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 137.2,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 41.04,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 99.96,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 84.64,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 139.56,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 196.42,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 119.56,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 70.38,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 11.82,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 1,
+      "lose_streak": 0,
+      "max_win_streak": 10,
+      "max_lose_streak": 4,
+      "season_records": [],
+      "h2h": {
+        "1034350371830968320": {
+          "w": 3,
+          "l": 2,
+          "pf": 624.1800000000002,
+          "pa": 545.58,
+          "meetings": 5,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 3,
+          "l": 1,
+          "pf": 605.4,
+          "pa": 540.22,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 2,
+          "l": 2,
+          "pf": 514.78,
+          "pa": 577.02,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "201958586610356224": {
+          "w": 0,
+          "l": 2,
+          "pf": 163.62,
+          "pa": 225.78,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1116252821541830656": {
+          "w": 2,
+          "l": 3,
+          "pf": 607.08,
+          "pa": 729.72,
+          "meetings": 5,
+          "playoff_meetings": 2
+        },
+        "887435530135252992": {
+          "w": 1,
+          "l": 1,
+          "pf": 265.2,
+          "pa": 216.95999999999998,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 2,
+          "l": 2,
+          "pf": 483.22,
+          "pa": 567.1800000000001,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1018417144801357824": {
+          "w": 2,
+          "l": 0,
+          "pf": 272.38,
+          "pa": 247.14000000000001,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1116173850477277184": {
+          "w": 2,
+          "l": 0,
+          "pf": 231.96,
+          "pa": 184.36,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1034270560295006208": {
+          "w": 2,
+          "l": 0,
+          "pf": 327.24,
+          "pa": 262.04,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 2,
+          "l": 0,
+          "pf": 313.82,
+          "pa": 227.18,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.6176,
+      "goat_raw": {
+        "win": 21.616,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 14.8
+      },
+      "goat_score": 36.42
+    },
+    {
+      "user_id": "1116173850477277184",
+      "display_name": "LeftofCenter25",
+      "latest_team": "ABCeeDee",
+      "all_team_names": [
+        "D Adams Family",
+        "Tower of Bowers",
+        "ABCeeDee"
+      ],
+      "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+      "seasons": 3,
+      "wins": 14,
+      "losses": 18,
+      "ties": 1,
+      "pf": 3856.1,
+      "pa": 4120.56,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 110.7,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 125.1,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 111.74,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 139.96,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 156.66,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 143.82,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 117.5,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 92.84,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 104.72,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 83.14,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 104.04,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 113.62,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 104.8,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 133.1,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 161.92,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 159.88,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 122.78,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 96.4,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 128.22,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 139.66,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 165.08,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 123.94,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 101.22,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 48.98,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 188.38,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 105.12,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 115.62,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 107.94,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 128.46,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 121.28,
+          "season": "2025"
+        },
+        {
+          "week": 15,
+          "league_id": "1181711268491227136",
+          "score": 94.68,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 104.8,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 0,
+      "max_win_streak": 4,
+      "max_lose_streak": 5,
+      "season_records": [],
+      "h2h": {
+        "1034270560295006208": {
+          "w": 1,
+          "l": 3,
+          "pf": 480.5,
+          "pa": 621.3199999999999,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 2,
+          "l": 1,
+          "pf": 397.86,
+          "pa": 407.53999999999996,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 1,
+          "l": 2,
+          "pf": 344.76,
+          "pa": 375.53999999999996,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1119830811148156928": {
+          "w": 2,
+          "l": 1,
+          "pf": 391.20000000000005,
+          "pa": 347.32,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 2,
+          "l": 2,
+          "pf": 547.74,
+          "pa": 552.54,
+          "meetings": 4,
+          "playoff_meetings": 0
+        },
+        "1018417144801357824": {
+          "w": 1,
+          "l": 1,
+          "pf": 240.22,
+          "pa": 205.76,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 0,
+          "l": 2,
+          "pf": 166.48,
+          "pa": 304.28,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 1,
+          "l": 2,
+          "pf": 375.90000000000003,
+          "pa": 371.6,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1114330483623694336": {
+          "w": 0,
+          "l": 2,
+          "pf": 184.36,
+          "pa": 231.96,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 2,
+          "l": 2,
+          "pf": 497.84,
+          "pa": 492.52,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1116252821541830656": {
+          "w": 2,
+          "l": 0,
+          "pf": 229.24,
+          "pa": 210.18,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.4242,
+      "goat_raw": {
+        "win": 14.847000000000001,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 12.93
+      },
+      "goat_score": 27.78
+    },
+    {
+      "user_id": "1116252821541830656",
+      "display_name": "BigKens",
+      "latest_team": "Hurt business",
+      "all_team_names": [
+        "Lead dog ",
+        "Hurt business"
+      ],
+      "avatar": "4f4090e5e9c3941414db40a871e3e909",
+      "seasons": 3,
+      "wins": 19,
+      "losses": 14,
+      "ties": 0,
+      "pf": 4150.46,
+      "pa": 3975.52,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 95.54,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 136.74,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 114.78,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 141.7,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 114.42,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 124.26,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 105.64,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 147.4,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 170.44,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 105.54,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 136.94,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 108.56,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 139.94,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 128.3,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 93.26,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 138.7,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 117.86,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 132.6,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 151.32,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 110.68,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 108.56,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 147.56,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 164.82,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 117.82,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 104.96,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 129.34,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 101.62,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 150.38,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 154.74,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 115.54,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 130.02,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 195.48,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 15.0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 2,
+      "lose_streak": 0,
+      "max_win_streak": 4,
+      "max_lose_streak": 4,
+      "season_records": [],
+      "h2h": {
+        "1032906633749307392": {
+          "w": 3,
+          "l": 1,
+          "pf": 383.08000000000004,
+          "pa": 359.5,
+          "meetings": 4,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 2,
+          "l": 1,
+          "pf": 412.6,
+          "pa": 361.79999999999995,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 1,
+          "l": 3,
+          "pf": 467.4,
+          "pa": 513.38,
+          "meetings": 4,
+          "playoff_meetings": 2
+        },
+        "1018417144801357824": {
+          "w": 2,
+          "l": 1,
+          "pf": 401.4,
+          "pa": 428.34000000000003,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1114330483623694336": {
+          "w": 3,
+          "l": 2,
+          "pf": 729.72,
+          "pa": 607.08,
+          "meetings": 5,
+          "playoff_meetings": 2
+        },
+        "1034270560295006208": {
+          "w": 2,
+          "l": 1,
+          "pf": 392.46,
+          "pa": 383.44,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1120105892286025728": {
+          "w": 1,
+          "l": 1,
+          "pf": 270.46,
+          "pa": 208.9,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 2,
+          "l": 0,
+          "pf": 265.26,
+          "pa": 256.38,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1119830811148156928": {
+          "w": 2,
+          "l": 0,
+          "pf": 256.86,
+          "pa": 205.82,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 1,
+          "l": 2,
+          "pf": 361.04,
+          "pa": 421.64,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1116173850477277184": {
+          "w": 0,
+          "l": 2,
+          "pf": 210.18,
+          "pa": 229.24,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.5758,
+      "goat_raw": {
+        "win": 20.153,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 13.93
+      },
+      "goat_score": 34.08
+    },
+    {
+      "user_id": "1119830811148156928",
+      "display_name": "BangBang4949",
+      "latest_team": "",
+      "all_team_names": [],
+      "avatar": "e7af4deab0289b4f5505646424895246",
+      "seasons": 3,
+      "wins": 12,
+      "losses": 21,
+      "ties": 0,
+      "pf": 3766.34,
+      "pa": 4274.72,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 119.08,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 102.46,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 73.48,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 127.46,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 139.06,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 101.7,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 70.86,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 197.16,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 108.82,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 97.9,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 133.18,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 97.42,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 78.76,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 87.06,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 101.92,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 123.06,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 83.08,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 124.4,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 107.92,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 107.62,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 146.22,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 129.76,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 144.88,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 179.48,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 112.66,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 170.7,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 93.64,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 132.56,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 136.78,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 74.04,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 137.5,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 120.12,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 5.6,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 4,
+      "max_win_streak": 4,
+      "max_lose_streak": 5,
+      "season_records": [],
+      "h2h": {
+        "1088314152050929664": {
+          "w": 2,
+          "l": 1,
+          "pf": 377.32,
+          "pa": 380.1,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 0,
+          "l": 3,
+          "pf": 283.15999999999997,
+          "pa": 495.8,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1034350371830968320": {
+          "w": 1,
+          "l": 2,
+          "pf": 335.38,
+          "pa": 402.46,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1116173850477277184": {
+          "w": 1,
+          "l": 2,
+          "pf": 347.32,
+          "pa": 391.20000000000005,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1018417144801357824": {
+          "w": 2,
+          "l": 2,
+          "pf": 514.22,
+          "pa": 491.36,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1120105892286025728": {
+          "w": 2,
+          "l": 1,
+          "pf": 316.28,
+          "pa": 321.5,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1032906633749307392": {
+          "w": 1,
+          "l": 3,
+          "pf": 438.66,
+          "pa": 496.53999999999996,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1034270560295006208": {
+          "w": 2,
+          "l": 1,
+          "pf": 347.64,
+          "pa": 281.64000000000004,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1116252821541830656": {
+          "w": 0,
+          "l": 2,
+          "pf": 205.82,
+          "pa": 256.86,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "201958586610356224": {
+          "w": 1,
+          "l": 2,
+          "pf": 373.36,
+          "pa": 443.44,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1114330483623694336": {
+          "w": 0,
+          "l": 2,
+          "pf": 227.18,
+          "pa": 313.82,
+          "meetings": 2,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 0.3636,
+      "goat_raw": {
+        "win": 12.725999999999999,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 12.63
+      },
+      "goat_score": 25.36
+    },
+    {
+      "user_id": "1120105892286025728",
+      "display_name": "BROCKBAILBONDZ",
+      "latest_team": "The Purdy Dozen",
+      "all_team_names": [
+        "The Purdy Dozen"
+      ],
+      "avatar": "72a019046bb92d0bc55ad24503094a03",
+      "seasons": 3,
+      "wins": 17,
+      "losses": 17,
+      "ties": 0,
+      "pf": 4205.82,
+      "pa": 3868.78,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1111435856142790656",
+          "score": 107.82,
+          "season": "2024"
+        },
+        {
+          "week": 2,
+          "league_id": "1111435856142790656",
+          "score": 101.42,
+          "season": "2024"
+        },
+        {
+          "week": 3,
+          "league_id": "1111435856142790656",
+          "score": 108.74,
+          "season": "2024"
+        },
+        {
+          "week": 4,
+          "league_id": "1111435856142790656",
+          "score": 98.12,
+          "season": "2024"
+        },
+        {
+          "week": 5,
+          "league_id": "1111435856142790656",
+          "score": 118.8,
+          "season": "2024"
+        },
+        {
+          "week": 6,
+          "league_id": "1111435856142790656",
+          "score": 116.26,
+          "season": "2024"
+        },
+        {
+          "week": 7,
+          "league_id": "1111435856142790656",
+          "score": 115.56,
+          "season": "2024"
+        },
+        {
+          "week": 8,
+          "league_id": "1111435856142790656",
+          "score": 163.94,
+          "season": "2024"
+        },
+        {
+          "week": 9,
+          "league_id": "1111435856142790656",
+          "score": 109.3,
+          "season": "2024"
+        },
+        {
+          "week": 10,
+          "league_id": "1111435856142790656",
+          "score": 111.38,
+          "season": "2024"
+        },
+        {
+          "week": 11,
+          "league_id": "1111435856142790656",
+          "score": 129.04,
+          "season": "2024"
+        },
+        {
+          "week": 12,
+          "league_id": "1111435856142790656",
+          "score": 114.26,
+          "season": "2024"
+        },
+        {
+          "week": 13,
+          "league_id": "1111435856142790656",
+          "score": 126.22,
+          "season": "2024"
+        },
+        {
+          "week": 14,
+          "league_id": "1111435856142790656",
+          "score": 133.02,
+          "season": "2024"
+        },
+        {
+          "week": 15,
+          "league_id": "1111435856142790656",
+          "score": 125.6,
+          "season": "2024"
+        },
+        {
+          "week": 16,
+          "league_id": "1111435856142790656",
+          "score": 97.74,
+          "season": "2024"
+        },
+        {
+          "week": 17,
+          "league_id": "1111435856142790656",
+          "score": 138.8,
+          "season": "2024"
+        },
+        {
+          "week": 1,
+          "league_id": "1181711268491227136",
+          "score": 167.22,
+          "season": "2025"
+        },
+        {
+          "week": 2,
+          "league_id": "1181711268491227136",
+          "score": 174.28,
+          "season": "2025"
+        },
+        {
+          "week": 3,
+          "league_id": "1181711268491227136",
+          "score": 114.76,
+          "season": "2025"
+        },
+        {
+          "week": 4,
+          "league_id": "1181711268491227136",
+          "score": 173.1,
+          "season": "2025"
+        },
+        {
+          "week": 5,
+          "league_id": "1181711268491227136",
+          "score": 135.02,
+          "season": "2025"
+        },
+        {
+          "week": 6,
+          "league_id": "1181711268491227136",
+          "score": 82.88,
+          "season": "2025"
+        },
+        {
+          "week": 7,
+          "league_id": "1181711268491227136",
+          "score": 93.34,
+          "season": "2025"
+        },
+        {
+          "week": 8,
+          "league_id": "1181711268491227136",
+          "score": 218.52,
+          "season": "2025"
+        },
+        {
+          "week": 9,
+          "league_id": "1181711268491227136",
+          "score": 107.5,
+          "season": "2025"
+        },
+        {
+          "week": 10,
+          "league_id": "1181711268491227136",
+          "score": 134.42,
+          "season": "2025"
+        },
+        {
+          "week": 11,
+          "league_id": "1181711268491227136",
+          "score": 99.84,
+          "season": "2025"
+        },
+        {
+          "week": 12,
+          "league_id": "1181711268491227136",
+          "score": 147.38,
+          "season": "2025"
+        },
+        {
+          "week": 13,
+          "league_id": "1181711268491227136",
+          "score": 116.44,
+          "season": "2025"
+        },
+        {
+          "week": 14,
+          "league_id": "1181711268491227136",
+          "score": 105.8,
+          "season": "2025"
+        },
+        {
+          "week": 16,
+          "league_id": "1181711268491227136",
+          "score": 186.48,
+          "season": "2025"
+        },
+        {
+          "week": 17,
+          "league_id": "1181711268491227136",
+          "score": 132.82,
+          "season": "2025"
+        },
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 0,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 0,
+      "lose_streak": 1,
+      "max_win_streak": 6,
+      "max_lose_streak": 8,
+      "season_records": [],
+      "h2h": {
+        "201958586610356224": {
+          "w": 2,
+          "l": 3,
+          "pf": 541.14,
+          "pa": 519.82,
+          "meetings": 5,
+          "playoff_meetings": 1
+        },
+        "1116173850477277184": {
+          "w": 1,
+          "l": 2,
+          "pf": 407.53999999999996,
+          "pa": 397.86,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1114330483623694336": {
+          "w": 2,
+          "l": 2,
+          "pf": 577.02,
+          "pa": 514.78,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1034350371830968320": {
+          "w": 2,
+          "l": 1,
+          "pf": 314.4,
+          "pa": 310.72,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1034270560295006208": {
+          "w": 2,
+          "l": 2,
+          "pf": 520.92,
+          "pa": 463.94,
+          "meetings": 4,
+          "playoff_meetings": 1
+        },
+        "1119830811148156928": {
+          "w": 1,
+          "l": 2,
+          "pf": 321.5,
+          "pa": 316.28,
+          "meetings": 3,
+          "playoff_meetings": 1
+        },
+        "1116252821541830656": {
+          "w": 1,
+          "l": 1,
+          "pf": 208.9,
+          "pa": 270.46,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1032906633749307392": {
+          "w": 2,
+          "l": 0,
+          "pf": 382.46000000000004,
+          "pa": 196.74,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "887435530135252992": {
+          "w": 0,
+          "l": 2,
+          "pf": 194.26,
+          "pa": 244.26,
+          "meetings": 2,
+          "playoff_meetings": 0
+        },
+        "1088314152050929664": {
+          "w": 2,
+          "l": 1,
+          "pf": 369.86,
+          "pa": 334.29999999999995,
+          "meetings": 3,
+          "playoff_meetings": 0
+        },
+        "1018417144801357824": {
+          "w": 2,
+          "l": 1,
+          "pf": 367.82,
+          "pa": 299.62,
+          "meetings": 3,
+          "playoff_meetings": 1
+        }
+      },
+      "division": "",
+      "win_pct": 0.5,
+      "goat_raw": {
+        "win": 17.5,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 14.12
+      },
+      "goat_score": 31.62
+    },
+    {
+      "user_id": "1128420934681079808",
+      "display_name": "TheRealTea",
+      "latest_team": "The Real Team",
+      "all_team_names": [
+        "The Real Team"
+      ],
+      "avatar": "b3338675f635c2c1f42b469621d38ec6",
+      "seasons": 1,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pf": 31.2,
+      "pa": 0.0,
+      "playoff_apps": 0,
+      "championships": 0,
+      "weekly_highs": [
+        {
+          "week": 1,
+          "league_id": "1378834732145455104",
+          "score": 31.2,
+          "season": "2026"
+        }
+      ],
+      "win_streak": 1,
+      "lose_streak": 0,
+      "max_win_streak": 1,
+      "max_lose_streak": 0,
+      "season_records": [],
+      "h2h": {
+        "887435530135252992": {
+          "w": 1,
+          "l": 0,
+          "pf": 31.2,
+          "pa": 0.0,
+          "meetings": 1,
+          "playoff_meetings": 0
+        }
+      },
+      "division": "",
+      "win_pct": 1.0,
+      "goat_raw": {
+        "win": 35.0,
+        "title": 0,
+        "playoff": 0.0,
+        "pf": 0.0
+      },
+      "goat_score": 35.0
+    }
+  ],
+  "rivalries": [
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "887435530135252992",
+      "name_b": "Jarrin1225",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 2,
+      "rivalry_score": 28.0,
+      "pf_a": 562.62,
+      "pf_b": 533.66
+    },
+    {
+      "manager_a": "1114330483623694336",
+      "name_a": "RedZoneGuru",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 2,
+      "wins_b": 3,
+      "total_meetings": 5,
+      "playoff_meetings": 2,
+      "rivalry_score": 28.0,
+      "pf_a": 607.08,
+      "pf_b": 729.72
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 3,
+      "wins_b": 2,
+      "total_meetings": 5,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 519.82,
+      "pf_b": 541.14
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 3,
+      "wins_b": 1,
+      "total_meetings": 4,
+      "playoff_meetings": 2,
+      "rivalry_score": 23.0,
+      "pf_a": 513.38,
+      "pf_b": 467.4
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1088314152050929664",
+      "name_b": "Delvineo",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 585.34,
+      "pf_b": 548.44
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 491.36,
+      "pf_b": 514.22
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 492.52,
+      "pf_b": 497.84
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 463.94,
+      "pf_b": 520.92
+    },
+    {
+      "manager_a": "1088314152050929664",
+      "name_a": "Delvineo",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 567.18,
+      "pf_b": 483.22
+    },
+    {
+      "manager_a": "1114330483623694336",
+      "name_a": "RedZoneGuru",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 23.0,
+      "pf_a": 514.78,
+      "pf_b": 577.02
+    },
+    {
+      "manager_a": "1088314152050929664",
+      "name_a": "Delvineo",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 20.5,
+      "pf_a": 375.54,
+      "pf_b": 344.76
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 2,
+      "wins_b": 2,
+      "total_meetings": 4,
+      "playoff_meetings": 0,
+      "rivalry_score": 18.0,
+      "pf_a": 552.54,
+      "pf_b": 547.74
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1034270560295006208",
+      "name_b": "2headedblindsquirrel",
+      "wins_a": 1,
+      "wins_b": 3,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 18.0,
+      "pf_a": 401.18,
+      "pf_b": 492.22
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 1,
+      "wins_b": 3,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 18.0,
+      "pf_a": 540.22,
+      "pf_b": 605.4
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 3,
+      "wins_b": 1,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 18.0,
+      "pf_a": 496.54,
+      "pf_b": 438.66
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 3,
+      "wins_b": 1,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 18.0,
+      "pf_a": 621.32,
+      "pf_b": 480.5
+    },
+    {
+      "manager_a": "1034350371830968320",
+      "name_a": "scheeper",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 2,
+      "wins_b": 3,
+      "total_meetings": 5,
+      "playoff_meetings": 0,
+      "rivalry_score": 18.0,
+      "pf_a": 545.58,
+      "pf_b": 624.18
+    },
+    {
+      "manager_a": "1034350371830968320",
+      "name_a": "scheeper",
+      "manager_b": "1088314152050929664",
+      "name_b": "Delvineo",
+      "wins_a": 3,
+      "wins_b": 1,
+      "total_meetings": 4,
+      "playoff_meetings": 1,
+      "rivalry_score": 18.0,
+      "pf_a": 551.5,
+      "pf_b": 426.66
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1034350371830968320",
+      "name_b": "scheeper",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 345.88,
+      "pf_b": 394.76
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1032906633749307392",
+      "name_b": "Prettygrlrck",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 429.2,
+      "pf_b": 405.62
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 299.62,
+      "pf_b": 367.82
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1088314152050929664",
+      "name_b": "Delvineo",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 388.62,
+      "pf_b": 351.72
+    },
+    {
+      "manager_a": "1034350371830968320",
+      "name_a": "scheeper",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 402.46,
+      "pf_b": 335.38
+    },
+    {
+      "manager_a": "1034350371830968320",
+      "name_a": "scheeper",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 371.6,
+      "pf_b": 375.9
+    },
+    {
+      "manager_a": "1119830811148156928",
+      "name_a": "BangBang4949",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 17.67,
+      "pf_a": 316.28,
+      "pf_b": 321.5
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 1,
+      "wins_b": 1,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 14.0,
+      "pf_a": 216.96,
+      "pf_b": 265.2
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 1,
+      "wins_b": 1,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 14.0,
+      "pf_a": 205.76,
+      "pf_b": 240.22
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1034350371830968320",
+      "name_b": "scheeper",
+      "wins_a": 1,
+      "wins_b": 1,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 14.0,
+      "pf_a": 260.56,
+      "pf_b": 237.22
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1088314152050929664",
+      "name_b": "Delvineo",
+      "wins_a": 1,
+      "wins_b": 1,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 14.0,
+      "pf_a": 214.9,
+      "pf_b": 213.08
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1034270560295006208",
+      "name_b": "2headedblindsquirrel",
+      "wins_a": 1,
+      "wins_b": 1,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 14.0,
+      "pf_a": 272.26,
+      "pf_b": 300.16
+    },
+    {
+      "manager_a": "1116252821541830656",
+      "name_a": "BigKens",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 1,
+      "wins_b": 1,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 14.0,
+      "pf_a": 270.46,
+      "pf_b": 208.9
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1018417144801357824",
+      "name_b": "JHud01",
+      "wins_a": 1,
+      "wins_b": 3,
+      "total_meetings": 4,
+      "playoff_meetings": 0,
+      "rivalry_score": 13.0,
+      "pf_a": 491.06,
+      "pf_b": 566.16
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 1,
+      "wins_b": 3,
+      "total_meetings": 4,
+      "playoff_meetings": 0,
+      "rivalry_score": 13.0,
+      "pf_a": 359.5,
+      "pf_b": 383.08
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1034270560295006208",
+      "name_b": "2headedblindsquirrel",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 381.08,
+      "pf_b": 354.9
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1032906633749307392",
+      "name_b": "Prettygrlrck",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 362.08,
+      "pf_b": 373.86
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 443.44,
+      "pf_b": 373.36
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1034270560295006208",
+      "name_b": "2headedblindsquirrel",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 346.9,
+      "pf_b": 384.46
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 421.64,
+      "pf_b": 361.04
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 428.34,
+      "pf_b": 401.4
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1034350371830968320",
+      "name_b": "scheeper",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 323.16,
+      "pf_b": 429.24
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 383.44,
+      "pf_b": 392.46
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 281.64,
+      "pf_b": 347.64
+    },
+    {
+      "manager_a": "1034350371830968320",
+      "name_a": "scheeper",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 361.8,
+      "pf_b": 412.6
+    },
+    {
+      "manager_a": "1034350371830968320",
+      "name_a": "scheeper",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 310.72,
+      "pf_b": 314.4
+    },
+    {
+      "manager_a": "1088314152050929664",
+      "name_a": "Delvineo",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 380.1,
+      "pf_b": 377.32
+    },
+    {
+      "manager_a": "1088314152050929664",
+      "name_a": "Delvineo",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 1,
+      "wins_b": 2,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 334.3,
+      "pf_b": 369.86
+    },
+    {
+      "manager_a": "1116173850477277184",
+      "name_a": "LeftofCenter25",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 397.86,
+      "pf_b": 407.54
+    },
+    {
+      "manager_a": "1116173850477277184",
+      "name_a": "LeftofCenter25",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 2,
+      "wins_b": 1,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 12.67,
+      "pf_a": 391.2,
+      "pf_b": 347.32
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1032906633749307392",
+      "name_b": "Prettygrlrck",
+      "wins_a": 0,
+      "wins_b": 3,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 11.0,
+      "pf_a": 348.02,
+      "pf_b": 513.72
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1034350371830968320",
+      "name_b": "scheeper",
+      "wins_a": 0,
+      "wins_b": 3,
+      "total_meetings": 3,
+      "playoff_meetings": 1,
+      "rivalry_score": 11.0,
+      "pf_a": 328.16,
+      "pf_b": 369.24
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 3,
+      "wins_b": 0,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 6.0,
+      "pf_a": 495.8,
+      "pf_b": 283.16
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1088314152050929664",
+      "name_b": "Delvineo",
+      "wins_a": 0,
+      "wins_b": 3,
+      "total_meetings": 3,
+      "playoff_meetings": 0,
+      "rivalry_score": 6.0,
+      "pf_a": 322.36,
+      "pf_b": 374.24
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 225.78,
+      "pf_b": 163.62
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1018417144801357824",
+      "name_b": "JHud01",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 267.2,
+      "pf_b": 209.86
+    },
+    {
+      "manager_a": "201958586610356224",
+      "name_a": "theFFChef",
+      "manager_b": "1088314152050929664",
+      "name_b": "Delvineo",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 293.36,
+      "pf_b": 229.82
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 304.28,
+      "pf_b": 166.48
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 244.26,
+      "pf_b": 194.26
+    },
+    {
+      "manager_a": "887435530135252992",
+      "name_a": "Jarrin1225",
+      "manager_b": "1034350371830968320",
+      "name_b": "scheeper",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 202.78,
+      "pf_b": 147.12
+    },
+    {
+      "manager_a": "1018417144801357824",
+      "name_a": "JHud01",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 0,
+      "wins_b": 2,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 247.14,
+      "pf_b": 272.38
+    },
+    {
+      "manager_a": "1032906633749307392",
+      "name_a": "Prettygrlrck",
+      "manager_b": "1120105892286025728",
+      "name_b": "BROCKBAILBONDZ",
+      "wins_a": 0,
+      "wins_b": 2,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 196.74,
+      "pf_b": 382.46
+    },
+    {
+      "manager_a": "1034270560295006208",
+      "name_a": "2headedblindsquirrel",
+      "manager_b": "1114330483623694336",
+      "name_b": "RedZoneGuru",
+      "wins_a": 0,
+      "wins_b": 2,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 262.04,
+      "pf_b": 327.24
+    },
+    {
+      "manager_a": "1088314152050929664",
+      "name_a": "Delvineo",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 0,
+      "wins_b": 2,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 256.38,
+      "pf_b": 265.26
+    },
+    {
+      "manager_a": "1114330483623694336",
+      "name_a": "RedZoneGuru",
+      "manager_b": "1116173850477277184",
+      "name_b": "LeftofCenter25",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 231.96,
+      "pf_b": 184.36
+    },
+    {
+      "manager_a": "1114330483623694336",
+      "name_a": "RedZoneGuru",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 313.82,
+      "pf_b": 227.18
+    },
+    {
+      "manager_a": "1116173850477277184",
+      "name_a": "LeftofCenter25",
+      "manager_b": "1116252821541830656",
+      "name_b": "BigKens",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 229.24,
+      "pf_b": 210.18
+    },
+    {
+      "manager_a": "1116252821541830656",
+      "name_a": "BigKens",
+      "manager_b": "1119830811148156928",
+      "name_b": "BangBang4949",
+      "wins_a": 2,
+      "wins_b": 0,
+      "total_meetings": 2,
+      "playoff_meetings": 0,
+      "rivalry_score": 4.0,
+      "pf_a": 256.86,
+      "pf_b": 205.82
+    }
+  ],
+  "generated_at": "2026-09-10T20:30:31.961753+00:00"
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FDH Records — single-game highs, season records, all-time streaks, and the craziest numbers in Fantasy Die Hards history." />
+  <title>Records | FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+  <style>
+    .record-block {
+      background: var(--fdh-white);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      box-shadow: var(--shadow-sm);
+      border-top: 4px solid var(--fdh-red);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .record-block:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    .record-block__val {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--fdh-red);
+      line-height: 1;
+      margin-bottom: .3rem;
+    }
+    .record-block__label {
+      font-size: .78rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--fdh-text-muted);
+      margin-bottom: .5rem;
+    }
+    .record-block__holder {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: var(--fdh-slate);
+    }
+    .record-block__context {
+      font-size: .8rem;
+      color: var(--fdh-text-muted);
+      margin-top: .2rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link">Standings</a>
+      <a href="rivalries.html" class="nav__link">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link">Draft History</a>
+      <a href="records.html"   class="nav__link active">Records</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:3rem 0 2.5rem;">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero__eyebrow">The Record Books</div>
+    <h1 class="hero__title">FDH <span>Records</span></h1>
+    <p class="hero__sub">Single-week highs, season milestones, historic streaks — the craziest numbers ever posted in Fantasy Die Hards.</p>
+  </div>
+</section>
+
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Synced from Sleeper: <strong id="last-updated-ts" data-ts="2026-09-10T20:32:36Z">2026-09-10T20:32:36Z</strong></span>
+  </div>
+
+  <!-- Scoring records -->
+  <div class="section-header">
+    <span class="section-header__eyebrow">Scoring</span>
+    <h2>Scoring Records</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <div class="grid-4" style="margin-bottom:3rem;">
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="218.5">218.5</div>
+      <div class="record-block__label">Highest Single-Week Score</div>
+      <div class="record-block__holder">BROCKBAILBONDZ</div>
+      <div class="record-block__context">Week 8, 2025 Season</div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="0.0">0.0</div>
+      <div class="record-block__label">Lowest Single-Week Score</div>
+      <div class="record-block__holder">BROCKBAILBONDZ</div>
+      <div class="record-block__context">Week 1, 2026 Season</div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="4,467.2">4,467.2</div>
+      <div class="record-block__label">Highest Season Total (PF)</div>
+      <div class="record-block__holder">theFFChef</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="—">—</div>
+      <div class="record-block__label">Largest Win Margin</div>
+      <div class="record-block__holder">—</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="—">—</div>
+      <div class="record-block__label">Closest Win Margin</div>
+      <div class="record-block__holder">—</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="—">—</div>
+      <div class="record-block__label">Most Points Against (Season)</div>
+      <div class="record-block__holder">—</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val" data-counter data-target="—">—</div>
+      <div class="record-block__label">Fewest Points Against (Season)</div>
+      <div class="record-block__holder">—</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block">
+      <div class="record-block__val">—</div>
+      <div class="record-block__label">Best Regular Season Record</div>
+      <div class="record-block__holder">—</div>
+      <div class="record-block__context"></div>
+    </div>
+  </div>
+
+  <!-- Streaks -->
+  <div class="section-header">
+    <span class="section-header__eyebrow">Momentum</span>
+    <h2>Streaks &amp; Runs</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <div class="grid-4" style="margin-bottom:3rem;">
+    <div class="record-block" style="border-top-color:var(--fdh-gold);">
+      <div class="record-block__val" style="color:var(--fdh-gold);" data-counter data-target="10">10</div>
+      <div class="record-block__label">Longest Win Streak</div>
+      <div class="record-block__holder">RedZoneGuru</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block" style="border-top-color:#6c757d;">
+      <div class="record-block__val" style="color:#6c757d;" data-counter data-target="9">9</div>
+      <div class="record-block__label">Longest Losing Streak</div>
+      <div class="record-block__holder">JHud01</div>
+      <div class="record-block__context"></div>
+    </div>
+    <div class="record-block" style="border-top-color:var(--fdh-red);">
+      <div class="record-block__val" data-counter data-target="0">0</div>
+      <div class="record-block__label">Most Consecutive Playoffs</div>
+      <div class="record-block__holder">theFFChef</div>
+      <div class="record-block__context">Playoff appearances</div>
+    </div>
+    <div class="record-block" style="border-top-color:var(--fdh-bronze);">
+      <div class="record-block__val" style="color:var(--fdh-bronze);" data-counter data-target="—">—</div>
+      <div class="record-block__label">Most Consecutive Last Places</div>
+      <div class="record-block__holder">—</div>
+      <div class="record-block__context"></div>
+    </div>
+  </div>
+
+  <!-- Champions Roll -->
+  <div class="section-header">
+    <span class="section-header__eyebrow">Glory</span>
+    <h2>Championship Roll</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <div class="table-wrap" style="margin-bottom:3rem;">
+    <table class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">Season</th>
+          <th data-sort="1">Champion</th>
+          <th data-sort="2">Team Name</th>
+          <th data-sort="3">Record</th>
+          <th data-sort="4">PF</th>
+          <th data-sort="5">Championship Score</th>
+          <th data-sort="6">Opponent Score</th>
+          <th data-sort="7">Margin</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan='8' style='text-align:center;color:var(--fdh-text-muted);'>Season data populates after fetch.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Weekly Highs by Season -->
+  <div class="section-header">
+    <span class="section-header__eyebrow">Weekly</span>
+    <h2>Weekly High Scores by Season</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <div class="table-wrap">
+    <table class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">Season</th>
+          <th data-sort="1">Week</th>
+          <th data-sort="2">Manager</th>
+          <th data-sort="3">Score</th>
+          <th data-sort="4">Opponent</th>
+          <th data-sort="5">Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2025</td><td>Week 8</td><td><strong>BROCKBAILBONDZ</strong></td><td><strong>218.5</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 13</td><td><strong>RedZoneGuru</strong></td><td><strong>204.5</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 11</td><td><strong>theFFChef</strong></td><td><strong>201.0</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 8</td><td><strong>BangBang4949</strong></td><td><strong>197.2</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 14</td><td><strong>Prettygrlrck</strong></td><td><strong>196.7</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 15</td><td><strong>RedZoneGuru</strong></td><td><strong>196.4</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 17</td><td><strong>BigKens</strong></td><td><strong>195.5</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 3</td><td><strong>Prettygrlrck</strong></td><td><strong>194.7</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 11</td><td><strong>RedZoneGuru</strong></td><td><strong>194.2</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 9</td><td><strong>LeftofCenter25</strong></td><td><strong>188.4</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 16</td><td><strong>BROCKBAILBONDZ</strong></td><td><strong>186.5</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 10</td><td><strong>scheeper</strong></td><td><strong>185.4</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 11</td><td><strong>Jarrin1225</strong></td><td><strong>183.9</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 14</td><td><strong>Jarrin1225</strong></td><td><strong>180.0</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 16</td><td><strong>Prettygrlrck</strong></td><td><strong>179.9</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 8</td><td><strong>BangBang4949</strong></td><td><strong>179.5</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 14</td><td><strong>scheeper</strong></td><td><strong>178.4</strong></td><td>—</td><td>W</td></tr><tr><td>2025</td><td>Week 16</td><td><strong>Jarrin1225</strong></td><td><strong>177.2</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 1</td><td><strong>JHud01</strong></td><td><strong>176.1</strong></td><td>—</td><td>W</td></tr><tr><td>2024</td><td>Week 13</td><td><strong>2headedblindsquirrel</strong></td><td><strong>174.7</strong></td><td>—</td><td>W</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div style="padding:3rem 0;"></div>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <div class="footer__links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="hof.html" class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html" class="footer__link">Trades</a>
+      <a href="draft.html" class="footer__link">Draft History</a>
+      <a href="records.html" class="footer__link">Records</a>
+    </div>
+    <p class="footer__copy">&copy; 2026 Fantasy Die Hards.</p>
+    <p class="footer__build">Auto-generated · Build 2026-09-10T20:32:36Z</p>
+  </div>
+</footer>
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>

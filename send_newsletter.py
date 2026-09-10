@@ -61,6 +61,7 @@ THEME = {
     "danger":      "#E74C3C",
     "white":       "#FFFFFF",
     "off_white":   "#F5F6FA",
+    "burnt_orange": "#CC5500",
     "text_dark":   "#1A1A2E",
     "text_muted":  "#6C757D",
     "card_bg":     "#FFFFFF",
@@ -378,16 +379,24 @@ def compute_awards(managers: list[dict[str, Any]], matchups: list[dict[str, Any]
     blowout = max(margins, key=lambda x: x[1])
 
     legend_blurbs = [
-        "Absolutely cooked this week. Untouchable.",
-        "Put the league on notice. Numbers don't lie.",
-        "The ceiling has been raised. What a performance.",
-        "Scoreboard went brrr. The rest of the league watched.",
+        "He could go ALL... THE... WAY! Nobody putting up numbers like THIS. The league has been OFFICIALLY put on notice!",
+        "WHOOP! The fantasy gods smiled, the lineup delivered, and the scoreboard went BOOM. Back, back, back — GONE!",
+        "SWAMI SEZ: When you are HOT, you are HOT! The rest of the league packed up their bags and went HOME.",
+        "Rumblin! Bumblin! Stumblin! Right into first place! This lineup was an ABSOLUTE CLINIC from top to bottom!",
+        "Nobody circles the waiver wire like THIS manager. A masterpiece. A WORK OF ART. The Picasso of fantasy football!",
+        "HE. IS. ON. FIRE! You cannot stop this manager — you can only HOPE to contain them. And this week? Nobody could!",
+        "That is a FANTASY TOUCHDOWN! The projections said sixty. The scoreboard said hold my drink. WHOOP!",
+        "The Swami has seen a lot of fantasy football. A LOT. But THIS performance? Chef's kiss. Absolutely ELITE.",
     ]
     letdown_blurbs = [
-        "The roster had other plans. Rough one, chief.",
-        "Left points on the bench and takes on the field.",
-        "Somewhere, a waiver wire is crying for you.",
-        "It's giving 'I benched the wrong guy' energy.",
+        "Oooooh, that is gonna leave a mark. The fantasy football gods were NOT smiling today, my friend. NOT. SMILING.",
+        "SWAMI SEZ: Check your bench. Check it again. Then one more time. Just... just sit with that for a moment.",
+        "He could go all the way... back to the waiver wire. Tough week. A REAL tough week, folks.",
+        "Some days you eat the bear. Some days the bear eats your entire starting lineup for breakfast. Today? Bear wins.",
+        "The wheels did not just fall off — the engine, the chassis, the whole VEHICLE went up in smoke. Yikes.",
+        "You know what they say in fantasy football? It ain't over till it's over. Well... it's over. It has been over. WHOOP... actually no whoop today.",
+        "Injuries, busts, wrong starts — the trifecta of fantasy DOOM. The Swami weeps. The waiver wire awaits.",
+        "Even THIS guy's bench outscored his starters. That is not a strategy. That is a CRY FOR HELP.",
     ]
 
     return {
@@ -429,10 +438,14 @@ def _section_header(title: str, subtitle: str = "") -> str:
         f'letter-spacing:0.5px;">{subtitle}</p>'
         if subtitle else ""
     )
+    bebasStyle = (
+        "font-family:\'Bebas Neue\',\'Arial Narrow\',Arial,sans-serif;"
+        "letter-spacing:2px;font-size:28px;font-weight:400;"
+    )
     return (
-        f'<div style="border-left:5px solid {THEME["red"]};padding:10px 0 10px 18px;margin:0 0 28px;">'
-        f'<h2 style="margin:0;font-size:22px;font-weight:800;color:{THEME["slate"]};'
-        f'letter-spacing:-0.3px;text-transform:uppercase;">{title}</h2>{sub}</div>'
+        f'<div style="border-left:5px solid {THEME["burnt_orange"]};padding:10px 0 10px 18px;margin:0 0 28px;">'
+        f'<h2 style="margin:0;{bebasStyle}color:{THEME["burnt_orange"]};'
+        f'text-transform:uppercase;">{title}</h2>{sub}</div>'
     )
 
 
@@ -459,8 +472,8 @@ def render_intro(week: int, gotw: dict[str, Any]) -> str:
       <div style="position:absolute;bottom:-30px;left:-30px;width:180px;height:180px;
                   border-radius:50%;background:{THEME['red']};opacity:0.08;"></div>
       <p style="margin:0 0 8px;font-size:19px;font-weight:700;letter-spacing:2px;
-                color:{THEME['red']};text-transform:uppercase;">Week {week} · {SEASON} Season</p>
-      <p style="margin:0 0 24px;font-size:19px;color:rgba(255,255,255,0.80);line-height:1.7;">{intro_text}</p>
+                color:{THEME['burnt_orange']};font-family:'Bebas Neue','Arial Narrow',Arial,sans-serif;font-size:24px;letter-spacing:2px;text-transform:uppercase;">Week {week} · {SEASON} Season</p>
+      <p style="margin:0 0 24px;font-size:19px;color:{THEME['white']};line-height:1.7;">{intro_text}</p>
       <div style="background:rgba(200,16,46,0.18);border:1px solid rgba(200,16,46,0.40);
                   border-radius:10px;padding:16px 20px;box-sizing:border-box;">
         <p style="margin:0 0 4px;font-size:22px;font-weight:700;letter-spacing:2px;
@@ -468,7 +481,7 @@ def render_intro(week: int, gotw: dict[str, Any]) -> str:
         <p style="margin:0;font-size:20px;font-weight:800;color:{THEME['white']};">
           {winner} <span style="color:{THEME['red']};">def.</span> {loser}
         </p>
-        <p style="margin:4px 0 0;font-size:17px;color:rgba(255,255,255,0.65);">{gotw_line}</p>
+        <p style="margin:4px 0 0;font-size:17px;color:{THEME['white']};opacity:0.85;">{gotw_line}</p>
       </div>
     </div>"""
 
@@ -550,7 +563,7 @@ def render_standings(managers: list[dict[str, Any]]) -> str:
             f'width:28px;height:28px;border-radius:6px;font-size:20px;font-weight:800;'
             f'background:{bg};color:{fg};">{i+1}</span></td>'
             f'<td style="padding:12px 8px;font-size:22px;font-weight:700;color:{THEME["text_dark"]};vertical-align:middle;">{m["name"]}</td>'
-            f'<td style="padding:12px 8px;font-size:22px;font-weight:600;color:{THEME["slate_mid"]};text-align:center;vertical-align:middle;">{record}</td>'
+            f'<td style="padding:12px 8px;font-size:22px;font-weight:600;color:{THEME["text_dark"]};text-align:center;vertical-align:middle;">{record}</td>'
             f'<td style="padding:12px 8px;font-size:17px;color:{THEME["text_muted"]};text-align:right;vertical-align:middle;">{m["pts_for"]:.1f}</td>'
             f'<td style="padding:12px 14px;text-align:right;vertical-align:middle;">'
             f'<span style="font-size:20px;font-weight:700;color:{s_color};">{streak}</span></td>'
@@ -600,7 +613,7 @@ def render_heat_check(ranked: list[dict[str, Any]]) -> str:
             f'<div style="background:{THEME["card_bg"]};border-radius:10px;border:1px solid {THEME["border"]};'
             f'padding:16px 20px;margin-bottom:10px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;">'
             f'<div style="min-width:36px;text-align:center;">'
-            f'<span style="font-size:19px;font-weight:800;color:{THEME["slate_mid"]};">#{m["rank"]}</span></div>'
+            f'<span style="font-size:19px;font-weight:800;color:{THEME["text_dark"]};">#{m["rank"]}</span></div>'
             f'<div style="flex:1;min-width:160px;">'
             f'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">'
             f'<span style="font-size:22px;font-weight:700;color:{THEME["text_dark"]};">{m["name"]}</span>'
@@ -609,7 +622,7 @@ def render_heat_check(ranked: list[dict[str, Any]]) -> str:
             f'<div style="background:linear-gradient(90deg,{THEME["red"]},{THEME["gold"]});'
             f'border-radius:100px;height:6px;width:{bar}%;"></div></div></div>'
             f'<div style="text-align:right;min-width:60px;">'
-            f'<span style="font-size:22px;font-weight:900;color:{THEME["slate"]};">{m["pr_score"]:.1f}</span>'
+            f'<span style="font-size:22px;font-weight:900;color:{THEME["text_dark"]};">{m["pr_score"]:.1f}</span>'
             f'<span style="display:block;font-size:20px;">{m.get("trend", "➡️")}</span></div></div>'
         )
 
@@ -688,7 +701,7 @@ def build_email_html(
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>FDH Report — Week {week}</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Bebas+Neue&display=swap');
     body,table,td,a{{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}}
     table,td{{mso-table-lspace:0pt;mso-table-rspace:0pt;}}
     img{{-ms-interpolation-mode:bicubic;border:0;outline:none;text-decoration:none;}}
@@ -717,7 +730,7 @@ def build_email_html(
                            letter-spacing:1.5px;padding:6px 14px;border-radius:100px;text-transform:uppercase;">
                 Week {week}{mode_tag}
               </span>
-              <p style="margin:6px 0 0;font-size:19px;color:rgba(255,255,255,0.45);">
+              <p style="margin:6px 0 0;font-size:19px;color:{THEME['white']};opacity:0.75;">
                 {datetime.now(timezone.utc).strftime('%B %d, %Y')}
               </p>
             </div>
@@ -745,9 +758,9 @@ def build_email_html(
           <p style="margin:0 0 6px;font-size:22px;font-weight:900;color:{THEME['white']};letter-spacing:-0.5px;">
             {LOGO_TEXT}<span style="color:{THEME['red']};">.</span>
           </p>
-          <p style="margin:0 0 12px;font-size:19px;color:rgba(255,255,255,0.45);
+          <p style="margin:0 0 12px;font-size:19px;color:{THEME['white']};opacity:0.75;
                     letter-spacing:2px;text-transform:uppercase;">Fantasy · Data · Hype</p>
-          <p style="margin:0;font-size:19px;color:rgba(255,255,255,0.30);">
+          <p style="margin:0;font-size:19px;color:{THEME['white']};opacity:0.55;">
             © {year} FDH League &nbsp;|&nbsp; You're receiving this because you're in the league.
           </p>
         </div>
@@ -776,13 +789,31 @@ def save_preview(html: str, week: int) -> str:
 # WEB / GITHUB PAGES OUTPUT
 # ─────────────────────────────────────────────
 def build_web_html(email_html: str, logo_path: str = "") -> str:
-    """Swap CID image reference for base64 data URI so the page works in browsers."""
+    """Swap CID image for base64 data URI and apply dark theme for GitHub Pages."""
     import base64 as _b64
     html = email_html
+    # Swap email CID logo for embedded base64 so it renders in browsers
     if logo_path and os.path.isfile(logo_path):
         with open(logo_path, "rb") as f:
             b64 = _b64.b64encode(f.read()).decode()
         html = html.replace('src="cid:fdh_logo"', f'src="data:image/png;base64,{b64}"')
+    # ── Dark theme: target ONLY outer page backgrounds, not inner card rows ──
+    # 1. html tag
+    html = html.replace('<html lang="en">',
+                        '<html lang="en" style="background:#000000;">')
+    # 2. body tag
+    html = html.replace(
+        '<body style="margin:0;padding:0;background-color:#F5F6FA;">',
+        '<body style="margin:0;padding:0;background-color:#000000;">',
+    )
+    # 3. CSS body rule in <style> block (first occurrence only)
+    html = html.replace(
+        "background-color:#F5F6FA;font-family",
+        "background-color:#000000;font-family",
+        1
+    )
+    # 4. Outermost wrapper table (first 2 occurrences only — NOT inner card rows)
+    html = html.replace("background-color:#F5F6FA", "background-color:#000000", 2)
     return html
 
 

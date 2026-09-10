@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FDH All-Time Standings — career wins, losses, win percentage, and playoff records for every Fantasy Die Hards manager." />
+  <title>Standings | FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link active">Standings</a>
+      <a href="rivalries.html" class="nav__link">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link">Draft History</a>
+      <a href="records.html"   class="nav__link">Records</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:3rem 0 2.5rem;">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero__eyebrow">Fantasy Die Hards</div>
+    <h1 class="hero__title">All-Time <span>Standings</span></h1>
+    <p class="hero__sub">Career records across every season. Click any column header to sort.</p>
+  </div>
+</section>
+
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Synced from Sleeper: <strong id="last-updated-ts" data-ts="2026-09-10T20:32:36Z">2026-09-10T20:32:36Z</strong></span>
+  </div>
+
+  <!-- Division filter tabs -->
+  <div data-tabs>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="tab-all">All Managers</button>
+      <button class="tab-btn" data-tab="tab-north">FDH North</button>
+      <button class="tab-btn" data-tab="tab-west">FDH West</button>
+      <button class="tab-btn" data-tab="tab-east">FDH East</button>
+    </div>
+
+    <!-- ALL -->
+    <div id="tab-all" class="tab-panel active">
+      <div style="margin-bottom:1rem; display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
+        <input id="standings-search-all" type="search" placeholder="Filter managers…" data-filter-table="standings-table-all"
+          style="padding:.5rem 1rem; border:2px solid #ddd; border-radius:4px; font-size:.9rem; width:240px;" />
+        <span style="font-size:.82rem; color:var(--fdh-text-muted);">13 managers · 3 seasons</span>
+      </div>
+      <div class="table-wrap">
+        <table id="standings-table-all" class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">Division</th>
+              <th data-sort="4">Seasons</th>
+              <th data-sort="5">W</th>
+              <th data-sort="6">L</th>
+              <th data-sort="7">T</th>
+              <th data-sort="8">Win %</th>
+              <th data-sort="9">PF</th>
+              <th data-sort="10">PA</th>
+              <th data-sort="11">Playoffs</th>
+              <th data-sort="12">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class='rank'>1</td><td><strong>TheRealTea</strong></td><td>The Real Team</td><td>—</td><td>1</td><td>1</td><td>0</td><td>0</td><td class='win-pct'>1.000</td><td>31.2</td><td>0.0</td><td>0</td><td>—</td></tr><tr><td class='rank'>2</td><td><strong>theFFChef</strong></td><td>House of 9</td><td>—</td><td>3</td><td>22</td><td>13</td><td>0</td><td class='win-pct'>0.629</td><td>4,467.2</td><td>4,190.1</td><td>0</td><td>—</td></tr><tr><td class='rank'>3</td><td><strong>RedZoneGuru</strong></td><td>RedZoneGuru</td><td>—</td><td>3</td><td>21</td><td>13</td><td>0</td><td class='win-pct'>0.618</td><td>4,408.9</td><td>4,323.2</td><td>0</td><td>—</td></tr><tr><td class='rank'>4</td><td><strong>Jarrin1225</strong></td><td>—</td><td>—</td><td>3</td><td>20</td><td>13</td><td>0</td><td class='win-pct'>0.606</td><td>4,271.9</td><td>3,915.8</td><td>0</td><td>—</td></tr><tr><td class='rank'>5</td><td><strong>BigKens</strong></td><td>Hurt business</td><td>—</td><td>3</td><td>19</td><td>14</td><td>0</td><td class='win-pct'>0.576</td><td>4,150.5</td><td>3,975.5</td><td>0</td><td>—</td></tr><tr><td class='rank'>6</td><td><strong>scheeper</strong></td><td>PaulyDsWalnuts </td><td>—</td><td>3</td><td>19</td><td>15</td><td>0</td><td class='win-pct'>0.559</td><td>4,121.2</td><td>3,949.7</td><td>0</td><td>—</td></tr><tr><td class='rank'>7</td><td><strong>BROCKBAILBONDZ</strong></td><td>The Purdy Dozen</td><td>—</td><td>3</td><td>17</td><td>17</td><td>0</td><td class='win-pct'>0.500</td><td>4,205.8</td><td>3,868.8</td><td>0</td><td>—</td></tr><tr><td class='rank'>8</td><td><strong>Prettygrlrck</strong></td><td>Victorious Secret 🔒</td><td>—</td><td>3</td><td>16</td><td>18</td><td>0</td><td class='win-pct'>0.471</td><td>4,189.0</td><td>4,389.2</td><td>0</td><td>—</td></tr><tr><td class='rank'>9</td><td><strong>2headedblindsquirrel</strong></td><td>—</td><td>—</td><td>3</td><td>16</td><td>18</td><td>0</td><td class='win-pct'>0.471</td><td>4,260.9</td><td>4,191.1</td><td>0</td><td>—</td></tr><tr><td class='rank'>10</td><td><strong>LeftofCenter25</strong></td><td>ABCeeDee</td><td>—</td><td>3</td><td>14</td><td>18</td><td>1</td><td class='win-pct'>0.424</td><td>3,856.1</td><td>4,120.6</td><td>0</td><td>—</td></tr><tr><td class='rank'>11</td><td><strong>Delvineo</strong></td><td>Fire in my bones 🔥 </td><td>—</td><td>3</td><td>14</td><td>19</td><td>1</td><td class='win-pct'>0.412</td><td>4,057.5</td><td>4,196.5</td><td>0</td><td>—</td></tr><tr><td class='rank'>12</td><td><strong>BangBang4949</strong></td><td>—</td><td>—</td><td>3</td><td>12</td><td>21</td><td>0</td><td class='win-pct'>0.364</td><td>3,766.3</td><td>4,274.7</td><td>0</td><td>—</td></tr><tr><td class='rank'>13</td><td><strong>JHud01</strong></td><td>Not like Us</td><td>—</td><td>2</td><td>10</td><td>22</td><td>0</td><td class='win-pct'>0.312</td><td>3,780.4</td><td>4,171.7</td><td>0</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- NORTH -->
+    <div id="tab-north" class="tab-panel">
+      <div class="table-wrap">
+        <table class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">W</th>
+              <th data-sort="4">L</th>
+              <th data-sort="5">Win %</th>
+              <th data-sort="6">PF</th>
+              <th data-sort="7">Playoffs</th>
+              <th data-sort="8">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan='9' style='text-align:center;color:var(--fdh-text-muted);'>No managers assigned to this division yet — update DIVISION_MAP in fetch_sleeper.py</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- WEST -->
+    <div id="tab-west" class="tab-panel">
+      <div class="table-wrap">
+        <table class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">W</th>
+              <th data-sort="4">L</th>
+              <th data-sort="5">Win %</th>
+              <th data-sort="6">PF</th>
+              <th data-sort="7">Playoffs</th>
+              <th data-sort="8">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan='9' style='text-align:center;color:var(--fdh-text-muted);'>No managers assigned to this division yet — update DIVISION_MAP in fetch_sleeper.py</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- EAST -->
+    <div id="tab-east" class="tab-panel">
+      <div class="table-wrap">
+        <table class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">W</th>
+              <th data-sort="4">L</th>
+              <th data-sort="5">Win %</th>
+              <th data-sort="6">PF</th>
+              <th data-sort="7">Playoffs</th>
+              <th data-sort="8">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan='9' style='text-align:center;color:var(--fdh-text-muted);'>No managers assigned to this division yet — update DIVISION_MAP in fetch_sleeper.py</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Season-by-season results -->
+  <div style="margin-top:3rem;">
+    <div class="section-header">
+      <span class="section-header__eyebrow">Year by Year</span>
+      <h2>Season Results</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="table-wrap">
+      <table class="fdh-table" data-sortable>
+        <thead>
+          <tr>
+            <th data-sort="0">Season</th>
+            <th data-sort="1">Champion</th>
+            <th data-sort="2">Runner-Up</th>
+            <th data-sort="3">3rd Place</th>
+            <th data-sort="4">Reg. Season Leader</th>
+            <th data-sort="5">High Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan='6' style='text-align:center;color:var(--fdh-text-muted);'>Season data populates after fetch.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="padding:3rem 0;"></div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <div class="footer__links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="hof.html" class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html" class="footer__link">Trades</a>
+      <a href="draft.html" class="footer__link">Draft History</a>
+      <a href="records.html" class="footer__link">Records</a>
+    </div>
+    <p class="footer__copy">&copy; 2026 Fantasy Die Hards.</p>
+    <p class="footer__build">Auto-generated · Build 2026-09-10T20:32:36Z</p>
+  </div>
+</footer>
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>

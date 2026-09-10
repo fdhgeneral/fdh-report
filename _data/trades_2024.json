@@ -1,0 +1,138 @@
+[
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": null,
+    "created": 1726965706879,
+    "settings": {
+      "is_counter": 1
+    },
+    "leg": 3,
+    "draft_picks": [],
+    "creator": "887435530135252992",
+    "transaction_id": "1143380682014756864",
+    "adds": {
+      "2028": 12,
+      "6845": 5
+    },
+    "consenter_ids": [
+      5,
+      12
+    ],
+    "drops": {
+      "2028": 5,
+      "6845": 12
+    },
+    "roster_ids": [
+      5,
+      12
+    ],
+    "status_updated": 1726975684782,
+    "waiver_budget": [],
+    "week": 3,
+    "league_id": "1111435856142790656"
+  },
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": null,
+    "created": 1726889990864,
+    "settings": {
+      "expires_at": 1726976390
+    },
+    "leg": 3,
+    "draft_picks": [],
+    "creator": "201958586610356224",
+    "transaction_id": "1143063106030100480",
+    "adds": {
+      "11631": 12,
+      "8137": 1
+    },
+    "consenter_ids": [
+      1,
+      12
+    ],
+    "drops": {
+      "11631": 1,
+      "8137": 12
+    },
+    "roster_ids": [
+      1,
+      12
+    ],
+    "status_updated": 1726975233601,
+    "waiver_budget": [],
+    "week": 3,
+    "league_id": "1111435856142790656"
+  },
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": null,
+    "created": 1729792487578,
+    "settings": null,
+    "leg": 8,
+    "draft_picks": [],
+    "creator": "1088314152050929664",
+    "transaction_id": "1155237059603492864",
+    "adds": {
+      "11647": 1,
+      "7525": 1,
+      "9224": 5,
+      "9484": 5
+    },
+    "consenter_ids": [
+      1,
+      5
+    ],
+    "drops": {
+      "11647": 5,
+      "7525": 5,
+      "9224": 1,
+      "9484": 1
+    },
+    "roster_ids": [
+      1,
+      5
+    ],
+    "status_updated": 1729895140005,
+    "waiver_budget": [],
+    "week": 8,
+    "league_id": "1111435856142790656"
+  },
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": {
+      "notes": "Your trade was processed successfully!"
+    },
+    "created": 1730400068885,
+    "settings": {
+      "expires_at": 1730444399
+    },
+    "leg": 9,
+    "draft_picks": [],
+    "creator": "201958586610356224",
+    "transaction_id": "1157785440313806848",
+    "adds": {
+      "4988": 1,
+      "9488": 9
+    },
+    "drops": {
+      "4988": 9,
+      "9488": 1
+    },
+    "consenter_ids": [
+      1,
+      9
+    ],
+    "roster_ids": [
+      1,
+      9
+    ],
+    "status_updated": 1730528463344,
+    "waiver_budget": [],
+    "week": 9,
+    "league_id": "1111435856142790656"
+  }
+]
