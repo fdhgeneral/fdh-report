@@ -526,6 +526,50 @@ def gen_records(stats: dict):
         val = d.get(key, "—") if d else "—"
         return fmt.format(val) if fmt and val != "—" else str(val)
 
+    # Compute matchup-based records (completed seasons only)
+    import json as _rj; from pathlib import Path as _RP
+    _rD=_RP('_data'); _REG=set(range(1,15)); _DONE=['2024','2025']
+    _hi_pf=(0.0,'—','—'); _hi_pa=(0.0,'—','—')
+    _lo_pa=(1e9,'—','—'); _hi_mg=(0.0,'—','—')
+    _lo_mg=(1e9,'—','—'); _b_reg=(0,999,'—','—')
+    for _sy in _DONE:
+        _rrp=_rD/f'rosters_{_sy}.json'; _rmp=_rD/f'matchups_{_sy}.json'
+        if not(_rrp.exists() and _rmp.exists()): continue
+        _n2u={m['user_id']:m['display_name'] for m in managers}
+        _r2u={r['roster_id']:r.get('owner_id') for r in _rj.loads(_rrp.read_text())}
+        _wks={}; [_wks.setdefault(e.get('week'),[]).append(e) for e in _rj.loads(_rmp.read_text())]
+        _spf={}; _spa={}; _sw={}; _sl={}
+        for _wk,_ents in _wks.items():
+            _prs={}
+            for _me in _ents: _prs.setdefault(_me.get('matchup_id'),[]).append(_me)
+            for _mid,_pr in _prs.items():
+                if len(_pr)!=2: continue
+                _ea,_eb=_pr
+                _ua=_r2u.get(_ea['roster_id']); _ub=_r2u.get(_eb['roster_id'])
+                _pta=float(_ea.get('points') or 0); _ptb=float(_eb.get('points') or 0)
+                if _pta<=0 and _ptb<=0: continue
+                _mg=round(abs(_pta-_ptb),2); _wu=_ua if _pta>=_ptb else _ub
+                _cx=f'Week {_wk}, {_sy}'
+                if _mg>_hi_mg[0]: _hi_mg=(_mg,_n2u.get(_wu,'—'),_cx)
+                if 0<_mg<_lo_mg[0]: _lo_mg=(_mg,_n2u.get(_wu,'—'),_cx)
+                if _wk in _REG:
+                    for _uid,_pt,_op in [(_ua,_pta,_ptb),(_ub,_ptb,_pta)]:
+                        if not _uid: continue
+                        _spf[_uid]=_spf.get(_uid,0.0)+_pt; _spa[_uid]=_spa.get(_uid,0.0)+_op
+                        if _pt>_op: _sw[_uid]=_sw.get(_uid,0)+1
+                        elif _op>_pt: _sl[_uid]=_sl.get(_uid,0)+1
+        for _uid,_v in _spf.items():
+            _nm=_n2u.get(_uid,'—')
+            if _v>_hi_pf[0]: _hi_pf=(_v,_nm,_sy)
+        for _uid,_v in _spa.items():
+            _nm=_n2u.get(_uid,'—')
+            if _v>_hi_pa[0]: _hi_pa=(_v,_nm,_sy)
+            if 0<_v<_lo_pa[0]: _lo_pa=(_v,_nm,_sy)
+        for _uid,_wv in _sw.items():
+            _nm=_n2u.get(_uid,'—'); _lv=_sl.get(_uid,0)
+            if _wv>_b_reg[0] or(_wv==_b_reg[0] and _lv<_b_reg[1]): _b_reg=(_wv,_lv,_nm,_sy)
+
+
     replacements = {
         "RECORD_HIGH_WEEK":            f"{high_week.get('score',0):.1f}" if high_week else "—",
         "RECORD_HIGH_WEEK_HOLDER":     high_week.get("manager", "—"),
@@ -533,14 +577,24 @@ def gen_records(stats: dict):
         "RECORD_LOW_WEEK":             f"{low_week.get('score',0):.1f}" if low_week else "—",
         "RECORD_LOW_WEEK_HOLDER":      low_week.get("manager", "—"),
         "RECORD_LOW_WEEK_CONTEXT":     f"Week {low_week.get('week','?')}, {low_week.get('season','?')} Season" if low_week else "",
-        "RECORD_HIGH_SEASON":          f"{high_season.get('pf',0):,.1f}" if high_season else "—",
-        "RECORD_HIGH_SEASON_HOLDER":   high_season.get("display_name", "—"),
-        "RECORD_HIGH_SEASON_CONTEXT":  "",
-        "RECORD_HIGH_MARGIN":          "—", "RECORD_HIGH_MARGIN_HOLDER":  "—", "RECORD_HIGH_MARGIN_CONTEXT":  "",
-        "RECORD_CLOSE_MARGIN":         "—", "RECORD_CLOSE_MARGIN_HOLDER": "—", "RECORD_CLOSE_MARGIN_CONTEXT": "",
-        "RECORD_HIGH_AGAINST":         "—", "RECORD_HIGH_AGAINST_HOLDER": "—", "RECORD_HIGH_AGAINST_CONTEXT": "",
-        "RECORD_LOW_AGAINST":          "—", "RECORD_LOW_AGAINST_HOLDER":  "—", "RECORD_LOW_AGAINST_CONTEXT":  "",
-        "RECORD_BEST_REGULAR_RECORD":  "—", "RECORD_BEST_REGULAR_HOLDER": "—", "RECORD_BEST_REGULAR_CONTEXT": "",
+        "RECORD_HIGH_SEASON":          f"{_hi_pf[0]:.1f}" if _hi_pf[0] else "—",
+        "RECORD_HIGH_SEASON_HOLDER":   _hi_pf[1],
+        "RECORD_HIGH_SEASON_CONTEXT":  f"Best single-season PF • {_hi_pf[2]} season",
+        "RECORD_HIGH_MARGIN":          f"{_hi_mg[0]:.2f}" if _hi_mg[0] else "—",
+        "RECORD_HIGH_MARGIN_HOLDER":   _hi_mg[1],
+        "RECORD_HIGH_MARGIN_CONTEXT":  _hi_mg[2],
+        "RECORD_CLOSE_MARGIN":         f"{_lo_mg[0]:.2f}" if _lo_mg[0]<1e9 else "—",
+        "RECORD_CLOSE_MARGIN_HOLDER":  _lo_mg[1],
+        "RECORD_CLOSE_MARGIN_CONTEXT": _lo_mg[2],
+        "RECORD_HIGH_AGAINST":         f"{_hi_pa[0]:.1f}" if _hi_pa[0] else "—",
+        "RECORD_HIGH_AGAINST_HOLDER":  _hi_pa[1],
+        "RECORD_HIGH_AGAINST_CONTEXT": f"{_hi_pa[2]} season",
+        "RECORD_LOW_AGAINST":          f"{_lo_pa[0]:.1f}" if _lo_pa[0]<1e9 else "—",
+        "RECORD_LOW_AGAINST_HOLDER":   _lo_pa[1],
+        "RECORD_LOW_AGAINST_CONTEXT":  f"{_lo_pa[2]} season",
+        "RECORD_BEST_REGULAR_RECORD":  f"{_b_reg[0]}-{_b_reg[1]}" if _b_reg[0] else "—",
+        "RECORD_BEST_REGULAR_HOLDER":  _b_reg[2],
+        "RECORD_BEST_REGULAR_CONTEXT": f"{_b_reg[2]} • {_b_reg[3]} season",
         "WIN_STREAK_MAX":              streak_king.get("max_win_streak", 0),
         "WIN_STREAK_HOLDER":           streak_king.get("display_name", "—"),
         "WIN_STREAK_CONTEXT":          "",
