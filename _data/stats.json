@@ -14,7 +14,7 @@
       "losses": 13,
       "ties": 0,
       "pf": 4467.18,
-      "pa": 4190.12,
+      "pa": 4198.92,
       "playoff_apps": 0,
       "championships": 1,
       "weekly_highs": [
@@ -239,7 +239,7 @@
           "w": 3,
           "l": 2,
           "pf": 519.82,
-          "pa": 541.14,
+          "pa": 549.9399999999999,
           "meetings": 5,
           "playoff_meetings": 1
         },
@@ -345,7 +345,7 @@
       "losses": 13,
       "ties": 0,
       "pf": 4271.88,
-      "pa": 3915.76,
+      "pa": 3926.76,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -646,7 +646,7 @@
           "w": 0,
           "l": 1,
           "pf": 0.0,
-          "pa": 31.2,
+          "pa": 42.2,
           "meetings": 1,
           "playoff_meetings": 0
         }
@@ -972,9 +972,9 @@
         "win": 10.9375,
         "title": 0,
         "playoff": 0.0,
-        "pf": 12.68
+        "pf": 12.67
       },
-      "goat_score": 23.62
+      "goat_score": 23.61
     },
     {
       "user_id": "1032906633749307392",
@@ -989,8 +989,8 @@
       "wins": 16,
       "losses": 18,
       "ties": 0,
-      "pf": 4189.04,
-      "pa": 4389.22,
+      "pf": 4205.94,
+      "pa": 4404.72,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -1195,7 +1195,7 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 0,
+          "score": 16.9,
           "season": "2026"
         }
       ],
@@ -1208,8 +1208,8 @@
         "1116252821541830656": {
           "w": 1,
           "l": 3,
-          "pf": 359.5,
-          "pa": 383.08000000000004,
+          "pf": 376.4,
+          "pa": 398.58000000000004,
           "meetings": 4,
           "playoff_meetings": 0
         },
@@ -1300,9 +1300,9 @@
         "win": 16.471,
         "title": 0,
         "playoff": 0.0,
-        "pf": 14.06
+        "pf": 14.11
       },
-      "goat_score": 30.53
+      "goat_score": 30.58
     },
     {
       "user_id": "1034270560295006208",
@@ -1314,8 +1314,8 @@
       "wins": 16,
       "losses": 18,
       "ties": 0,
-      "pf": 4260.9,
-      "pa": 4191.14,
+      "pf": 4274.7,
+      "pa": 4203.54,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -1520,7 +1520,7 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 15.8,
+          "score": 29.6,
           "season": "2026"
         }
       ],
@@ -1589,8 +1589,8 @@
         "1119830811148156928": {
           "w": 1,
           "l": 2,
-          "pf": 281.64000000000004,
-          "pa": 347.64,
+          "pf": 295.44000000000005,
+          "pa": 360.03999999999996,
           "meetings": 3,
           "playoff_meetings": 0
         },
@@ -1625,9 +1625,9 @@
         "win": 16.471,
         "title": 0,
         "playoff": 0.0,
-        "pf": 14.3
+        "pf": 14.35
       },
-      "goat_score": 30.77
+      "goat_score": 30.82
     },
     {
       "user_id": "1034350371830968320",
@@ -1639,11 +1639,11 @@
       ],
       "avatar": "e7af4deab0289b4f5505646424895246",
       "seasons": 3,
-      "wins": 19,
-      "losses": 15,
+      "wins": 20,
+      "losses": 14,
       "ties": 0,
-      "pf": 4121.24,
-      "pa": 3949.66,
+      "pf": 4148.34,
+      "pa": 3955.06,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -1848,21 +1848,21 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 0,
+          "score": 27.1,
           "season": "2026"
         }
       ],
-      "win_streak": 0,
-      "lose_streak": 1,
+      "win_streak": 5,
+      "lose_streak": 0,
       "max_win_streak": 8,
       "max_lose_streak": 6,
       "season_records": [],
       "h2h": {
         "1114330483623694336": {
-          "w": 2,
-          "l": 3,
-          "pf": 545.58,
-          "pa": 624.1800000000002,
+          "w": 3,
+          "l": 2,
+          "pf": 572.6800000000001,
+          "pa": 629.5800000000002,
           "meetings": 5,
           "playoff_meetings": 0
         },
@@ -1948,14 +1948,14 @@
         }
       },
       "division": "",
-      "win_pct": 0.5588,
+      "win_pct": 0.5882,
       "goat_raw": {
-        "win": 19.558,
+        "win": 20.587,
         "title": 0,
         "playoff": 0.0,
-        "pf": 13.83
+        "pf": 13.92
       },
-      "goat_score": 33.39
+      "goat_score": 34.51
     },
     {
       "user_id": "1088314152050929664",
@@ -2295,11 +2295,11 @@
       ],
       "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
       "seasons": 3,
-      "wins": 21,
-      "losses": 13,
+      "wins": 20,
+      "losses": 14,
       "ties": 0,
-      "pf": 4408.88,
-      "pa": 4323.18,
+      "pf": 4414.28,
+      "pa": 4350.28,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -2504,21 +2504,21 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 11.82,
+          "score": 17.22,
           "season": "2026"
         }
       ],
-      "win_streak": 1,
-      "lose_streak": 0,
+      "win_streak": 0,
+      "lose_streak": 3,
       "max_win_streak": 10,
       "max_lose_streak": 4,
       "season_records": [],
       "h2h": {
         "1034350371830968320": {
-          "w": 3,
-          "l": 2,
-          "pf": 624.1800000000002,
-          "pa": 545.58,
+          "w": 2,
+          "l": 3,
+          "pf": 629.5800000000002,
+          "pa": 572.6800000000001,
           "meetings": 5,
           "playoff_meetings": 0
         },
@@ -2604,14 +2604,14 @@
         }
       },
       "division": "",
-      "win_pct": 0.6176,
+      "win_pct": 0.5882,
       "goat_raw": {
-        "win": 21.616,
+        "win": 20.587,
         "title": 0,
         "playoff": 0.0,
-        "pf": 14.8
+        "pf": 14.82
       },
-      "goat_score": 36.42
+      "goat_score": 35.41
     },
     {
       "user_id": "1116173850477277184",
@@ -2949,8 +2949,8 @@
       "wins": 19,
       "losses": 14,
       "ties": 0,
-      "pf": 4150.46,
-      "pa": 3975.52,
+      "pf": 4165.96,
+      "pa": 3992.42,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -3149,7 +3149,7 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 15.0,
+          "score": 30.5,
           "season": "2026"
         }
       ],
@@ -3162,8 +3162,8 @@
         "1032906633749307392": {
           "w": 3,
           "l": 1,
-          "pf": 383.08000000000004,
-          "pa": 359.5,
+          "pf": 398.58000000000004,
+          "pa": 376.4,
           "meetings": 4,
           "playoff_meetings": 0
         },
@@ -3254,9 +3254,9 @@
         "win": 20.153,
         "title": 0,
         "playoff": 0.0,
-        "pf": 13.93
+        "pf": 13.98
       },
-      "goat_score": 34.08
+      "goat_score": 34.13
     },
     {
       "user_id": "1119830811148156928",
@@ -3268,8 +3268,8 @@
       "wins": 12,
       "losses": 21,
       "ties": 0,
-      "pf": 3766.34,
-      "pa": 4274.72,
+      "pf": 3778.74,
+      "pa": 4288.52,
       "playoff_apps": 0,
       "championships": 0,
       "weekly_highs": [
@@ -3468,7 +3468,7 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 5.6,
+          "score": 18.0,
           "season": "2026"
         }
       ],
@@ -3537,8 +3537,8 @@
         "1034270560295006208": {
           "w": 2,
           "l": 1,
-          "pf": 347.64,
-          "pa": 281.64000000000004,
+          "pf": 360.03999999999996,
+          "pa": 295.44000000000005,
           "meetings": 3,
           "playoff_meetings": 0
         },
@@ -3573,9 +3573,9 @@
         "win": 12.725999999999999,
         "title": 0,
         "playoff": 0.0,
-        "pf": 12.63
+        "pf": 12.67
       },
-      "goat_score": 25.36
+      "goat_score": 25.4
     },
     {
       "user_id": "1120105892286025728",
@@ -3589,7 +3589,7 @@
       "wins": 17,
       "losses": 17,
       "ties": 0,
-      "pf": 4205.82,
+      "pf": 4214.62,
       "pa": 3868.78,
       "playoff_apps": 0,
       "championships": 1,
@@ -3795,7 +3795,7 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 0,
+          "score": 8.8,
           "season": "2026"
         }
       ],
@@ -3808,7 +3808,7 @@
         "201958586610356224": {
           "w": 2,
           "l": 3,
-          "pf": 541.14,
+          "pf": 549.9399999999999,
           "pa": 519.82,
           "meetings": 5,
           "playoff_meetings": 1
@@ -3900,9 +3900,9 @@
         "win": 17.5,
         "title": 10,
         "playoff": 0.0,
-        "pf": 14.12
+        "pf": 14.14
       },
-      "goat_score": 41.62
+      "goat_score": 41.64
     },
     {
       "user_id": "1128420934681079808",
@@ -3916,7 +3916,7 @@
       "wins": 1,
       "losses": 0,
       "ties": 0,
-      "pf": 31.2,
+      "pf": 42.2,
       "pa": 0.0,
       "playoff_apps": 0,
       "championships": 0,
@@ -3924,7 +3924,7 @@
         {
           "week": 1,
           "league_id": "1378834732145455104",
-          "score": 31.2,
+          "score": 42.2,
           "season": "2026"
         }
       ],
@@ -3937,7 +3937,7 @@
         "887435530135252992": {
           "w": 1,
           "l": 0,
-          "pf": 31.2,
+          "pf": 42.2,
           "pa": 0.0,
           "meetings": 1,
           "playoff_meetings": 0
@@ -3992,7 +3992,7 @@
       "playoff_meetings": 1,
       "rivalry_score": 23.0,
       "pf_a": 519.82,
-      "pf_b": 541.14
+      "pf_b": 549.94
     },
     {
       "manager_a": "201958586610356224",
@@ -4168,13 +4168,13 @@
       "name_a": "scheeper",
       "manager_b": "1114330483623694336",
       "name_b": "RedZoneGuru",
-      "wins_a": 2,
-      "wins_b": 3,
+      "wins_a": 3,
+      "wins_b": 2,
       "total_meetings": 5,
       "playoff_meetings": 0,
       "rivalry_score": 18.0,
-      "pf_a": 545.58,
-      "pf_b": 624.18
+      "pf_a": 572.68,
+      "pf_b": 629.58
     },
     {
       "manager_a": "1034350371830968320",
@@ -4381,8 +4381,8 @@
       "total_meetings": 4,
       "playoff_meetings": 0,
       "rivalry_score": 13.0,
-      "pf_a": 359.5,
-      "pf_b": 383.08
+      "pf_a": 376.4,
+      "pf_b": 398.58
     },
     {
       "manager_a": "201958586610356224",
@@ -4498,8 +4498,8 @@
       "total_meetings": 3,
       "playoff_meetings": 0,
       "rivalry_score": 12.67,
-      "pf_a": 281.64,
-      "pf_b": 347.64
+      "pf_a": 295.44,
+      "pf_b": 360.04
     },
     {
       "manager_a": "1034350371830968320",
@@ -4814,5 +4814,5 @@
       "pf_b": 205.82
     }
   ],
-  "generated_at": "2026-09-10T23:36:33.103887+00:00"
+  "generated_at": "2026-09-11T07:11:49.689849+00:00"
 }
