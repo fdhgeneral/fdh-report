@@ -1,30 +1,320 @@
-FDH Hall of Fame 
-Home Hall of Fame Standings Rivalries Trades Draft History Records
-Head-to-Head History
-FDH Rivalries
-Every matchup. Every grudge. Every comeback. The numbers don't lie.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FDH Rivalries — head-to-head records, heated matchups, and the fiercest feuds in Fantasy Die Hards history." />
+  <title>Rivalries | FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+  <style>
+    /* ── CSS variable fallbacks ── */
+    :root {
+      --fdh-slate-mid:   #3a4a5c;
+      --fdh-red-light:   #ff6b6b;
+      --fdh-gold:        #f5a623;
+      --fdh-slate-muted: #8899aa;
+    }
 
-{{TOTAL_H2H_MATCHUPS}} Total Matchups
-{{CLOSEST_RIVALRY_GAMES}} Most Meetings
-{{MOST_DOMINANT_RIVALRY_PCT}}% Most Dominant H2H
-Synced from Sleeper: {{BUILD_TS}}
-{{H2H_LOOKUP_SECTION}}
-Fiercest Feuds
-Top Rivalries
-Ranked by rivalry score — a blend of total meetings, win margin closeness, and playoff stakes.
+    /* ── Rivalry cards ── */
+    .rivalry-card {
+      background: var(--fdh-white, #fff);
+      border-radius: var(--radius-lg, 12px);
+      box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,.1));
+      overflow: hidden;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .rivalry-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg, 0 8px 24px rgba(0,0,0,.15)); }
+    .rivalry-card__header {
+      background: linear-gradient(135deg, var(--fdh-slate, #1e2d3d) 0%, var(--fdh-slate-mid, #3a4a5c) 100%);
+      padding: 1.25rem;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 3px solid var(--fdh-red, #c0392b);
+    }
+    .rivalry-card__manager {
+      font-family: var(--font-display, 'Oswald', sans-serif);
+      font-size: 1.1rem;
+      color: var(--fdh-white, #fff);
+      text-align: center;
+      flex: 1;
+    }
+    .rivalry-card__vs {
+      font-family: var(--font-display, 'Oswald', sans-serif);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--fdh-red-light, #ff6b6b);
+      padding: 0 1rem;
+    }
+    .rivalry-card__score {
+      display: flex; align-items: center; justify-content: space-around;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid rgba(0,0,0,.07);
+    }
+    .rivalry-score__val {
+      font-family: var(--font-display, 'Oswald', sans-serif);
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .rivalry-score__val.leader  { color: var(--fdh-red, #c0392b); }
+    .rivalry-score__val.trailer { color: var(--fdh-slate-muted, #8899aa); }
+    .rivalry-score__dash { font-size: 1.4rem; color: #ccc; }
+    .rivalry-card__meta {
+      padding: .75rem 1.25rem;
+      display: flex; gap: 1rem; flex-wrap: wrap;
+      font-size: .8rem; color: var(--fdh-text-muted, #666);
+    }
+    .rivalry-heat { display: flex; gap: 3px; align-items: center; margin-top: .25rem; }
+    .heat-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .heat-high { background: var(--fdh-red,  #c0392b); }
+    .heat-med  { background: var(--fdh-gold, #f5a623); }
+    .heat-low  { background: #ddd; }
 
-{{TOP_RIVALRY_CARDS_FULL}}
-Complete Records
-Head-to-Head Matrix
-Numbers show W-L record. Click a column header to sort. Green = winning record, red = losing record.
+    /* ── H2H Lookup widget ── */
+    #h2h-lookup-wrap {
+      background: var(--fdh-white, #fff);
+      border-radius: var(--radius-lg, 12px);
+      box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,.1));
+      padding: 2rem;
+      margin-bottom: 3rem;
+    }
+    .h2h-selectors {
+      display: flex;
+      align-items: flex-end;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+    }
+    .h2h-selectors label {
+      display: block;
+      font-size: .75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--fdh-text-muted, #666);
+      margin-bottom: .4rem;
+    }
+    .h2h-selectors select {
+      padding: .6rem 2.4rem .6rem .9rem;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: var(--font-body, 'Inter', sans-serif);
+      background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none'/%3E%3C/svg%3E") no-repeat right .8rem center;
+      -webkit-appearance: none; appearance: none;
+      cursor: pointer;
+      min-width: 200px;
+      transition: border-color .15s;
+    }
+    .h2h-selectors select:focus { border-color: var(--fdh-red, #c0392b); outline: none; }
+    .h2h-vs-badge {
+      font-family: var(--font-display, 'Oswald', sans-serif);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--fdh-red, #c0392b);
+      padding-bottom: .2rem;
+      line-height: 1;
+    }
 
-Filter by manager name…
-{{H2H_TABLE_ROWS}}
-Manager	Opponent	W	L	Win %	Meetings	Avg Margin	Playoff Meetings	Last Result
-FDH Hall of Fame
-Home Hall of Fame Standings Rivalries Trades Draft History Records
-© {{YEAR}} Fantasy Die Hards.
+    /* ── H2H result card ── */
+    .h2h-result-card {
+      border: 2px solid var(--fdh-red, #c0392b);
+      border-radius: var(--radius-lg, 12px);
+      overflow: hidden;
+    }
+    .h2h-result-header {
+      background: linear-gradient(135deg, var(--fdh-slate, #1e2d3d) 0%, var(--fdh-slate-mid, #3a4a5c) 100%);
+      padding: 1.25rem 1.5rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    .h2h-result-name {
+      font-family: var(--font-display, 'Oswald', sans-serif);
+      font-size: 1.3rem;
+      color: #fff;
+      flex: 1;
+      text-align: center;
+    }
+    .h2h-result-score {
+      display: flex; align-items: baseline; gap: .5rem;
+      font-family: var(--font-display, 'Oswald', sans-serif);
+    }
+    .h2h-score-big {
+      font-size: 2.6rem; font-weight: 700; line-height: 1;
+    }
+    .h2h-score-big.win  { color: var(--fdh-red, #c0392b); }
+    .h2h-score-big.lose { color: var(--fdh-slate-muted, #8899aa); }
+    .h2h-score-dash { font-size: 1.6rem; color: rgba(255,255,255,.4); }
+    .h2h-result-body {
+      padding: 1.25rem 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .h2h-stat { text-align: center; }
+    .h2h-stat__val {
+      font-family: var(--font-display, 'Oswald', sans-serif);
+      font-size: 1.4rem; font-weight: 600;
+      color: var(--fdh-slate, #1e2d3d);
+    }
+    .h2h-stat__lbl {
+      font-size: .72rem;
+      color: var(--fdh-text-muted, #666);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+    .h2h-breakdown { padding: 0 1.5rem 1.25rem; }
+    .h2h-breakdown h4 {
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--fdh-text-muted, #666);
+      margin-bottom: .5rem;
+    }
+    .h2h-breakdown table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    .h2h-breakdown th {
+      text-align: left; padding: .3rem .5rem;
+      background: var(--fdh-bg, #f4f5f7);
+      font-size: .75rem; color: var(--fdh-text-muted, #666);
+    }
+    .h2h-breakdown td { padding: .3rem .5rem; border-bottom: 1px solid rgba(0,0,0,.05); }
+    .h2h-placeholder {
+      text-align: center; padding: 2.5rem 1rem;
+      color: var(--fdh-text-muted, #888); font-size: .95rem;
+    }
 
-Auto-generated · Build {{BUILD_TS}}
+    /* ── Table row colouring ── */
+    tr.win-record  td:nth-child(5) { color: #1a7a3c; font-weight: 600; }
+    tr.lose-record td:nth-child(5) { color: #b91c1c; font-weight: 600; }
 
+    @media (max-width: 640px) {
+      .h2h-selectors { flex-direction: column; align-items: stretch; }
+      .h2h-selectors select { min-width: 100%; }
+      .h2h-result-body { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link">Standings</a>
+      <a href="rivalries.html" class="nav__link active">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link">Draft History</a>
+      <a href="records.html"   class="nav__link">Records</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:3rem 0 2.5rem;">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero__eyebrow">Head-to-Head History</div>
+    <h1 class="hero__title">FDH <span>Rivalries</span></h1>
+    <p class="hero__sub">Every matchup. Every grudge. Every comeback. The numbers don't lie.</p>
+    <div class="hero__meta">
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-counter data-target="{{TOTAL_H2H_MATCHUPS}}">{{TOTAL_H2H_MATCHUPS}}</span>
+        <span class="hero__stat-label">Total Matchups</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-counter data-target="{{CLOSEST_RIVALRY_GAMES}}">{{CLOSEST_RIVALRY_GAMES}}</span>
+        <span class="hero__stat-label">Most Meetings</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">{{MOST_DOMINANT_RIVALRY_PCT}}%</span>
+        <span class="hero__stat-label">Most Dominant H2H</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Synced from Sleeper: <strong id="last-updated-ts" data-ts="{{BUILD_TS}}">{{BUILD_TS}}</strong></span>
+  </div>
+
+  <!-- H2H Lookup -->
+  <div class="section-header" style="margin-top:1.5rem;">
+    <span class="section-header__eyebrow">Look Up Any Matchup</span>
+    <h2>H2H Lookup</h2>
+    <div class="section-header__line"></div>
+  </div>
+  {{H2H_LOOKUP_SECTION}}
+
+  <!-- Top Rivalries -->
+  <div class="section-header" style="margin-top:1rem;">
+    <span class="section-header__eyebrow">Fiercest Feuds</span>
+    <h2>Top Rivalries</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <p style="color:var(--fdh-text-muted,#666); margin-bottom:1.5rem;">
+    Ranked by rivalry score — a blend of total meetings, win margin closeness, and playoff stakes.
+  </p>
+  <div class="grid-2" style="margin-bottom:3rem;">
+    {{TOP_RIVALRY_CARDS_FULL}}
+  </div>
+
+  <!-- Full H2H Matrix -->
+  <div class="section-header" style="margin-top:1rem;">
+    <span class="section-header__eyebrow">Complete Records</span>
+    <h2>Head-to-Head Matrix</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <p style="color:var(--fdh-text-muted,#666); margin-bottom:1rem; font-size:.88rem;">
+    All-time W-L records across all 6 seasons. Click a column header to sort.
+  </p>
+  <div style="margin-bottom:1rem;">
+    <input id="h2h-search" type="search" placeholder="Filter by manager name…" data-filter-table="h2h-table"
+      style="padding:.5rem 1rem; border:2px solid #ddd; border-radius:4px; font-size:.9rem; width:260px;" />
+  </div>
+  <div class="table-wrap">
+    <table id="h2h-table" class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">Manager</th>
+          <th data-sort="1">Opponent</th>
+          <th data-sort="2">W</th>
+          <th data-sort="3">L</th>
+          <th data-sort="4">Win %</th>
+          <th data-sort="5">Meetings</th>
+          <th data-sort="6">Avg Margin</th>
+          <th data-sort="7">Playoff Meetings</th>
+          <th data-sort="8">Last Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{H2H_TABLE_ROWS}}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div style="padding:3rem 0;"></div>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <div class="footer__links">
+      <a href="index.html"     class="footer__link">Home</a>
+      <a href="hof.html"       class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html"    class="footer__link">Trades</a>
+      <a href="draft.html"     class="footer__link">Draft History</a>
+      <a href="records.html"   class="footer__link">Records</a>
+    </div>
+    <p class="footer__copy">&copy; {{YEAR}} Fantasy Die Hards.</p>
+    <p class="footer__build">Auto-generated &middot; Build {{BUILD_TS}}</p>
+  </div>
+</footer>
 {{H2H_SCRIPT}}
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>
