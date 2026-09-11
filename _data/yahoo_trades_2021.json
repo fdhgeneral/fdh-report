@@ -1,0 +1,253 @@
+[
+  {
+    "id": "55c69398-5021-479b-84af-92d2466beef9",
+    "week": 4,
+    "timestamp": "2021-09-23T07:16:55.000Z",
+    "parties": [
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}",
+      "{'teamId': 'd84fc8ff-a913-4f30-acee-853ff800d152', 'team': 'Nacho Forever'}"
+    ],
+    "players": [
+      {
+        "player": "406.p.32671",
+        "to": ""
+      },
+      {
+        "player": "406.p.31856",
+        "to": ""
+      },
+      {
+        "player": "406.p.32695",
+        "to": ""
+      },
+      {
+        "player": "406.p.32723",
+        "to": ""
+      },
+      {
+        "player": "406.p.30994",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "673123c7-ab9e-46bf-b941-2ba7da62b8ba",
+    "week": 4,
+    "timestamp": "2021-09-27T07:23:08.000Z",
+    "parties": [
+      "{'teamId': '3dacb9e1-a3ee-41f4-9f54-649abca53a24', 'team': 'PAULIESWALNUTS'}",
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}"
+    ],
+    "players": [
+      {
+        "player": "406.p.27548",
+        "to": ""
+      },
+      {
+        "player": "406.p.33582",
+        "to": ""
+      },
+      {
+        "player": "406.p.31885",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "164b2723-37fa-4e83-a3a0-3ad8c2a8f399",
+    "week": 5,
+    "timestamp": "2021-10-02T15:22:24.000Z",
+    "parties": [
+      "{'teamId': '3ca767a8-9e86-43dc-80ce-6e3957112a15', 'team': 'The Titanic'}",
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}"
+    ],
+    "players": [
+      {
+        "player": "406.p.32723",
+        "to": ""
+      },
+      {
+        "player": "406.p.31840",
+        "to": ""
+      },
+      {
+        "player": "406.p.32756",
+        "to": ""
+      },
+      {
+        "player": "406.p.31833",
+        "to": ""
+      },
+      {
+        "player": "406.p.31902",
+        "to": ""
+      },
+      {
+        "player": "406.p.31898",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "d9744e97-aaef-4f58-8c05-de5043bc06e0",
+    "week": 5,
+    "timestamp": "2021-10-02T19:40:26.000Z",
+    "parties": [
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}",
+      "{'teamId': 'd4bc8b69-9671-4674-a6db-63eed7ec2267', 'team': 'Icy Hot'}"
+    ],
+    "players": [
+      {
+        "player": "406.p.31885",
+        "to": ""
+      },
+      {
+        "player": "406.p.31852",
+        "to": ""
+      },
+      {
+        "player": "406.p.26652",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "04b1814b-27e8-4b89-b9aa-09438e4f0e58",
+    "week": 6,
+    "timestamp": "2021-10-09T17:42:43.000Z",
+    "parties": [
+      "{'teamId': '068177c0-c75a-4872-a483-50a2de9e69d8', 'team': 'Aaron it out'}",
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}"
+    ],
+    "players": [
+      {
+        "player": "406.p.26652",
+        "to": ""
+      },
+      {
+        "player": "406.p.33495",
+        "to": ""
+      },
+      {
+        "player": "406.p.32843",
+        "to": ""
+      },
+      {
+        "player": "406.p.27589",
+        "to": ""
+      },
+      {
+        "player": "406.p.33423",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "df5cae2f-db93-46ae-b721-30c0f295983a",
+    "week": 7,
+    "timestamp": "2021-10-16T18:27:33.000Z",
+    "parties": [
+      "{'teamId': '3ca767a8-9e86-43dc-80ce-6e3957112a15', 'team': 'The Titanic'}",
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}"
+    ],
+    "players": [
+      {
+        "player": "406.p.30996",
+        "to": ""
+      },
+      {
+        "player": "406.p.31898",
+        "to": ""
+      },
+      {
+        "player": "406.p.32704",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "43376c03-9af9-49b8-8c44-7d8b079144f2",
+    "week": 10,
+    "timestamp": "2021-11-06T17:30:06.000Z",
+    "parties": [
+      "{'teamId': '3ca767a8-9e86-43dc-80ce-6e3957112a15', 'team': 'The Titanic'}",
+      "{'teamId': '94bb1505-877d-4063-b202-44f7214d3257', 'team': \"Jarrin's Playas\"}"
+    ],
+    "players": [
+      {
+        "player": "406.p.33412",
+        "to": ""
+      },
+      {
+        "player": "406.p.31010",
+        "to": ""
+      },
+      {
+        "player": "406.p.28403",
+        "to": ""
+      },
+      {
+        "player": "406.p.28392",
+        "to": ""
+      },
+      {
+        "player": "406.p.31002",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "e70d439b-fae4-49a0-aa13-ab41b5782b65",
+    "week": 11,
+    "timestamp": "2021-11-10T04:33:08.000Z",
+    "parties": [
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}",
+      "{'teamId': 'd4bc8b69-9671-4674-a6db-63eed7ec2267', 'team': 'Icy Hot'}"
+    ],
+    "players": [
+      {
+        "player": "406.p.33408",
+        "to": ""
+      },
+      {
+        "player": "406.p.31885",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "465e5dda-973d-49dc-9f40-e9146fee2d1f",
+    "week": 12,
+    "timestamp": "2021-11-17T09:00:34.000Z",
+    "parties": [
+      "{'teamId': '8a3c51d3-34f1-4371-ae8e-1ad110b45ce8', 'team': \"Michael's Team\"}",
+      "{'teamId': 'd4bc8b69-9671-4674-a6db-63eed7ec2267', 'team': 'Icy Hot'}"
+    ],
+    "players": [
+      {
+        "player": "406.p.31852",
+        "to": ""
+      },
+      {
+        "player": "406.p.30994",
+        "to": ""
+      },
+      {
+        "player": "406.p.24815",
+        "to": ""
+      },
+      {
+        "player": "406.p.30161",
+        "to": ""
+      },
+      {
+        "player": "406.p.30295",
+        "to": ""
+      },
+      {
+        "player": "406.p.28592",
+        "to": ""
+      }
+    ]
+  }
+]

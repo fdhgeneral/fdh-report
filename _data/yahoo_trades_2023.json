@@ -1,0 +1,168 @@
+[
+  {
+    "id": "ca95900a-5def-4043-9a19-567c254e832d",
+    "week": 1,
+    "timestamp": "2023-09-07T07:15:20.000Z",
+    "parties": [
+      "{'teamId': '90139e39-09f4-4f20-9a0a-3f7cf3384933', 'team': \"Cheetah's Spots\"}",
+      "{'teamId': 'ff3864cc-4862-4d8b-8ab4-825c27b4a167', 'team': 'PFH23'}"
+    ],
+    "players": [
+      {
+        "player": "423.p.31896",
+        "to": ""
+      },
+      {
+        "player": "423.p.40055",
+        "to": ""
+      },
+      {
+        "player": "423.p.29399",
+        "to": ""
+      },
+      {
+        "player": "423.p.33508",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "1c41580c-fba0-4566-88b5-70149aedbe52",
+    "week": 4,
+    "timestamp": "2023-09-23T22:21:35.000Z",
+    "parties": [
+      "{'teamId': '41b701c1-c332-4006-8853-e69eb7d04120', 'team': \"Jarrin's Playas\"}",
+      "{'teamId': '7d5c1d87-19a6-4403-b6c2-7aad9ba42c3a', 'team': 'The Recipe'}"
+    ],
+    "players": [
+      {
+        "player": "423.p.30977",
+        "to": ""
+      },
+      {
+        "player": "423.p.26658",
+        "to": ""
+      },
+      {
+        "player": "423.p.31424",
+        "to": ""
+      },
+      {
+        "player": "423.p.33389",
+        "to": ""
+      },
+      {
+        "player": "423.p.40064",
+        "to": ""
+      },
+      {
+        "player": "423.p.32711",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "4c4304f3-8b08-4b44-b59e-29723f75e1f4",
+    "week": 5,
+    "timestamp": "2023-10-05T16:32:55.000Z",
+    "parties": [
+      "{'teamId': '41b701c1-c332-4006-8853-e69eb7d04120', 'team': \"Jarrin's Playas\"}",
+      "{'teamId': '90139e39-09f4-4f20-9a0a-3f7cf3384933', 'team': \"Cheetah's Spots\"}"
+    ],
+    "players": [
+      {
+        "player": "423.p.40168",
+        "to": ""
+      },
+      {
+        "player": "423.p.33989",
+        "to": ""
+      },
+      {
+        "player": "423.p.30996",
+        "to": ""
+      },
+      {
+        "player": "423.p.34207",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "913b7268-a655-415e-a358-010d93d89650",
+    "week": 10,
+    "timestamp": "2023-11-06T08:15:20.000Z",
+    "parties": [
+      "{'teamId': '17ce78c3-b0dc-40b7-9e55-9d177deea86e', 'team': 'BangBang'}",
+      "{'teamId': 'b4f57990-5995-4e05-8a91-d93d931d2fb3', 'team': \"Rico's Remarkable Team\"}"
+    ],
+    "players": [
+      {
+        "player": "423.p.31945",
+        "to": ""
+      },
+      {
+        "player": "423.p.31906",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "f2dacf7f-84a1-4f7e-be37-907285069237",
+    "week": 12,
+    "timestamp": "2023-11-22T19:15:18.000Z",
+    "parties": [
+      "{'teamId': '17ce78c3-b0dc-40b7-9e55-9d177deea86e', 'team': 'BangBang'}",
+      "{'teamId': '7d5c1d87-19a6-4403-b6c2-7aad9ba42c3a', 'team': 'The Recipe'}"
+    ],
+    "players": [
+      {
+        "player": "423.p.33394",
+        "to": ""
+      },
+      {
+        "player": "423.p.31906",
+        "to": ""
+      },
+      {
+        "player": "423.p.34007",
+        "to": ""
+      },
+      {
+        "player": "423.p.31960",
+        "to": ""
+      },
+      {
+        "player": "423.p.31898",
+        "to": ""
+      },
+      {
+        "player": "423.p.32711",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "a18ee001-21f9-4614-a45a-d4b62d478cde",
+    "week": 12,
+    "timestamp": "2023-11-23T06:02:27.000Z",
+    "parties": [
+      "{'teamId': '90139e39-09f4-4f20-9a0a-3f7cf3384933', 'team': \"Cheetah's Spots\"}",
+      "{'teamId': 'b8cb2c45-201e-4a35-8f77-b83c181fb559', 'team': 'D Adams Family'}"
+    ],
+    "players": [
+      {
+        "player": "423.p.34112",
+        "to": ""
+      },
+      {
+        "player": "423.p.33508",
+        "to": ""
+      },
+      {
+        "player": "423.p.40059",
+        "to": ""
+      }
+    ]
+  }
+]
