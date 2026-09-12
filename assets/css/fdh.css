@@ -475,3 +475,17 @@ p  { margin-bottom: .75rem; }
 @media (max-width: 480px) {
   .grid-2,.grid-3,.grid-4 { grid-template-columns: 1fr; }
 }
+
+/* ── H2H result card pts/PPG line ── */
+.h2h-pts {
+  font-size: .85rem;
+  color: var(--fdh-red, #c0392b);
+  margin-top: .15rem;
+}
+.h2h-wins {
+  font-family: var(--font-display, 'Oswald', sans-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
