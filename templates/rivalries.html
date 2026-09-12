@@ -255,47 +255,6 @@
     <h2>Top Rivalries</h2>
     <div class="section-header__line"></div>
   </div>
-  <p style="color:var(--fdh-text-muted,#666); margin-bottom:1.5rem;">
-    Ranked by rivalry score — a blend of total meetings, win margin closeness, and playoff stakes.
-  </p>
-  <div class="grid-2" style="margin-bottom:3rem;">
-    {{TOP_RIVALRY_CARDS_FULL}}
-  </div>
-
-  <!-- Full H2H Matrix -->
-  <div class="section-header" style="margin-top:1rem;">
-    <span class="section-header__eyebrow">Complete Records</span>
-    <h2>Head-to-Head Matrix</h2>
-    <div class="section-header__line"></div>
-  </div>
-  <p style="color:var(--fdh-text-muted,#666); margin-bottom:1rem; font-size:.88rem;">
-    All-time W-L records across all 6 seasons. Click a column header to sort.
-  </p>
-  <div style="margin-bottom:1rem;">
-    <input id="h2h-search" type="search" placeholder="Filter by manager name…" data-filter-table="h2h-table"
-      style="padding:.5rem 1rem; border:2px solid #ddd; border-radius:4px; font-size:.9rem; width:260px;" />
-  </div>
-  <div class="table-wrap">
-    <table id="h2h-table" class="fdh-table" data-sortable>
-      <thead>
-        <tr>
-          <th data-sort="0">Manager</th>
-          <th data-sort="1">Opponent</th>
-          <th data-sort="2">W</th>
-          <th data-sort="3">L</th>
-          <th data-sort="4">Win %</th>
-          <th data-sort="5">Meetings</th>
-          <th data-sort="6">Avg Margin</th>
-          <th data-sort="7">Playoff Meetings</th>
-          <th data-sort="8">Last Result</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{H2H_TABLE_ROWS}}
-      </tbody>
-    </table>
-  </div>
-</div>
 
 <div style="padding:3rem 0;"></div>
 <footer class="footer">

@@ -462,7 +462,7 @@ def gen_rivalries(stats: dict):
         write_page('rivalries.html', render('rivalries.html', {
             'TOTAL_H2H_MATCHUPS': '0', 'CLOSEST_RIVALRY_GAMES': '0',
             'MOST_DOMINANT_RIVALRY_PCT': '0', 'H2H_LOOKUP_SECTION': '',
-            'TOP_RIVALRY_CARDS_FULL': '', 'H2H_TABLE_ROWS': '',
+            'TOP_RIVALRY_CARDS_FULL': '',
             'H2H_SCRIPT': '', 'BUILD_TS': BUILD_TS, 'YEAR': YEAR,
         }))
         return
@@ -548,24 +548,6 @@ def gen_rivalries(stats: dict):
             '</div>'
         )
 
-    # ── H2H matrix table rows ─────────────────────────────────────────────────
-    h2h_rows = ''
-    for pk, r in sorted(pairs.items()):
-        for side in [True, False]:
-            mgr  = r['a'] if side else r['b']
-            opp  = r['b'] if side else r['a']
-            w    = r['wins_a'] if side else r['wins_b']
-            l    = r['wins_b'] if side else r['wins_a']
-            n    = r['meetings']
-            wpct = (str(round(w / n * 100)) + '%') if n > 0 else '&mdash;'
-            last = 'W' if r['streak']['holder'] == mgr else 'L'
-            h2h_rows += (
-                '<tr><td><strong>' + mgr + '</strong></td><td>' + opp + '</td>'
-                '<td>' + str(w) + '</td><td>' + str(l) + '</td><td>' + wpct + '</td>'
-                '<td>' + str(n) + '</td><td>&mdash;</td>'
-                '<td>' + str(r['playoff_meetings']) + '</td><td>' + last + '</td></tr>'
-            )
-
     # ── Hero stats ────────────────────────────────────────────────────────────
     most_m  = max((r['meetings'] for r in pairs.values()), default=0)
     dom_r   = max(pairs.values(),
@@ -598,8 +580,7 @@ def gen_rivalries(stats: dict):
         'CLOSEST_RIVALRY_GAMES':     most_m,
         'MOST_DOMINANT_RIVALRY_PCT': dom_pct,
         'H2H_LOOKUP_SECTION':        h2h_section,
-        'TOP_RIVALRY_CARDS_FULL':    top_cards or '<p style="color:var(--fdh-text-muted)">No rivalry data yet.</p>',
-        'H2H_TABLE_ROWS':            h2h_rows or '<tr><td colspan="9" style="text-align:center;">No data yet.</td></tr>',
+        'TOP_RIVALRY_CARDS_FULL':    top_cards or '<p style="color:var(--fdh-text-muted)">No rivalry data yet.</p>'
         'H2H_SCRIPT':                h2h_script,
         'BUILD_TS': BUILD_TS, 'YEAR': YEAR,
     }
