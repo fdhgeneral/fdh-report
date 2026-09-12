@@ -580,7 +580,7 @@ def gen_rivalries(stats: dict):
         'CLOSEST_RIVALRY_GAMES':     most_m,
         'MOST_DOMINANT_RIVALRY_PCT': dom_pct,
         'H2H_LOOKUP_SECTION':        h2h_section,
-        'TOP_RIVALRY_CARDS_FULL':    top_cards or '<p style="color:var(--fdh-text-muted)">No rivalry data yet.</p>'
+        'TOP_RIVALRY_CARDS_FULL':    top_cards or '<p style="color:var(--fdh-text-muted)">No rivalry data yet.</p>',
         'H2H_SCRIPT':                h2h_script,
         'BUILD_TS': BUILD_TS, 'YEAR': YEAR,
     }
