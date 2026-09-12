@@ -573,3 +573,20 @@ p  { margin-bottom: .75rem; }
   font-weight: 700;
   color: #c0392b;
 }
+/* --- Tightened H2H Dropdown Spacing --- */
+
+.h2h-selectors {
+  margin-top: 0.5rem;      /* was ~1.75rem after header removal */
+  margin-bottom: 1rem;     /* tighter spacing above the card */
+  gap: 1rem;               /* reduce space between the two dropdowns */
+}
+
+.h2h-selectors label {
+  margin-bottom: 0.25rem;  /* tighten label spacing */
+}
+
+.h2h-selectors select,
+.h2h-select {
+  padding: 6px 10px;       /* slightly smaller padding */
+  font-size: 0.95rem;      /* slightly smaller text */
+}
