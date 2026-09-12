@@ -162,3 +162,77 @@ document.querySelectorAll('.progress-bar').forEach(bar => {
     });
   } catch (_) {}
 })();
+
+/* H2H interactive lookup */
+(function(){
+  var sA=document.getElementById("mgr-a");
+  var sB=document.getElementById("mgr-b");
+  var res=document.getElementById("h2h-result");
+  if(!sA||!sB||!res)return;
+  var H=window.FDH_H2H||{};
+  function f(n){return(Math.round(Number(n)*10)/10).toFixed(1);}
+  function go(){
+    var a=sA.value.trim(),b=sB.value.trim();
+    if(!a||!b){res.innerHTML="<p class=\"h2h-placeholder\">Select two managers to see their record.</p>";return;}
+    if(a===b){res.innerHTML="<p class=\"h2h-placeholder\">Select two different managers.</p>";return;}
+    var k=[a,b].sort().join("|"),d=H[k];
+    if(!d){res.innerHTML="<p class=\"h2h-placeholder\">No matchups found between <strong>"+a+"</strong> and <strong>"+b+"</strong>.</p>";return;}
+    var fl=(d.a!==a);
+    var wA=fl?d.wins_b:d.wins_a,wB=fl?d.wins_a:d.wins_b;
+    var pfA=fl?d.pf_b:d.pf_a,pfB=fl?d.pf_a:d.pf_b;
+    var pgA=fl?d.ppg_b:d.ppg_a,pgB=fl?d.ppg_a:d.ppg_b;
+    var cA=wA>wB?"win":wA<wB?"lose":"tied";
+    var cB=wB>wA?"win":wB<wA?"lose":"tied";
+    var bw=d.biggest_win||{},cl=d.closest_game||{},sk=d.streak||{};
+    var bwCtx=(bw.score_w!==undefined)?"("+f(bw.score_w)+"\u2013"+f(bw.score_l)+", "+(bw.context||"")+")":"("+(bw.context||"")+")"
+    var po=d.playoff_meetings>0?"<div class=\"h2h-center-meta\">&#9889; "+d.playoff_meetings+" playoff</div>":"";
+    var sr="";
+    if(d.seasons){Object.keys(d.seasons).sort().forEach(function(yr){
+      var s=d.seasons[yr];
+      var wa=fl?s.wins_b:s.wins_a,wb=fl?s.wins_a:s.wins_b;
+      sr+="<tr><td>"+yr+"</td><td style=\"font-weight:600\">"+wa+"\u2013"+wb+"</td><td>"+s.meetings+" game"+(s.meetings!==1?"s":"")+"</td></tr>";
+    });}
+    var h="<div class=\"h2h-result-card\">"
+      +"<div class=\"h2h-result-header\">"
+        +"<div class=\"h2h-result-side\"><div class=\"h2h-result-name\">"+a+"</div><div class=\"h2h-wins "+cA+"\">"+wA+"</div><div class=\"h2h-pts\">"+f(pfA)+" pts &bull; "+pgA+" PPG</div></div>"
+        +"<div class=\"h2h-center\"><div class=\"h2h-center-vs\">VS</div><div class=\"h2h-center-meta\">"+d.meetings+" meetings</div>"+po+"</div>"
+        +"<div class=\"h2h-result-side\"><div class=\"h2h-result-name\">"+b+"</div><div class=\"h2h-wins "+cB+"\">"+wB+"</div><div class=\"h2h-pts\">"+f(pfB)+" pts &bull; "+pgB+" PPG</div></div>"
+      +"</div>"
+      +"<div class=\"h2h-facts\">"
+        +"<div class=\"h2h-fact\">&#127942; <b>Biggest win:</b> "+(bw.winner||"?")+" +"+bw.margin+" pts "+bwCtx+"</div>"
+        +"<div class=\"h2h-fact\">&#128293; <b>Streak:</b> "+(sk.holder||"?")+" &mdash; "+(sk.count||1)+"W in a row</div>"
+        +"<div class=\"h2h-fact\">&#9203; <b>Closest game:</b> "+(cl.winner||"?")+" +"+(cl.margin||0)+" pts ("+(cl.context||"")+").</div>"
+      +"</div>"
+      +"<div class=\"h2h-breakdown\"><h4>Season Breakdown</h4>"
+        +"<table><thead><tr><th>Season</th><th>"+a+"</th><th>Games</th></tr></thead><tbody>"+sr+"</tbody></table>"
+      +"</div></div>";
+    res.innerHTML=h;
+  }
+  sA.addEventListener("change",go);
+  sB.addEventListener("change",go);
+  try{
+    var ks=Object.keys(H);
+    if(ks.length){
+      var ops=[].slice.call(sA.options).map(function(o){return o.value;});
+      var top=ks.reduce(function(b,k){
+        if(ops.indexOf(H[k].a)<0||ops.indexOf(H[k].b)<0)return b;
+        return(!b||H[k].meetings>H[b].meetings)?k:b;
+      },null);
+      if(top){sA.value=H[top].a;sB.value=H[top].b;go();}
+    }
+  }catch(e){console.warn("FDH H2H auto-load:",e);}
+})();
+(function(){
+  var inp=document.getElementById("h2h-search");
+  var tbl=document.getElementById("h2h-table");
+  if(!inp||!tbl)return;
+  inp.addEventListener("input",function(){
+    var q=this.value.trim().toLowerCase();
+    var rows=tbl.tBodies[0].rows;
+    for(var i=0;i<rows.length;i++){
+      var m=(rows[i].cells[0]?rows[i].cells[0].textContent:"").toLowerCase();
+      var o=(rows[i].cells[1]?rows[i].cells[1].textContent:"").toLowerCase();
+      rows[i].style.display=(!q||m.indexOf(q)>-1||o.indexOf(q)>-1)?"":"none";
+    }
+  });
+})();
