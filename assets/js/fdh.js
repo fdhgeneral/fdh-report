@@ -193,10 +193,30 @@ document.querySelectorAll('.progress-bar').forEach(bar => {
       sr+="<tr><td>"+yr+"</td><td style=\"font-weight:600\">"+wa+"\u2013"+wb+"</td><td>"+s.meetings+" game"+(s.meetings!==1?"s":"")+"</td></tr>";
     });}
     var h="<div class=\"h2h-result-card\">"
-      +"<div class=\"h2h-result-header\">"
-        +"<div class=\"h2h-result-side\"><div class=\"h2h-result-name\">"+a+"</div><div class=\"h2h-wins "+cA+"\">"+wA+"</div><div class=\"h2h-pts\">"+f(pfA)+" pts &bull; "+pgA+" PPG</div></div>"
-        +"<div class=\"h2h-center\"><div class=\"h2h-center-vs\">VS</div><div class=\"h2h-center-meta\">"+d.meetings+" meetings</div>"+po+"</div>"
-        +"<div class=\"h2h-result-side\"><div class=\"h2h-result-name\">"+b+"</div><div class=\"h2h-wins "+cB+"\">"+wB+"</div><div class=\"h2h-pts\">"+f(pfB)+" pts &bull; "+pgB+" PPG</div></div>"
+              +"<div class=\"h2h-card-header\">"
+
+  // LEFT TEAM BLOCK
+  +"<div class=\"h2h-team-block\">"
+    +"<div class=\"h2h-team-name\">"+a+"</div>"
+    +"<div class=\"h2h-pts\">"+f(pfA)+" pts • "+pgA+" PPG</div>"
+  +"</div>"
+
+  // CENTER SPINE
+  +"<div class=\"h2h-center\">"
+    +"<div class=\"h2h-record\">"+wA+"–"+wB+"</div>"
+    +"<div class=\"h2h-subtext\">All‑time record</div>"
+    +"<div class=\"h2h-center-meta\">"+d.meetings+" meetings</div>"
+    + po
+  +"</div>"
+
+  // RIGHT TEAM BLOCK
+  +"<div class=\"h2h-team-block\">"
+    +"<div class=\"h2h-team-name\">"+b+"</div>"
+    +"<div class=\"h2h-pts\">"+f(pfB)+" pts • "+pgB+" PPG</div>"
+  +"</div>"
+
++"</div>"
+
       +"</div>"
       +"<div class=\"h2h-facts\">"
         +"<div class=\"h2h-fact\">&#127942; <b>Biggest win:</b> "+(bw.winner||"?")+" +"+bw.margin+" pts "+bwCtx+"</div>"

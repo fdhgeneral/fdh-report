@@ -489,3 +489,87 @@ p  { margin-bottom: .75rem; }
   color: #fff;
   line-height: 1;
 }
+/* --- H2H Rivalry Card Layout --- */
+
+/* Card wrapper */
+.h2h-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 0;
+  margin-top: 24px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+/* Header grid: left team | center | right team */
+.h2h-card-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  background: linear-gradient(90deg, #2c3e50, #34495e);
+  padding: 20px;
+  color: #fff;
+}
+
+/* Team blocks */
+.h2h-team-block {
+  text-align: center;
+}
+
+.h2h-team-name {
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+/* You already set .h2h-pts color; this just adds spacing */
+.h2h-pts {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Center spine */
+.h2h-center {
+  text-align: center;
+  padding: 0 16px;
+}
+
+.h2h-record {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ecf0f1;
+}
+
+.h2h-subtext {
+  font-size: 0.85rem;
+  color: #bdc3c7;
+  margin-top: 4px;
+}
+
+/* Stats section under the banner */
+.h2h-stats {
+  padding: 20px 24px;
+}
+
+.h2h-stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 1rem;
+}
+
+.h2h-stat-row:last-child {
+  border-bottom: none;
+}
+
+.h2h-stat-label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.h2h-stat-value {
+  font-weight: 700;
+  color: #c0392b;
+}
