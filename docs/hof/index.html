@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fantasy Die Hards — the official Hall of Fame, all-time standings, rivalries, trade history, and draft records." />
+  <meta property="og:title" content="FDH Hall of Fame" />
+  <meta property="og:description" content="Fantasy Die Hards — all-time records, GOAT rankings, rivalries, and more." />
+  <title>FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+</head>
+<body>
+
+<div class="landing-hero">
+  <img src="assets/fdh_logo.png" alt="Fantasy Dynasty Hub Logo" class="landing-logo">
+  <h1 class="landing-title">Fantasy Dynasty Hub</h1>
+</div>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link active">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link">Standings</a>
+      <a href="rivalries.html" class="nav__link">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link">Draft History</a>
+      <a href="records.html"   class="nav__link">Records</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="fdh-hero">
+
+  <img src="assets/img/fdh-shield.png" alt="FDH Shield Logo" class="fdh-hero-logo">
+
+  <h1 class="fdh-hero-title">Fantasy Die Hards · Established 2020</h1>
+  <h2 class="fdh-hero-subtitle">FDH Hall of Fame</h2>
+
+  <p class="fdh-hero-tagline">
+    Where legends are tracked, rivalries are immortalized, and the GOAT debate never ends.
+  </p>
+
+  <div class="fdh-hero-stats">
+    <div class="fdh-stat"><span class="fdh-stat-number">13</span> Managers</div>
+    <div class="fdh-stat"><span class="fdh-stat-number">3</span> Seasons</div>
+    <div class="fdh-stat"><span class="fdh-stat-number">201</span> Games Played</div>
+    <div class="fdh-stat"><span class="fdh-stat-number">NaN</span> Trades Made</div>
+  </div>
+
+  <div class="fdh-hero-buttons">
+    <a href="hof/index.html" class="fdh-btn">View Hall of Fame</a>
+    <a href="standings.html" class="fdh-btn-secondary">All-Time Standings</a>
+  </div>
+
+</section>
+
+
+
+<!-- ══ LAST UPDATED ══ -->
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Data last synced from Sleeper: <strong id="last-updated-ts" data-ts="2026-09-16T01:20:40Z">2026-09-16T01:20:40Z</strong></span>
+  </div>
+</div>
+
+<!-- ══ GOAT PREVIEW ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__eyebrow">GOAT Rankings</span>
+      <h2>Top Managers of All Time</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="grid-3">
+      
+<div class="hof-card">
+  <div class="hof-card__rank-badge rank-gold">1</div>
+  <div class="hof-card__banner"></div>
+  <div class="hof-card__avatar">TH</div>
+  <div class="hof-card__name">theFFChef</div>
+  <div class="hof-card__team">House of 9 &middot; FDH West</div>
+  <div class="hof-card__stats">
+    <div class="hof-stat">
+      <span class="hof-stat__val" data-counter data-target="22">22</span>
+      <span class="hof-stat__key">Wins</span>
+    </div>
+    <div class="hof-stat">
+      <span class="hof-stat__val">0.629</span>
+      <span class="hof-stat__key">Win %</span>
+    </div>
+    <div class="hof-stat">
+      <span class="hof-stat__val">1</span>
+      <span class="hof-stat__key">Titles</span>
+    </div>
+  </div>
+  <div style="padding:.75rem 1.25rem;border-top:1px solid rgba(0,0,0,.07);display:flex;justify-content:space-between;align-items:center;">
+    <span style="font-size:.78rem;color:var(--fdh-text-muted);">3 seasons &middot; 4,598.4 PF</span>
+    <span class="badge badge--red">GOAT 10.0</span>
+  </div>
+</div>
+<div class="hof-card">
+  <div class="hof-card__rank-badge rank-silver">2</div>
+  <div class="hof-card__banner"></div>
+  <div class="hof-card__avatar">BR</div>
+  <div class="hof-card__name">BROCKBAILBONDZ</div>
+  <div class="hof-card__team">The Purdy Dozen &middot; FDH North</div>
+  <div class="hof-card__stats">
+    <div class="hof-stat">
+      <span class="hof-stat__val" data-counter data-target="17">17</span>
+      <span class="hof-stat__key">Wins</span>
+    </div>
+    <div class="hof-stat">
+      <span class="hof-stat__val">0.500</span>
+      <span class="hof-stat__key">Win %</span>
+    </div>
+    <div class="hof-stat">
+      <span class="hof-stat__val">1</span>
+      <span class="hof-stat__key">Titles</span>
+    </div>
+  </div>
+  <div style="padding:.75rem 1.25rem;border-top:1px solid rgba(0,0,0,.07);display:flex;justify-content:space-between;align-items:center;">
+    <span style="font-size:.78rem;color:var(--fdh-text-muted);">3 seasons &middot; 4,332.7 PF</span>
+    <span class="badge badge--red">GOAT 10.0</span>
+  </div>
+</div>
+<div class="hof-card">
+  <div class="hof-card__rank-badge rank-bronze">3</div>
+  <div class="hof-card__banner"></div>
+  <div class="hof-card__avatar">JA</div>
+  <div class="hof-card__name">Jarrin1225</div>
+  <div class="hof-card__team">Jarrin1225 &middot; FDH East</div>
+  <div class="hof-card__stats">
+    <div class="hof-stat">
+      <span class="hof-stat__val" data-counter data-target="20">20</span>
+      <span class="hof-stat__key">Wins</span>
+    </div>
+    <div class="hof-stat">
+      <span class="hof-stat__val">0.606</span>
+      <span class="hof-stat__key">Win %</span>
+    </div>
+    <div class="hof-stat">
+      <span class="hof-stat__val">0</span>
+      <span class="hof-stat__key">Titles</span>
+    </div>
+  </div>
+  <div style="padding:.75rem 1.25rem;border-top:1px solid rgba(0,0,0,.07);display:flex;justify-content:space-between;align-items:center;">
+    <span style="font-size:.78rem;color:var(--fdh-text-muted);">3 seasons &middot; 4,435.5 PF</span>
+    <span class="badge badge--red">GOAT 0.0</span>
+  </div>
+</div>
+    </div>
+    <div style="margin-top:1.5rem; text-align:center;">
+      <a href="hof.html" class="btn btn--outline">Full Hall of Fame →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ QUICK STATS ══ -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__eyebrow">League Snapshot</span>
+      <h2>All-Time Numbers</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="grid-4">
+      <div class="stat-block">
+        <div class="stat-block__num" data-counter data-target="22">22</div>
+        <div class="stat-block__label">Most Career Wins<br/><strong style="color:var(--fdh-slate)">theFFChef</strong></div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-block__num">62.9%</div>
+        <div class="stat-block__label">Best Win % Ever<br/><strong style="color:var(--fdh-slate)">theFFChef</strong></div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-block__num" data-counter data-target="1">1</div>
+        <div class="stat-block__label">Most Championships<br/><strong style="color:var(--fdh-slate)">theFFChef</strong></div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-block__num" data-counter data-target="3">3</div>
+        <div class="stat-block__label">Most Trades (Season)<br/><strong style="color:var(--fdh-slate)">theFFChef</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ HOT RIVALRIES ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__eyebrow">Heated Matchups</span>
+      <h2>Top Rivalries</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="grid-2">
+      
+<div class="card">
+  <div class="card__header">
+    <div style="display:flex;align-items:center;justify-content:space-between;">
+      <span style="font-family:var(--font-sport);text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:#fff;">theFFChef</span>
+      <span style="font-family:var(--font-sport);font-size:1.3rem;letter-spacing:.1em;color:var(--fdh-red-vivid);">VS</span>
+      <span style="font-family:var(--font-sport);text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:#fff;">Jarrin1225</span>
+    </div>
+  </div>
+  <div class="card__body">
+    <div style="text-align:center;margin-bottom:.75rem;">
+      <span style="font-family:var(--font-display);font-size:2rem;color:var(--fdh-red-vivid);font-family:var(--font-sport);letter-spacing:.04em;">2–2</span>
+    </div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;">
+      <span class="rivalry-badge">⚡ 4 meetings</span>
+      <span class="rivalry-badge">🏆 2 playoff</span>
+    </div>
+  </div>
+  <div class="card__footer">
+    <span style="font-size:.82rem;color:var(--fdh-text-muted);">Series leader: <strong>theFFChef</strong></span>
+    <span class="badge badge--red">Score 28</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card__header">
+    <div style="display:flex;align-items:center;justify-content:space-between;">
+      <span style="font-family:var(--font-sport);text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:#fff;">RedZoneGuru</span>
+      <span style="font-family:var(--font-sport);font-size:1.3rem;letter-spacing:.1em;color:var(--fdh-red-vivid);">VS</span>
+      <span style="font-family:var(--font-sport);text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:#fff;">BigKens</span>
+    </div>
+  </div>
+  <div class="card__body">
+    <div style="text-align:center;margin-bottom:.75rem;">
+      <span style="font-family:var(--font-display);font-size:2rem;color:var(--fdh-red-vivid);font-family:var(--font-sport);letter-spacing:.04em;">2–3</span>
+    </div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;">
+      <span class="rivalry-badge">⚡ 5 meetings</span>
+      <span class="rivalry-badge">🏆 2 playoff</span>
+    </div>
+  </div>
+  <div class="card__footer">
+    <span style="font-size:.82rem;color:var(--fdh-text-muted);">Series leader: <strong>BigKens</strong></span>
+    <span class="badge badge--red">Score 28</span>
+  </div>
+</div>
+    </div>
+    <div style="margin-top:1.5rem; text-align:center;">
+      <a href="rivalries.html" class="btn btn--outline">All Rivalries →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ RECENT CHAMPIONS ══ -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__eyebrow">Championship Roll</span>
+      <h2>Season Champions</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="timeline">
+      
+<div class="timeline__item">
+  <div class="timeline__dot"></div>
+  <div class="timeline__year">2025 Season</div>
+  <div class="timeline__title">🏆 theFFChef</div>
+  <div class="timeline__desc">Data populates after fetch</div>
+</div>
+    </div>
+    <div style="margin-top:2rem;">
+      <a href="records.html" class="btn btn--outline" style="border-color:rgba(255,255,255,.4);color:#fff;">Full Records →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DIVISIONS SNAPSHOT ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__eyebrow">Divisions</span>
+      <h2>FDH Divisions At a Glance</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="grid-3">
+      
+<div class="card">
+  <div class="card__header--red card__header">
+    <h3 style="color:#fff;margin:0;">FDH North</h3>
+  </div>
+  <div class="card__body">
+    <ul style="list-style:none;"><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>BROCKBAILBONDZ</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.500 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>Prettygrlrck</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.471 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>RedZoneGuru</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.618 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>BigKens</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.576 W%</span></li></ul>
+  </div>
+</div>
+<div class="card">
+  <div class="card__header--red card__header">
+    <h3 style="color:#fff;margin:0;">FDH West</h3>
+  </div>
+  <div class="card__body">
+    <ul style="list-style:none;"><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>theFFChef</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.629 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>2headedblindsquirrel</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.471 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>scheeper</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.559 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>LeftofCenter25</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.424 W%</span></li></ul>
+  </div>
+</div>
+<div class="card">
+  <div class="card__header--red card__header">
+    <h3 style="color:#fff;margin:0;">FDH East</h3>
+  </div>
+  <div class="card__body">
+    <ul style="list-style:none;"><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>Jarrin1225</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.606 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>Delvineo</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.441 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>BangBang4949</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">0.364 W%</span></li><li style="padding:.3rem 0;border-bottom:1px solid rgba(0,0,0,.06);"><strong>TheRealTea</strong><span style="float:right;font-size:.82rem;color:var(--fdh-text-muted);">1.000 W%</span></li></ul>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <p style="font-size:.82rem;margin-top:.4rem;">Fantasy Die Hards · FDH North · FDH West · FDH East</p>
+    <div class="footer__links">
+      <a href="index.html"     class="footer__link">Home</a>
+      <a href="hof.html"       class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html"    class="footer__link">Trades</a>
+      <a href="draft.html"     class="footer__link">Draft History</a>
+      <a href="records.html"   class="footer__link">Records</a>
+      <a href="https://sleeper.com/leagues/1378834732145455104/predraft" target="_blank" rel="noopener" class="footer__link">Sleeper ↗</a>
+    </div>
+    <p class="footer__copy">&copy; 2026 Fantasy Die Hards. All rights reserved.</p>
+    <p class="footer__build">Auto-generated · Build 2026-09-16T01:20:40Z</p>
+  </div>
+</footer>
+
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>

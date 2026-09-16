@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FDH All-Time Standings — career wins, losses, win percentage, and playoff records for every Fantasy Die Hards manager." />
+  <title>Standings | FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link active">Standings</a>
+      <a href="rivalries.html" class="nav__link">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link">Draft History</a>
+      <a href="records.html"   class="nav__link">Records</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:3rem 0 2.5rem;">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero__eyebrow">Fantasy Die Hards</div>
+    <h1 class="hero__title">All-Time <span>Standings</span></h1>
+    <p class="hero__sub">Career records across every season. Click any column header to sort.</p>
+  </div>
+</section>
+
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Synced from Sleeper: <strong id="last-updated-ts" data-ts="{{BUILD_TS}}">{{BUILD_TS}}</strong></span>
+  </div>
+
+  <!-- Division filter tabs -->
+  <div data-tabs>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="tab-all">All Managers</button>
+      <button class="tab-btn" data-tab="tab-north">FDH North</button>
+      <button class="tab-btn" data-tab="tab-west">FDH West</button>
+      <button class="tab-btn" data-tab="tab-east">FDH East</button>
+    </div>
+
+    <!-- ALL -->
+    <div id="tab-all" class="tab-panel active">
+      <div style="margin-bottom:1rem; display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
+        <input id="standings-search-all" type="search" placeholder="Filter managers…" data-filter-table="standings-table-all"
+          style="padding:.5rem 1rem; border:2px solid #ddd; border-radius:4px; font-size:.9rem; width:240px;" />
+        <span style="font-size:.82rem; color:var(--fdh-text-muted);">{{TOTAL_MANAGERS}} managers · {{TOTAL_SEASONS}} seasons</span>
+      </div>
+      <div class="table-wrap">
+        <table id="standings-table-all" class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">Division</th>
+              <th data-sort="4">Seasons</th>
+              <th data-sort="5">W</th>
+              <th data-sort="6">L</th>
+              <th data-sort="7">T</th>
+              <th data-sort="8">Win %</th>
+              <th data-sort="9">PF</th>
+              <th data-sort="10">PA</th>
+              <th data-sort="11">Playoffs</th>
+              <th data-sort="12">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{STANDINGS_TABLE_ROWS_ALL}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- NORTH -->
+    <div id="tab-north" class="tab-panel">
+      <div class="table-wrap">
+        <table class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">W</th>
+              <th data-sort="4">L</th>
+              <th data-sort="5">Win %</th>
+              <th data-sort="6">PF</th>
+              <th data-sort="7">Playoffs</th>
+              <th data-sort="8">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{STANDINGS_TABLE_ROWS_NORTH}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- WEST -->
+    <div id="tab-west" class="tab-panel">
+      <div class="table-wrap">
+        <table class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">W</th>
+              <th data-sort="4">L</th>
+              <th data-sort="5">Win %</th>
+              <th data-sort="6">PF</th>
+              <th data-sort="7">Playoffs</th>
+              <th data-sort="8">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{STANDINGS_TABLE_ROWS_WEST}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- EAST -->
+    <div id="tab-east" class="tab-panel">
+      <div class="table-wrap">
+        <table class="fdh-table" data-sortable>
+          <thead>
+            <tr>
+              <th data-sort="0">#</th>
+              <th data-sort="1">Manager</th>
+              <th data-sort="2">Team Name</th>
+              <th data-sort="3">W</th>
+              <th data-sort="4">L</th>
+              <th data-sort="5">Win %</th>
+              <th data-sort="6">PF</th>
+              <th data-sort="7">Playoffs</th>
+              <th data-sort="8">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{STANDINGS_TABLE_ROWS_EAST}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Season-by-season results -->
+  <div style="margin-top:3rem;">
+    <div class="section-header">
+      <span class="section-header__eyebrow">Year by Year</span>
+      <h2>Season Results</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="table-wrap">
+      <table class="fdh-table" data-sortable>
+        <thead>
+          <tr>
+            <th data-sort="0">Season</th>
+            <th data-sort="1">Champion</th>
+            <th data-sort="2">Runner-Up</th>
+            <th data-sort="3">3rd Place</th>
+            <th data-sort="4">Reg. Season Leader</th>
+            <th data-sort="5">High Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{SEASON_RESULTS_ROWS}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="padding:3rem 0;"></div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <div class="footer__links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="hof.html" class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html" class="footer__link">Trades</a>
+      <a href="draft.html" class="footer__link">Draft History</a>
+      <a href="records.html" class="footer__link">Records</a>
+    </div>
+    <p class="footer__copy">&copy; {{YEAR}} Fantasy Die Hards.</p>
+    <p class="footer__build">Auto-generated · Build {{BUILD_TS}}</p>
+  </div>
+</footer>
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>

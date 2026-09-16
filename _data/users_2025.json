@@ -1,0 +1,195 @@
+[
+  {
+    "avatar": "594fa2350b5a9263dd57f764c3d71ae9",
+    "display_name": "theFFChef",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/0c4721469b7f9cd09451ca7520dcf7a8",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "House of 9",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "201958586610356224"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Jarrin",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "887435530135252992"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "JHud01",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Not like Us"
+    },
+    "settings": null,
+    "user_id": "1018417144801357824"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Prettygrlrck",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/1de25a21b3a83f98a9c8e79ec76097c7.jpg",
+      "mention_pn": "on",
+      "team_name": "Victorious Secret 🔒"
+    },
+    "settings": null,
+    "user_id": "1032906633749307392"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "2headedblindsquirrel",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1034270560295006208"
+  },
+  {
+    "avatar": "193001b03c6a68f5d522a38c2d60ed9a",
+    "display_name": "PaulyDsWalnuts",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/2434b4ec746a2da547dd72fdc33e77a5.jpg",
+      "mention_pn": "on",
+      "team_name": "PaulyDsWalnuts "
+    },
+    "settings": null,
+    "user_id": "1034350371830968320"
+  },
+  {
+    "avatar": "20bf3aabf2b7e3edfbed5898f1975288",
+    "display_name": "Delvineo",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "BIG TOE N THE DOE"
+    },
+    "settings": null,
+    "user_id": "1088314152050929664"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "RedZoneGuru",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/a5c061ff0a95ca168307858e9ed54a76.jpg",
+      "mention_pn": "on",
+      "team_name": "RedZoneGuru"
+    },
+    "settings": null,
+    "user_id": "1114330483623694336"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "LeftofCenter25",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/8e6cd19fcc54d2340f2d4472c5c4344d.jpg",
+      "mention_pn": "on",
+      "team_name": "Tower of Bowers"
+    },
+    "settings": null,
+    "user_id": "1116173850477277184"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "BigKens",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Hurt business"
+    },
+    "settings": null,
+    "user_id": "1116252821541830656"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "BangBang4949",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1119830811148156928"
+  },
+  {
+    "avatar": "e3c4298aef97d85c716d25cdb0371604",
+    "display_name": "justEATit",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1181711268491227136",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/b5cc10ccf2c112e2631a38aa591ea559.jpg",
+      "mention_pn": "on",
+      "team_name": "The Purdy Dozen"
+    },
+    "settings": null,
+    "user_id": "1120105892286025728"
+  }
+]

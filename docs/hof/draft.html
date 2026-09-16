@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FDH Draft History — every pick, every round, every season in Fantasy Die Hards history." />
+  <title>Draft History | FDH Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fdh.css" />
+  <style>
+    .pick-cell {
+      padding: .35rem .5rem;
+      border-radius: 4px;
+      font-size: .82rem;
+      text-align: center;
+      min-width: 90px;
+    }
+    .pick-cell__name { font-weight: 600; color: var(--fdh-slate); display: block; line-height: 1.2; }
+    .pick-cell__pos  { font-size: .72rem; color: var(--fdh-text-muted); }
+    .pos-qb { border-left: 3px solid #e63946; }
+    .pos-rb { border-left: 3px solid #2a9d8f; }
+    .pos-wr { border-left: 3px solid #457b9d; }
+    .pos-te { border-left: 3px solid #e9c46a; }
+    .pos-k  { border-left: 3px solid #a8dadc; }
+    .pos-def{ border-left: 3px solid #6d6875; }
+    .draft-board-wrap { overflow-x: auto; }
+    .draft-board { border-collapse: collapse; min-width: 900px; }
+    .draft-board th {
+      background: var(--fdh-slate); color: #fff;
+      font-family: var(--font-display); font-size: .75rem;
+      letter-spacing: .08em; text-transform: uppercase;
+      padding: .6rem .75rem; text-align: center;
+      white-space: nowrap;
+    }
+    .draft-board td {
+      padding: .4rem .5rem;
+      border: 1px solid rgba(0,0,0,.07);
+      vertical-align: top;
+      background: #fff;
+    }
+    .draft-board tr:nth-child(even) td { background: rgba(0,0,0,.02); }
+    .round-label {
+      background: var(--fdh-red) !important;
+      color: #fff !important;
+      font-family: var(--font-display);
+      font-size: .8rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      text-align: center !important;
+      font-weight: 700;
+      width: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span>FDH</span> Hall of Fame</a>
+    <button class="nav__burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html"     class="nav__link">Home</a>
+      <a href="hof.html"       class="nav__link">Hall of Fame</a>
+      <a href="standings.html" class="nav__link">Standings</a>
+      <a href="rivalries.html" class="nav__link">Rivalries</a>
+      <a href="trades.html"    class="nav__link">Trades</a>
+      <a href="draft.html"     class="nav__link active">Draft History</a>
+      <a href="records.html"   class="nav__link">Records</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:3rem 0 2.5rem;">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero__eyebrow">The War Room</div>
+    <h1 class="hero__title">FDH <span>Draft History</span></h1>
+    <p class="hero__sub">Every pick from every season. Who went where, who won the draft, and who picked the busts.</p>
+    <div class="hero__meta">
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-counter data-target="622">622</span>
+        <span class="hero__stat-label">Total Picks</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">theFFChef</span>
+        <span class="hero__stat-label">Best Draft Grade</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">Christian McCaffrey (2x #1)</span>
+        <span class="hero__stat-label">Most Common #1 Pick</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="margin-top:2rem;">
+  <div class="last-updated">
+    <div class="last-updated__dot"></div>
+    <span>Synced from Sleeper: <strong id="last-updated-ts" data-ts="2026-09-16T01:20:40Z">2026-09-16T01:20:40Z</strong></span>
+  </div>
+
+  <!-- Season selector tabs -->
+  <div data-tabs>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="tab-draft-0">2020</button><button class="tab-btn" data-tab="tab-draft-1">2021</button><button class="tab-btn" data-tab="tab-draft-2">2022</button><button class="tab-btn" data-tab="tab-draft-3">2023</button>
+    </div>
+    <div id="tab-draft-0" class="tab-panel active"><h4 style="margin:.5rem 0;">2020 Draft — 150 picks (10 teams, 15 rounds)</h4><table class="hof-table"><thead><tr><th>#</th><th>Player</th><th>Pos</th><th>Owner</th></tr></thead><tbody><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 1</td></tr><tr><td>1</td><td><strong>Christian McCaffrey</strong></td><td>RB</td><td>Jojo</td></tr><tr><td>2</td><td><strong>Saquon Barkley</strong></td><td>RB</td><td>Gomesie</td></tr><tr><td>3</td><td><strong>Ezekiel Elliott</strong></td><td>RB</td><td>Michael</td></tr><tr><td>4</td><td><strong>Alvin Kamara</strong></td><td>RB</td><td>Joe Ram</td></tr><tr><td>5</td><td><strong>Derrick Henry</strong></td><td>RB</td><td>BangBang4949</td></tr><tr><td>6</td><td><strong>Clyde Edwards-Helaire</strong></td><td>RB</td><td>JHud01</td></tr><tr><td>7</td><td><strong>Michael Thomas</strong></td><td>WR</td><td>Manny</td></tr><tr><td>8</td><td><strong>Dalvin Cook</strong></td><td>RB</td><td>LeftofCenter25</td></tr><tr><td>9</td><td><strong>Josh Jacobs</strong></td><td>RB</td><td>theFFChef</td></tr><tr><td>10</td><td><strong>Chris Godwin Jr.</strong></td><td>WR</td><td>SoN</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 2</td></tr><tr><td>11</td><td><strong>Patrick Mahomes</strong></td><td>QB</td><td>SoN</td></tr><tr><td>12</td><td><strong>Davante Adams</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td>13</td><td><strong>Lamar Jackson</strong></td><td>QB</td><td>LeftofCenter25</td></tr><tr><td>14</td><td><strong>Kenyan Drake</strong></td><td>RB</td><td>Manny</td></tr><tr><td>15</td><td><strong>Tyreek Hill</strong></td><td>WR</td><td>JHud01</td></tr><tr><td>16</td><td><strong>George Kittle</strong></td><td>TE</td><td>BangBang4949</td></tr><tr><td>17</td><td><strong>Aaron Jones Sr.</strong></td><td>RB</td><td>Joe Ram</td></tr><tr><td>18</td><td><strong>DeAndre Hopkins</strong></td><td>WR</td><td>Michael</td></tr><tr><td>19</td><td><strong>Travis Kelce</strong></td><td>TE</td><td>Gomesie</td></tr><tr><td>20</td><td><strong>Julio Jones</strong></td><td>WR</td><td>Jojo</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 3</td></tr><tr><td>21</td><td><strong>Joe Mixon</strong></td><td>RB</td><td>Jojo</td></tr><tr><td>22</td><td><strong>Mike Evans</strong></td><td>WR</td><td>Gomesie</td></tr><tr><td>23</td><td><strong>Kyler Murray</strong></td><td>QB</td><td>Michael</td></tr><tr><td>24</td><td><strong>Adam Thielen</strong></td><td>WR</td><td>Joe Ram</td></tr><tr><td>25</td><td><strong>Nick Chubb</strong></td><td>RB</td><td>BangBang4949</td></tr><tr><td>26</td><td><strong>Kenny Golladay</strong></td><td>WR</td><td>JHud01</td></tr><tr><td>27</td><td><strong>Russell Wilson</strong></td><td>QB</td><td>Manny</td></tr><tr><td>28</td><td><strong>Austin Ekeler</strong></td><td>RB</td><td>LeftofCenter25</td></tr><tr><td>29</td><td><strong>Allen Robinson</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td>30</td><td><strong>Miles Sanders</strong></td><td>RB</td><td>SoN</td></tr><tr><td colspan="4" style="text-align:center;color:var(--fdh-text-muted);font-style:italic;">+ 12 more rounds</td></tr></tbody></table></div><div id="tab-draft-1" class="tab-panel"><h4 style="margin:.5rem 0;">2021 Draft — 140 picks (10 teams, 14 rounds)</h4><table class="hof-table"><thead><tr><th>#</th><th>Player</th><th>Pos</th><th>Owner</th></tr></thead><tbody><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 1</td></tr><tr><td>1</td><td><strong>Christian McCaffrey</strong></td><td>RB</td><td>BangBang4949</td></tr><tr><td>2</td><td><strong>Derrick Henry</strong></td><td>RB</td><td>Jarrin1225</td></tr><tr><td>3</td><td><strong>Dalvin Cook</strong></td><td>RB</td><td>theFFChef</td></tr><tr><td>4</td><td><strong>Alvin Kamara</strong></td><td>RB</td><td>Michael</td></tr><tr><td>5</td><td><strong>Ezekiel Elliott</strong></td><td>RB</td><td>RedZoneGuru</td></tr><tr><td>6</td><td><strong>Nick Chubb</strong></td><td>RB</td><td>LeftofCenter25</td></tr><tr><td>7</td><td><strong>Aaron Jones Sr.</strong></td><td>RB</td><td>Delvineo</td></tr><tr><td>8</td><td><strong>Davante Adams</strong></td><td>WR</td><td>JHud01</td></tr><tr><td>9</td><td><strong>Austin Ekeler</strong></td><td>RB</td><td>scheeper</td></tr><tr><td>10</td><td><strong>Tyreek Hill</strong></td><td>WR</td><td>Jojo</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 2</td></tr><tr><td>11</td><td><strong>Saquon Barkley</strong></td><td>RB</td><td>Jojo</td></tr><tr><td>12</td><td><strong>Travis Kelce</strong></td><td>TE</td><td>scheeper</td></tr><tr><td>13</td><td><strong>Jonathan Taylor</strong></td><td>RB</td><td>JHud01</td></tr><tr><td>14</td><td><strong>Patrick Mahomes</strong></td><td>QB</td><td>Delvineo</td></tr><tr><td>15</td><td><strong>Stefon Diggs</strong></td><td>WR</td><td>LeftofCenter25</td></tr><tr><td>16</td><td><strong>Antonio Gibson</strong></td><td>RB</td><td>RedZoneGuru</td></tr><tr><td>17</td><td><strong>DK Metcalf</strong></td><td>WR</td><td>Michael</td></tr><tr><td>18</td><td><strong>Najee Harris</strong></td><td>RB</td><td>theFFChef</td></tr><tr><td>19</td><td><strong>DeAndre Hopkins</strong></td><td>WR</td><td>Jarrin1225</td></tr><tr><td>20</td><td><strong>Clyde Edwards-Helaire</strong></td><td>RB</td><td>BangBang4949</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 3</td></tr><tr><td>21</td><td><strong>George Kittle</strong></td><td>TE</td><td>BangBang4949</td></tr><tr><td>22</td><td><strong>Mike Evans</strong></td><td>WR</td><td>Jarrin1225</td></tr><tr><td>23</td><td><strong>Calvin Ridley</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td>24</td><td><strong>Joe Mixon</strong></td><td>RB</td><td>Michael</td></tr><tr><td>25</td><td><strong>Keenan Allen</strong></td><td>WR</td><td>RedZoneGuru</td></tr><tr><td>26</td><td><strong>Justin Jefferson</strong></td><td>WR</td><td>LeftofCenter25</td></tr><tr><td>27</td><td><strong>Darren Waller</strong></td><td>TE</td><td>Delvineo</td></tr><tr><td>28</td><td><strong>CeeDee Lamb</strong></td><td>WR</td><td>JHud01</td></tr><tr><td>29</td><td><strong>A.J. Brown</strong></td><td>WR</td><td>scheeper</td></tr><tr><td>30</td><td><strong>Chris Carson</strong></td><td>RB</td><td>Jojo</td></tr><tr><td colspan="4" style="text-align:center;color:var(--fdh-text-muted);font-style:italic;">+ 11 more rounds</td></tr></tbody></table></div><div id="tab-draft-2" class="tab-panel"><h4 style="margin:.5rem 0;">2022 Draft — 140 picks (10 teams, 14 rounds)</h4><table class="hof-table"><thead><tr><th>#</th><th>Player</th><th>Pos</th><th>Owner</th></tr></thead><tbody><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 1</td></tr><tr><td>1</td><td><strong>Jonathan Taylor</strong></td><td>RB</td><td>BangBang4949</td></tr><tr><td>2</td><td><strong>Austin Ekeler</strong></td><td>RB</td><td>scheeper</td></tr><tr><td>3</td><td><strong>Christian McCaffrey</strong></td><td>RB</td><td>2headedblindsquirrel</td></tr><tr><td>4</td><td><strong>Dalvin Cook</strong></td><td>RB</td><td>Jojo</td></tr><tr><td>5</td><td><strong>Joe Mixon</strong></td><td>RB</td><td>Delvineo</td></tr><tr><td>6</td><td><strong>Justin Jefferson</strong></td><td>WR</td><td>LeftofCenter25</td></tr><tr><td>7</td><td><strong>Derrick Henry</strong></td><td>RB</td><td>Jarrin1225</td></tr><tr><td>8</td><td><strong>Najee Harris</strong></td><td>RB</td><td>JHud01</td></tr><tr><td>9</td><td><strong>Leonard Fournette</strong></td><td>RB</td><td>RedZoneGuru</td></tr><tr><td>10</td><td><strong>Ja'Marr Chase</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 2</td></tr><tr><td>11</td><td><strong>Cooper Kupp</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td>12</td><td><strong>Nick Chubb</strong></td><td>RB</td><td>RedZoneGuru</td></tr><tr><td>13</td><td><strong>Davante Adams</strong></td><td>WR</td><td>JHud01</td></tr><tr><td>14</td><td><strong>D'Andre Swift</strong></td><td>RB</td><td>Jarrin1225</td></tr><tr><td>15</td><td><strong>Stefon Diggs</strong></td><td>WR</td><td>LeftofCenter25</td></tr><tr><td>16</td><td><strong>Saquon Barkley</strong></td><td>RB</td><td>Delvineo</td></tr><tr><td>17</td><td><strong>Aaron Jones Sr.</strong></td><td>RB</td><td>Jojo</td></tr><tr><td>18</td><td><strong>CeeDee Lamb</strong></td><td>WR</td><td>2headedblindsquirrel</td></tr><tr><td>19</td><td><strong>Deebo Samuel Sr.</strong></td><td>WR</td><td>scheeper</td></tr><tr><td>20</td><td><strong>Alvin Kamara</strong></td><td>RB</td><td>BangBang4949</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 3</td></tr><tr><td>21</td><td><strong>Tyreek Hill</strong></td><td>WR</td><td>BangBang4949</td></tr><tr><td>22</td><td><strong>Travis Kelce</strong></td><td>TE</td><td>scheeper</td></tr><tr><td>23</td><td><strong>Mark Andrews</strong></td><td>TE</td><td>2headedblindsquirrel</td></tr><tr><td>24</td><td><strong>Mike Evans</strong></td><td>WR</td><td>Jojo</td></tr><tr><td>25</td><td><strong>Michael Pittman Jr.</strong></td><td>WR</td><td>Delvineo</td></tr><tr><td>26</td><td><strong>Javonte Williams</strong></td><td>RB</td><td>LeftofCenter25</td></tr><tr><td>27</td><td><strong>Terry McLaurin</strong></td><td>WR</td><td>Jarrin1225</td></tr><tr><td>28</td><td><strong>Dalton Schultz</strong></td><td>TE</td><td>JHud01</td></tr><tr><td>29</td><td><strong>Tee Higgins</strong></td><td>WR</td><td>RedZoneGuru</td></tr><tr><td>30</td><td><strong>James Conner</strong></td><td>RB</td><td>theFFChef</td></tr><tr><td colspan="4" style="text-align:center;color:var(--fdh-text-muted);font-style:italic;">+ 11 more rounds</td></tr></tbody></table></div><div id="tab-draft-3" class="tab-panel"><h4 style="margin:.5rem 0;">2023 Draft — 192 picks (12 teams, 16 rounds)</h4><table class="hof-table"><thead><tr><th>#</th><th>Player</th><th>Pos</th><th>Owner</th></tr></thead><tbody><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 1</td></tr><tr><td>1</td><td><strong>Justin Jefferson</strong></td><td>WR</td><td>scheeper</td></tr><tr><td>2</td><td><strong>Christian McCaffrey</strong></td><td>RB</td><td>RedZoneGuru</td></tr><tr><td>3</td><td><strong>Ja'Marr Chase</strong></td><td>WR</td><td>BROCKBAILBONDZ</td></tr><tr><td>4</td><td><strong>Austin Ekeler</strong></td><td>RB</td><td>JHud01</td></tr><tr><td>5</td><td><strong>Travis Kelce</strong></td><td>TE</td><td>BangBang4949</td></tr><tr><td>6</td><td><strong>Tyreek Hill</strong></td><td>WR</td><td>Jojo</td></tr><tr><td>7</td><td><strong>Bijan Robinson</strong></td><td>RB</td><td>theFFChef</td></tr><tr><td>8</td><td><strong>Stefon Diggs</strong></td><td>WR</td><td>Prettygrlrck</td></tr><tr><td>9</td><td><strong>Cooper Kupp</strong></td><td>WR</td><td>2headedblindsquirrel</td></tr><tr><td>10</td><td><strong>Patrick Mahomes</strong></td><td>QB</td><td>LeftofCenter25</td></tr><tr><td>11</td><td><strong>Nick Chubb</strong></td><td>RB</td><td>Jarrin1225</td></tr><tr><td>12</td><td><strong>Tony Pollard</strong></td><td>RB</td><td>Delvineo</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 2</td></tr><tr><td>13</td><td><strong>Josh Allen</strong></td><td>QB</td><td>Delvineo</td></tr><tr><td>14</td><td><strong>Derrick Henry</strong></td><td>RB</td><td>Jarrin1225</td></tr><tr><td>15</td><td><strong>Davante Adams</strong></td><td>WR</td><td>LeftofCenter25</td></tr><tr><td>16</td><td><strong>Amon-Ra St. Brown</strong></td><td>WR</td><td>2headedblindsquirrel</td></tr><tr><td>17</td><td><strong>Saquon Barkley</strong></td><td>RB</td><td>Prettygrlrck</td></tr><tr><td>18</td><td><strong>A.J. Brown</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td>19</td><td><strong>Travis Etienne Jr.</strong></td><td>RB</td><td>Jojo</td></tr><tr><td>20</td><td><strong>Lamar Jackson</strong></td><td>QB</td><td>BangBang4949</td></tr><tr><td>21</td><td><strong>CeeDee Lamb</strong></td><td>WR</td><td>JHud01</td></tr><tr><td>22</td><td><strong>Jalen Hurts</strong></td><td>QB</td><td>BROCKBAILBONDZ</td></tr><tr><td>23</td><td><strong>Josh Jacobs</strong></td><td>RB</td><td>RedZoneGuru</td></tr><tr><td>24</td><td><strong>Garrett Wilson</strong></td><td>WR</td><td>scheeper</td></tr><tr><td colspan="4" style="background:var(--fdh-bg-card);font-weight:700;padding:.4rem .75rem;">Round 3</td></tr><tr><td>25</td><td><strong>Tee Higgins</strong></td><td>WR</td><td>scheeper</td></tr><tr><td>26</td><td><strong>Joe Burrow</strong></td><td>QB</td><td>RedZoneGuru</td></tr><tr><td>27</td><td><strong>Najee Harris</strong></td><td>RB</td><td>BROCKBAILBONDZ</td></tr><tr><td>28</td><td><strong>Aaron Jones Sr.</strong></td><td>RB</td><td>JHud01</td></tr><tr><td>29</td><td><strong>Jaylen Waddle</strong></td><td>WR</td><td>BangBang4949</td></tr><tr><td>30</td><td><strong>Chris Olave</strong></td><td>WR</td><td>Jojo</td></tr><tr><td>31</td><td><strong>DK Metcalf</strong></td><td>WR</td><td>theFFChef</td></tr><tr><td>32</td><td><strong>Justin Herbert</strong></td><td>QB</td><td>Prettygrlrck</td></tr><tr><td>33</td><td><strong>Mark Andrews</strong></td><td>TE</td><td>2headedblindsquirrel</td></tr><tr><td>34</td><td><strong>Jahmyr Gibbs</strong></td><td>RB</td><td>LeftofCenter25</td></tr><tr><td>35</td><td><strong>Jonathan Taylor</strong></td><td>RB</td><td>Jarrin1225</td></tr><tr><td>36</td><td><strong>DeVonta Smith</strong></td><td>WR</td><td>Delvineo</td></tr><tr><td colspan="4" style="text-align:center;color:var(--fdh-text-muted);font-style:italic;">+ 13 more rounds</td></tr></tbody></table></div>
+  </div>
+
+  <!-- Draft Grade Leaderboard -->
+  <div class="section-header" style="margin-top:3rem;">
+    <span class="section-header__eyebrow">Who Won the Draft</span>
+    <h2>All-Time Draft Grades</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <p style="color:var(--fdh-text-muted); font-size:.88rem; margin-bottom:1.25rem;">
+    Draft grade = weighted average of picks' end-of-season fantasy points vs. ADP expectation.
+  </p>
+  <div class="table-wrap" style="margin-bottom:3rem;">
+    <table class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">#</th>
+          <th data-sort="1">Manager</th>
+          <th data-sort="2">Seasons</th>
+          <th data-sort="3">Avg Draft Grade</th>
+          <th data-sort="4">Best Grade</th>
+          <th data-sort="5">Worst Grade</th>
+          <th data-sort="6">Best Pick</th>
+          <th data-sort="7">Biggest Bust</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class='rank'>1</td><td><strong>theFFChef</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>2</td><td><strong>BROCKBAILBONDZ</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>3</td><td><strong>Jarrin1225</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>4</td><td><strong>JHud01</strong></td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>5</td><td><strong>Prettygrlrck</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>6</td><td><strong>2headedblindsquirrel</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>7</td><td><strong>scheeper</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>8</td><td><strong>Delvineo</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>9</td><td><strong>RedZoneGuru</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>10</td><td><strong>LeftofCenter25</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>11</td><td><strong>BigKens</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>12</td><td><strong>BangBang4949</strong></td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td class='rank'>13</td><td><strong>TheRealTea</strong></td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Position breakdown -->
+  <div class="section-header">
+    <span class="section-header__eyebrow">Draft Tendencies</span>
+    <h2>Position Breakdown by Manager</h2>
+    <div class="section-header__line"></div>
+  </div>
+  <div class="table-wrap">
+    <table class="fdh-table" data-sortable>
+      <thead>
+        <tr>
+          <th data-sort="0">Manager</th>
+          <th data-sort="1">Total Picks</th>
+          <th data-sort="2">QB %</th>
+          <th data-sort="3">RB %</th>
+          <th data-sort="4">WR %</th>
+          <th data-sort="5">TE %</th>
+          <th data-sort="6">K %</th>
+          <th data-sort="7">DEF %</th>
+          <th data-sort="8">Fav Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>theFFChef</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>BROCKBAILBONDZ</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>Jarrin1225</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>JHud01</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>Prettygrlrck</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>2headedblindsquirrel</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>scheeper</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>Delvineo</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>RedZoneGuru</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>LeftofCenter25</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>BigKens</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>BangBang4949</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td><strong>TheRealTea</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div style="padding:3rem 0;"></div>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><span>FDH</span> Hall of Fame</div>
+    <div class="footer__links">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="hof.html" class="footer__link">Hall of Fame</a>
+      <a href="standings.html" class="footer__link">Standings</a>
+      <a href="rivalries.html" class="footer__link">Rivalries</a>
+      <a href="trades.html" class="footer__link">Trades</a>
+      <a href="draft.html" class="footer__link">Draft History</a>
+      <a href="records.html" class="footer__link">Records</a>
+    </div>
+    <p class="footer__copy">&copy; 2026 Fantasy Die Hards.</p>
+    <p class="footer__build">Auto-generated · Build 2026-09-16T01:20:40Z</p>
+  </div>
+</footer>
+<script src="assets/js/fdh.js"></script>
+</body>
+</html>

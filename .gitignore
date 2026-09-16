@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+
+# Local configs
+*.save
+*.save.*
+*.txt
+
+# Build artifacts
+newsletter.txt
+fdh_week1_preview.html
+
+# OS junk
+.DS_Store

@@ -1,0 +1,147 @@
+name: FDH — Weekly Build & Deploy
+
+# ══════════════════════════════════════════════════════════════════════════════
+# HOW THIS FITS YOUR EXISTING REPO (fdhgeneral/fdh-report)
+# ──────────────────────────────────────────────────────────────────────────────
+# Your repo already uses Jekyll to build docs/ → GitHub Pages.
+# This workflow REPLACES your existing deploy workflow with one that:
+#
+#   Step 1  fetch_sleeper.py   → pulls all Sleeper API data → _data/
+#   Step 2  generate_site.py   → renders HOF pages → docs/hof/
+#   Step 3  Jekyll build       → builds ALL of docs/ (existing site + hof/)
+#   Step 4  GitHub Pages       → deploys the finished docs/_site/
+#
+# Result:
+#   fdhgeneral.github.io/fdh-report/          ← your existing newsletter/reports
+#   fdhgeneral.github.io/fdh-report/hof/      ← FDH Hall of Fame (new)
+#
+# Nothing in your existing docs/ is touched by our scripts.
+# Jekyll passes plain HTML files through unchanged.
+# ══════════════════════════════════════════════════════════════════════════════
+
+on:
+  # ── Auto: every Tuesday 6 AM PT (13:00 UTC) ──
+  schedule:
+    - cron: '0 13 * * 2'
+
+  # ── Manual trigger from Actions tab ──
+  workflow_dispatch:
+    inputs:
+      skip_fetch:
+        description: 'Skip Sleeper API fetch (use cached _data/)?'
+        required: false
+        default: 'false'
+        type: boolean
+
+  # ── On push to main (picks up template/style/script changes) ──
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'templates/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy.yml'
+
+permissions:
+  contents: write   # to commit _data/ cache back to repo
+  pages: write      # to deploy to GitHub Pages
+  id-token: write   # for OIDC Pages auth
+
+concurrency:
+  group: "fdh-pages"
+  cancel-in-progress: false   # never interrupt a live deploy
+
+jobs:
+  # ────────────────────────────────────────────────────────────────────────────
+  build:
+    name: Fetch + Generate HOF + Jekyll Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      # 1. Checkout full repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Python for our HOF scripts (stdlib only — no pip install needed)
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Restore cached _data/ from last successful run
+      - name: Restore Sleeper data cache
+        uses: actions/cache@v4
+        with:
+          path: _data/
+          key: fdh-data-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            fdh-data-${{ runner.os }}-
+
+      # 4. Pull latest data from Sleeper API → _data/
+      - name: Fetch Sleeper API data
+        if: ${{ inputs.skip_fetch != 'true' }}
+        run: python scripts/fetch_sleeper.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      # 5. Generate HOF HTML pages → docs/hof/
+      #    (Jekyll will pick these up in the next step automatically)
+      - name: Generate Hall of Fame site → docs/hof/
+        run: python scripts/generate_site.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      # 6. Commit updated _data/ back to repo
+      #    (keeps cache warm; also means _data/ stays in sync with gh Pages)
+      - name: Commit updated _data/ cache
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update _data/ from Sleeper [skip ci]"
+          file_pattern: "_data/*.json docs/hof/*.html docs/hof/assets/**"
+          commit_user_name: "FDH Bot"
+          commit_user_email: "fdh-bot@users.noreply.github.com"
+          skip_dirty_check: false
+
+      # 7. Set up Ruby + Jekyll (same as your existing workflow)
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      # 8. Jekyll build — builds ALL of docs/ including the new hof/ subfolder
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --source docs --destination docs/_site
+        env:
+          JEKYLL_ENV: production
+
+      # 9. Upload docs/_site/ as Pages artifact
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_site/
+
+  # ────────────────────────────────────────────────────────────────────────────
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Print live URLs
+        run: |
+          echo "✅ Existing site: ${{ steps.deploy.outputs.page_url }}"
+          echo "✅ Hall of Fame:  ${{ steps.deploy.outputs.page_url }}hof/"

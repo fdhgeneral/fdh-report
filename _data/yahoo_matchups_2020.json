@@ -1,0 +1,1370 @@
+[
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 115.5
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 167.8
+    },
+    "winner": "Michael",
+    "margin": 52.3
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 208.98
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 148.8
+    },
+    "winner": "theFFChef",
+    "margin": 60.18
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 148.1
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 106.24
+    },
+    "winner": "Joe Ram",
+    "margin": 41.86
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 140.3
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 97.18
+    },
+    "winner": "Jojo",
+    "margin": 43.12
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 143.54
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 72.02
+    },
+    "winner": "JHud01",
+    "margin": 71.52
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 161.1
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 180.14
+    },
+    "winner": "Michael",
+    "margin": 19.04
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 140.08
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 155.18
+    },
+    "winner": "SoN",
+    "margin": 15.1
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 206.12
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 156.92
+    },
+    "winner": "Joe Ram",
+    "margin": 49.2
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 140.26
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 130.74
+    },
+    "winner": "LeftofCenter25",
+    "margin": 9.52
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 130
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 116.38
+    },
+    "winner": "theFFChef",
+    "margin": 13.62
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 153.78
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 126.8
+    },
+    "winner": "LeftofCenter25",
+    "margin": 26.98
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 143.48
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 179.5
+    },
+    "winner": "SoN",
+    "margin": 36.02
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 172.74
+    },
+    "teamB": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 143.32
+    },
+    "winner": "theFFChef",
+    "margin": 29.42
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 128.72
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 123.7
+    },
+    "winner": "Gomesie",
+    "margin": 5.02
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 141.3
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 146.66
+    },
+    "winner": "BangBang4949",
+    "margin": 5.36
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 148.12
+    },
+    "teamB": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 151.2
+    },
+    "winner": "Joe Ram",
+    "margin": 3.08
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 154.12
+    },
+    "teamB": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 99.84
+    },
+    "winner": "theFFChef",
+    "margin": 54.28
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 117.3
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 145.5
+    },
+    "winner": "BangBang4949",
+    "margin": 28.2
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 165.68
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 101.88
+    },
+    "winner": "JHud01",
+    "margin": 63.8
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 148.82
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 144.1
+    },
+    "winner": "Michael",
+    "margin": 4.72
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 121.36
+    },
+    "teamB": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 131.14
+    },
+    "winner": "Joe Ram",
+    "margin": 9.78
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 128.4
+    },
+    "teamB": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 117.6
+    },
+    "winner": "LeftofCenter25",
+    "margin": 10.8
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 169.9
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 130.48
+    },
+    "winner": "Michael",
+    "margin": 39.42
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 179.36
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 144.54
+    },
+    "winner": "theFFChef",
+    "margin": 34.82
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 140.72
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 116.06
+    },
+    "winner": "SoN",
+    "margin": 24.66
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 145.84
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 195.7
+    },
+    "winner": "BangBang4949",
+    "margin": 49.86
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 92.4
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 122.82
+    },
+    "winner": "Manny",
+    "margin": 30.42
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 120.34
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 115.04
+    },
+    "winner": "LeftofCenter25",
+    "margin": 5.3
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 118.18
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 157.42
+    },
+    "winner": "Michael",
+    "margin": 39.24
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 98.28
+    },
+    "teamB": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 86.72
+    },
+    "winner": "Jojo",
+    "margin": 11.56
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 138.86
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 161.7
+    },
+    "winner": "Michael",
+    "margin": 22.84
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 169.48
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 106.2
+    },
+    "winner": "theFFChef",
+    "margin": 63.28
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 165.12
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 142.4
+    },
+    "winner": "Jojo",
+    "margin": 22.72
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 120.68
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 141.86
+    },
+    "winner": "BangBang4949",
+    "margin": 21.18
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 143.56
+    },
+    "teamB": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 95
+    },
+    "winner": "Joe Ram",
+    "margin": 48.56
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 105.48
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 89.04
+    },
+    "winner": "Jojo",
+    "margin": 16.44
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 132.22
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 131.84
+    },
+    "winner": "theFFChef",
+    "margin": 0.38
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 191.32
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 129.84
+    },
+    "winner": "LeftofCenter25",
+    "margin": 61.48
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 117.2
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 106.86
+    },
+    "winner": "Gomesie",
+    "margin": 10.34
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 99.74
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 102.72
+    },
+    "winner": "JHud01",
+    "margin": 2.98
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 91.76
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 158.22
+    },
+    "winner": "Michael",
+    "margin": 66.46
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 176.9
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 92.64
+    },
+    "winner": "theFFChef",
+    "margin": 84.26
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 167.5
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 122.3
+    },
+    "winner": "LeftofCenter25",
+    "margin": 45.2
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 145.64
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 110.38
+    },
+    "winner": "Jojo",
+    "margin": 35.26
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 115.98
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 111.32
+    },
+    "winner": "Gomesie",
+    "margin": 4.66
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 151.92
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 121.48
+    },
+    "winner": "Joe Ram",
+    "margin": 30.44
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 130.36
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 129.86
+    },
+    "winner": "theFFChef",
+    "margin": 0.5
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 105.34
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 153.5
+    },
+    "winner": "Michael",
+    "margin": 48.16
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 99.78
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 107.92
+    },
+    "winner": "BangBang4949",
+    "margin": 8.14
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 104.9
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 66.82
+    },
+    "winner": "Jojo",
+    "margin": 38.08
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 114.68
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 112.38
+    },
+    "winner": "Joe Ram",
+    "margin": 2.3
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 128.36
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 109.56
+    },
+    "winner": "JHud01",
+    "margin": 18.8
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 158.06
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 143.62
+    },
+    "winner": "Gomesie",
+    "margin": 14.44
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 166.54
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 138.74
+    },
+    "winner": "theFFChef",
+    "margin": 27.8
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 127.84
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 135.46
+    },
+    "winner": "BangBang4949",
+    "margin": 7.62
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 126.5
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 176.22
+    },
+    "winner": "BangBang4949",
+    "margin": 49.72
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 163.34
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 133.68
+    },
+    "winner": "JHud01",
+    "margin": 29.66
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 99.1
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 136.3
+    },
+    "winner": "Manny",
+    "margin": 37.2
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 144.58
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 136.84
+    },
+    "winner": "LeftofCenter25",
+    "margin": 7.74
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 186.38
+    },
+    "teamB": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 100.26
+    },
+    "winner": "theFFChef",
+    "margin": 86.12
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 115.86
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 141.46
+    },
+    "winner": "Manny",
+    "margin": 25.6
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 143.18
+    },
+    "teamB": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 191.94
+    },
+    "winner": "Gomesie",
+    "margin": 48.76
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 147.3
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 111.94
+    },
+    "winner": "Jojo",
+    "margin": 35.36
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 179
+    },
+    "teamB": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 172.72
+    },
+    "winner": "LeftofCenter25",
+    "margin": 6.28
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 100.22
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 122.22
+    },
+    "winner": "SoN",
+    "margin": 22.0
+  },
+  {
+    "week": 14,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 103.36
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 116.06
+    },
+    "winner": "BangBang4949",
+    "margin": 12.7
+  },
+  {
+    "week": 14,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 100
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 151.56
+    },
+    "winner": "Michael",
+    "margin": 51.56
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 148.42
+    },
+    "teamB": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 129.96
+    },
+    "winner": "Gomesie",
+    "margin": 18.46
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 140.12
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 65.54
+    },
+    "winner": "JHud01",
+    "margin": 74.58
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 168
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 157.04
+    },
+    "winner": "LeftofCenter25",
+    "margin": 10.96
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "RUN CMC (2)",
+      "points": 112.92
+    },
+    "teamB": {
+      "owner": "Joe Ram",
+      "team": "Arrogant Bastards",
+      "points": 150.34
+    },
+    "winner": "Joe Ram",
+    "margin": 37.42
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 154.22
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 150.22
+    },
+    "winner": "theFFChef",
+    "margin": 4.0
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "SoN",
+      "team": "Son Of A Gun",
+      "points": 103.52
+    },
+    "teamB": {
+      "owner": "Manny",
+      "team": "Tua legit \u270c\ud83c\udffc Quit",
+      "points": 79
+    },
+    "winner": "SoN",
+    "margin": 24.52
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "Gomesie",
+      "team": "Eddie Hug Day!!!",
+      "points": 137.94
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "Bout that life",
+      "points": 117.64
+    },
+    "winner": "Gomesie",
+    "margin": 20.3
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 130.68
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "Carlos's Cool Team",
+      "points": 90.26
+    },
+    "winner": "Michael",
+    "margin": 40.42
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": true,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "TBD",
+      "points": 168.28
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 172.84
+    },
+    "winner": "LeftofCenter25",
+    "margin": 4.56
+  }
+]

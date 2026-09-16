@@ -1,0 +1,37 @@
+name: Weekly HOF Update
+
+on:
+  schedule:
+    - cron: '0 14 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch Sleeper data
+        run: python3 scripts/fetch_sleeper.py
+
+      - name: Generate HOF site
+        run: python3 scripts/generate_site.py
+
+      - name: Commit & push updated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/ docs/hof/
+          git diff --staged --quiet && echo "Nothing changed." || (
+            git commit -m "Auto-update HOF data $(date -u +%Y-%m-%d)" &&
+            git push
+          )

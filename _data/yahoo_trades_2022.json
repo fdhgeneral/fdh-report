@@ -1,0 +1,125 @@
+[
+  {
+    "id": "e3672765-853c-43a6-a3df-520e435f5d84",
+    "week": 4,
+    "timestamp": "2022-09-24T16:06:50.000Z",
+    "parties": [
+      "{'teamId': '775991f3-5a67-4dd0-8aef-84ffa455c525', 'team': 'Just Win Maybe'}",
+      "{'teamId': '7ab71d1e-5f7e-4464-91da-afca713eb468', 'team': 'Suck my Cook'}"
+    ],
+    "players": [
+      {
+        "player": "414.p.30218",
+        "to": ""
+      },
+      {
+        "player": "414.p.28592",
+        "to": ""
+      },
+      {
+        "player": "414.p.33963",
+        "to": ""
+      },
+      {
+        "player": "414.p.30295",
+        "to": ""
+      },
+      {
+        "player": "414.p.33392",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "00718d6a-f5da-462e-83e2-e58cdf9f2ff3",
+    "week": 4,
+    "timestamp": "2022-09-26T07:11:42.000Z",
+    "parties": [
+      "{'teamId': '5c84e057-0874-4a07-b9a8-06243a8a1961', 'team': '2 headed blind squirrel'}",
+      "{'teamId': 'ceb4216e-d88d-4db8-8d7a-43f12e349a82', 'team': 'PAULIESWALNUTS'}"
+    ],
+    "players": [
+      {
+        "player": "414.p.31868",
+        "to": ""
+      },
+      {
+        "player": "414.p.32687",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "4b4e0451-60c5-4bf6-a99c-acb2f39aa9a9",
+    "week": 5,
+    "timestamp": "2022-09-30T07:11:52.000Z",
+    "parties": [
+      "{'teamId': '7266446d-c238-429d-b266-3a4d14c13ef0', 'team': \"Jarrin's Playas\"}",
+      "{'teamId': '775991f3-5a67-4dd0-8aef-84ffa455c525', 'team': 'Just Win Maybe'}"
+    ],
+    "players": [
+      {
+        "player": "414.p.30120",
+        "to": ""
+      },
+      {
+        "player": "414.p.32798",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "c5c51d01-cc45-44a5-97dc-1e8bb1ef7c52",
+    "week": 7,
+    "timestamp": "2022-10-13T03:48:02.000Z",
+    "parties": [
+      "{'teamId': '3eca93ee-9673-405e-9f12-478621c41325', 'team': 'Nacho Forever'}",
+      "{'teamId': '775991f3-5a67-4dd0-8aef-84ffa455c525', 'team': 'Just Win Maybe'}"
+    ],
+    "players": [
+      {
+        "player": "414.p.30994",
+        "to": ""
+      },
+      {
+        "player": "414.p.32725",
+        "to": ""
+      },
+      {
+        "player": "414.p.31228",
+        "to": ""
+      },
+      {
+        "player": "414.p.31898",
+        "to": ""
+      },
+      {
+        "player": "414.p.26650",
+        "to": ""
+      }
+    ]
+  },
+  {
+    "id": "8a221234-f5f0-47c0-b7ee-47c3ca326ab0",
+    "week": 11,
+    "timestamp": "2022-11-12T16:14:38.000Z",
+    "parties": [
+      "{'teamId': '7266446d-c238-429d-b266-3a4d14c13ef0', 'team': \"Jarrin's Playas\"}",
+      "{'teamId': '775991f3-5a67-4dd0-8aef-84ffa455c525', 'team': 'Just Win Maybe'}"
+    ],
+    "players": [
+      {
+        "player": "414.p.30295",
+        "to": ""
+      },
+      {
+        "player": "414.p.31424",
+        "to": ""
+      },
+      {
+        "player": "414.p.33399",
+        "to": ""
+      }
+    ]
+  }
+]

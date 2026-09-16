@@ -1,0 +1,1766 @@
+[
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 89.76
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 126.84
+    },
+    "winner": "Jarrin",
+    "margin": 37.08
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 131.66
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 140.52
+    },
+    "winner": "JHud01",
+    "margin": 8.86
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 102.14
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 83.18
+    },
+    "winner": "LeftofCenter25",
+    "margin": 18.96
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 114.64
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 123.1
+    },
+    "winner": "justEATit",
+    "margin": 8.46
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 105.24
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 100.76
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 4.48
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 105.24
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 116.58
+    },
+    "winner": "Jojo",
+    "margin": 11.34
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 102.2
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 139.8
+    },
+    "winner": "JHud01",
+    "margin": 37.6
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 141.96
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 137.32
+    },
+    "winner": "Delvineo",
+    "margin": 4.64
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 138.34
+    },
+    "teamB": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 145.22
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 6.88
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 96.74
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 183.5
+    },
+    "winner": "Prettygrlrck",
+    "margin": 86.76
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 122.04
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 120.78
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 1.26
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 126.48
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 143.12
+    },
+    "winner": "justEATit",
+    "margin": 16.64
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 171.78
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 137.54
+    },
+    "winner": "LeftofCenter25",
+    "margin": 34.24
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 102.76
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 72.76
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 30.0
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 143.96
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 93.46
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 50.5
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 124.72
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 132.18
+    },
+    "winner": "justEATit",
+    "margin": 7.46
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 141.78
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 155.5
+    },
+    "winner": "Prettygrlrck",
+    "margin": 13.72
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 169.1
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 150.48
+    },
+    "winner": "theFFChef",
+    "margin": 18.62
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 172
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 123.96
+    },
+    "winner": "RedZoneGuru",
+    "margin": 48.04
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 146.98
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 105.66
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 41.32
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 134.84
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 81.4
+    },
+    "winner": "BangBang4949",
+    "margin": 53.44
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 139.52
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 144.1
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 4.58
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 116.64
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 122.38
+    },
+    "winner": "Prettygrlrck",
+    "margin": 5.74
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 164.68
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 74.82
+    },
+    "winner": "Jarrin",
+    "margin": 89.86
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 128.54
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 47.12
+    },
+    "winner": "BangBang4949",
+    "margin": 81.42
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 142.22
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 109.18
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 33.04
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 107.06
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 157.92
+    },
+    "winner": "justEATit",
+    "margin": 50.86
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 165.52
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 103.44
+    },
+    "winner": "theFFChef",
+    "margin": 62.08
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 151.76
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 163.28
+    },
+    "winner": "Prettygrlrck",
+    "margin": 11.52
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 136.56
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 127.04
+    },
+    "winner": "Jarrin",
+    "margin": 9.52
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 119.3
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 110.44
+    },
+    "winner": "RedZoneGuru",
+    "margin": 8.86
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 155.48
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 119.2
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 36.28
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 161.96
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 122.14
+    },
+    "winner": "Jarrin",
+    "margin": 39.82
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 160.04
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 106.78
+    },
+    "winner": "theFFChef",
+    "margin": 53.26
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 87.02
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 112.58
+    },
+    "winner": "Prettygrlrck",
+    "margin": 25.56
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 114.52
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 75.74
+    },
+    "winner": "BangBang4949",
+    "margin": 38.78
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 129.26
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 129.36
+    },
+    "winner": "justEATit",
+    "margin": 0.1
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 130.66
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 106.56
+    },
+    "winner": "theFFChef",
+    "margin": 24.1
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 149.34
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 111.48
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 37.86
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 192.38
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 116.76
+    },
+    "winner": "BangBang4949",
+    "margin": 75.62
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 104.2
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 111
+    },
+    "winner": "JHud01",
+    "margin": 6.8
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 48.5
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 102.56
+    },
+    "winner": "Jojo",
+    "margin": 54.06
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 178.46
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 185.26
+    },
+    "winner": "justEATit",
+    "margin": 6.8
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 141.16
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 99.9
+    },
+    "winner": "Jarrin",
+    "margin": 41.26
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 124.7
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 143.52
+    },
+    "winner": "Prettygrlrck",
+    "margin": 18.82
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 135.36
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 110.98
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 24.38
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 156.08
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 129.36
+    },
+    "winner": "theFFChef",
+    "margin": 26.72
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 143.76
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 170.12
+    },
+    "winner": "RedZoneGuru",
+    "margin": 26.36
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 127.32
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 165.76
+    },
+    "winner": "JHud01",
+    "margin": 38.44
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 132.1
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 153.3
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 21.2
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 115.12
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 107.48
+    },
+    "winner": "Jarrin",
+    "margin": 7.64
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 93.98
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 88.54
+    },
+    "winner": "Jojo",
+    "margin": 5.44
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 90.3
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 104.52
+    },
+    "winner": "RedZoneGuru",
+    "margin": 14.22
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 137
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 103.18
+    },
+    "winner": "theFFChef",
+    "margin": 33.82
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 183.66
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 160.66
+    },
+    "winner": "JHud01",
+    "margin": 23.0
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 178.36
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 102.82
+    },
+    "winner": "justEATit",
+    "margin": 75.54
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 117.22
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 84.4
+    },
+    "winner": "LeftofCenter25",
+    "margin": 32.82
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 119.72
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 71.16
+    },
+    "winner": "BangBang4949",
+    "margin": 48.56
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 104.6
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 122.68
+    },
+    "winner": "Jarrin",
+    "margin": 18.08
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 176.18
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 128.78
+    },
+    "winner": "theFFChef",
+    "margin": 47.4
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 81.64
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 122.64
+    },
+    "winner": "RedZoneGuru",
+    "margin": 41.0
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 120.8
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 121.2
+    },
+    "winner": "Prettygrlrck",
+    "margin": 0.4
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 142.58
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 111.6
+    },
+    "winner": "Delvineo",
+    "margin": 30.98
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 116.96
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 113.06
+    },
+    "winner": "BangBang4949",
+    "margin": 3.9
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 108.8
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 116.74
+    },
+    "winner": "Jojo",
+    "margin": 7.94
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 133.54
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 129.88
+    },
+    "winner": "theFFChef",
+    "margin": 3.66
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 122.92
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 144.46
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 21.54
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 135.82
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 112.94
+    },
+    "winner": "LeftofCenter25",
+    "margin": 22.88
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 166.86
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 147.06
+    },
+    "winner": "Jarrin",
+    "margin": 19.8
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 115.8
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 140.5
+    },
+    "winner": "justEATit",
+    "margin": 24.7
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 166.2
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 143.68
+    },
+    "winner": "theFFChef",
+    "margin": 22.52
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 147.26
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 105.78
+    },
+    "winner": "RedZoneGuru",
+    "margin": 41.48
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 147.88
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 187.24
+    },
+    "winner": "justEATit",
+    "margin": 39.36
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 150
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 156.86
+    },
+    "winner": "Jojo",
+    "margin": 6.86
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 133.92
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 114.36
+    },
+    "winner": "Delvineo",
+    "margin": 19.56
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 137.92
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 126.76
+    },
+    "winner": "Jarrin",
+    "margin": 11.16
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 114.08
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 110.3
+    },
+    "winner": "BangBang4949",
+    "margin": 3.78
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 134.56
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 81.58
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 52.98
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 123.2
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 144.94
+    },
+    "winner": "LeftofCenter25",
+    "margin": 21.74
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 99.22
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 120.78
+    },
+    "winner": "Delvineo",
+    "margin": 21.56
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 188.72
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 106.74
+    },
+    "winner": "RedZoneGuru",
+    "margin": 81.98
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 132.42
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 79.58
+    },
+    "winner": "Jojo",
+    "margin": 52.84
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 131.64
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 117.24
+    },
+    "winner": "BangBang4949",
+    "margin": 14.4
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 121.26
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 110.02
+    },
+    "winner": "theFFChef",
+    "margin": 11.24
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 133.9
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 89.76
+    },
+    "winner": "LeftofCenter25",
+    "margin": 44.14
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 126.26
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 151.98
+    },
+    "winner": "RedZoneGuru",
+    "margin": 25.72
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 135.06
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 121.34
+    },
+    "winner": "2headedblindsquirrel",
+    "margin": 13.72
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 98.54
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 173.66
+    },
+    "winner": "Delvineo",
+    "margin": 75.12
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 120.92
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 150.54
+    },
+    "winner": "justEATit",
+    "margin": 29.62
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 119.04
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 136.82
+    },
+    "winner": "Prettygrlrck",
+    "margin": 17.78
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PauliesWalnuts",
+      "points": 136.4
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 95.02
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 41.38
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 123.1
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 137.98
+    },
+    "winner": "Jojo",
+    "margin": 14.88
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "BangBang4949",
+      "team": "BangBang",
+      "points": 91.52
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 165.06
+    },
+    "winner": "Jarrin",
+    "margin": 73.54
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 149.92
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 61.9
+    },
+    "winner": "theFFChef",
+    "margin": 88.02
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "D Adams Family",
+      "points": 140.6
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "The Recipe",
+      "points": 131.16
+    },
+    "winner": "LeftofCenter25",
+    "margin": 9.44
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "PFH23",
+      "points": 110.6
+    },
+    "teamB": {
+      "owner": "Prettygrlrck",
+      "team": "Rico's Remarkable Team",
+      "points": 90.48
+    },
+    "winner": "Jojo",
+    "margin": 20.12
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "2headedblindsquirrel",
+      "team": "2 headed blind squirrel",
+      "points": 118.78
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 130
+    },
+    "winner": "RedZoneGuru",
+    "margin": 11.22
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": false,
+    "championship": true,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "Cheetah's Spots",
+      "points": 148.56
+    },
+    "teamB": {
+      "owner": "justEATit",
+      "team": "The Purdy Dozen",
+      "points": 157.88
+    },
+    "winner": "justEATit",
+    "margin": 9.32
+  }
+]

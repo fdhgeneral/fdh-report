@@ -1,0 +1,1460 @@
+[
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 161.32
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 145.6
+    },
+    "winner": "JHud01",
+    "margin": 15.72
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 141.16
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 165.78
+    },
+    "winner": "Delvineo",
+    "margin": 24.62
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 131.06
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 135
+    },
+    "winner": "LeftofCenter25",
+    "margin": 3.94
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 153.7
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 172.28
+    },
+    "winner": "Michael",
+    "margin": 18.58
+  },
+  {
+    "week": 1,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 121.52
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 120.68
+    },
+    "winner": "Jojo",
+    "margin": 0.84
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 132.8
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 145.04
+    },
+    "winner": "RedZoneGuru",
+    "margin": 12.24
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 135.22
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 91.88
+    },
+    "winner": "LeftofCenter25",
+    "margin": 43.34
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 166.02
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 170.12
+    },
+    "winner": "Delvineo",
+    "margin": 4.1
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 111.28
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 103.36
+    },
+    "winner": "Michael",
+    "margin": 7.92
+  },
+  {
+    "week": 2,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 194.5
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 138.62
+    },
+    "winner": "theFFChef",
+    "margin": 55.88
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 126.54
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 111.38
+    },
+    "winner": "Jojo",
+    "margin": 15.16
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 102.94
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 148.88
+    },
+    "winner": "RedZoneGuru",
+    "margin": 45.94
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 122.62
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 169.34
+    },
+    "winner": "Michael",
+    "margin": 46.72
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 153.1
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 158.02
+    },
+    "winner": "BangBang4949",
+    "margin": 4.92
+  },
+  {
+    "week": 3,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 114.12
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 146.34
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 32.22
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 126.58
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 132.3
+    },
+    "winner": "Jarrin",
+    "margin": 5.72
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 159.92
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 139.32
+    },
+    "winner": "Jojo",
+    "margin": 20.6
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 108.52
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 116.42
+    },
+    "winner": "JHud01",
+    "margin": 7.9
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 152.56
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 155.88
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 3.32
+  },
+  {
+    "week": 4,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 119.42
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 149.92
+    },
+    "winner": "Michael",
+    "margin": 30.5
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 121.86
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 183.68
+    },
+    "winner": "JHud01",
+    "margin": 61.82
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 143.94
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 168.94
+    },
+    "winner": "RedZoneGuru",
+    "margin": 25.0
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 163.22
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 123.8
+    },
+    "winner": "theFFChef",
+    "margin": 39.42
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 190.32
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 206.78
+    },
+    "winner": "Jarrin",
+    "margin": 16.46
+  },
+  {
+    "week": 5,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 180.38
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 164.66
+    },
+    "winner": "Delvineo",
+    "margin": 15.72
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 157.1
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 172.2
+    },
+    "winner": "JHud01",
+    "margin": 15.1
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 142.9
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 179.56
+    },
+    "winner": "Michael",
+    "margin": 36.66
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 105.9
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 131.72
+    },
+    "winner": "BangBang4949",
+    "margin": 25.82
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 125.24
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 147.78
+    },
+    "winner": "Delvineo",
+    "margin": 22.54
+  },
+  {
+    "week": 6,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 112.68
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 144.78
+    },
+    "winner": "Jarrin",
+    "margin": 32.1
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 103.74
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 163.16
+    },
+    "winner": "Jarrin",
+    "margin": 59.42
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 88.76
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 104.94
+    },
+    "winner": "Delvineo",
+    "margin": 16.18
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 155.9
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 111.34
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 44.56
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 156.14
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 146.44
+    },
+    "winner": "RedZoneGuru",
+    "margin": 9.7
+  },
+  {
+    "week": 7,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 132.34
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 194.64
+    },
+    "winner": "Michael",
+    "margin": 62.3
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 147.9
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 75.4
+    },
+    "winner": "RedZoneGuru",
+    "margin": 72.5
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 81.46
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 160.36
+    },
+    "winner": "Jojo",
+    "margin": 78.9
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 144.92
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 106.96
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 37.96
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 121.8
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 120.36
+    },
+    "winner": "Jarrin",
+    "margin": 1.44
+  },
+  {
+    "week": 8,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 130.32
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 103.5
+    },
+    "winner": "theFFChef",
+    "margin": 26.82
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 102.84
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 125.98
+    },
+    "winner": "Michael",
+    "margin": 23.14
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 150.34
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 77.04
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 73.3
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 140.64
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 105.04
+    },
+    "winner": "theFFChef",
+    "margin": 35.6
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 71.06
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 103.88
+    },
+    "winner": "JHud01",
+    "margin": 32.82
+  },
+  {
+    "week": 9,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 117.98
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 117.96
+    },
+    "winner": "LeftofCenter25",
+    "margin": 0.02
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 112.62
+    },
+    "teamB": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 136.34
+    },
+    "winner": "LeftofCenter25",
+    "margin": 23.72
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 145.56
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 127.44
+    },
+    "winner": "RedZoneGuru",
+    "margin": 18.12
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 158.44
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 138.54
+    },
+    "winner": "JHud01",
+    "margin": 19.9
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 91.68
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 115.5
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 23.82
+  },
+  {
+    "week": 10,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 90.72
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 98.72
+    },
+    "winner": "Michael",
+    "margin": 8.0
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 123.88
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 112.56
+    },
+    "winner": "Michael",
+    "margin": 11.32
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 99.7
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 172.28
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 72.58
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 164.58
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 118.64
+    },
+    "winner": "LeftofCenter25",
+    "margin": 45.94
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 163.5
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 139.38
+    },
+    "winner": "Jojo",
+    "margin": 24.12
+  },
+  {
+    "week": 11,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 126.32
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 126.9
+    },
+    "winner": "Delvineo",
+    "margin": 0.58
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 130.58
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 128.4
+    },
+    "winner": "Delvineo",
+    "margin": 2.18
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 124.64
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 130.82
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 6.18
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 106.5
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 66.26
+    },
+    "winner": "JHud01",
+    "margin": 40.24
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 128.4
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 110.84
+    },
+    "winner": "theFFChef",
+    "margin": 17.56
+  },
+  {
+    "week": 12,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 129.68
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 154.88
+    },
+    "winner": "Jarrin",
+    "margin": 25.2
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 131.06
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 184
+    },
+    "winner": "BangBang4949",
+    "margin": 52.94
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 95.56
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 119.42
+    },
+    "winner": "JHud01",
+    "margin": 23.86
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 180.72
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 118.38
+    },
+    "winner": "RedZoneGuru",
+    "margin": 62.34
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 130.84
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 161.22
+    },
+    "winner": "Michael",
+    "margin": 30.38
+  },
+  {
+    "week": 13,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 160.52
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 125.3
+    },
+    "winner": "theFFChef",
+    "margin": 35.22
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 108.3
+    },
+    "teamB": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 143.72
+    },
+    "winner": "RedZoneGuru",
+    "margin": 35.42
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 128
+    },
+    "teamB": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 141.18
+    },
+    "winner": "Jarrin",
+    "margin": 13.18
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 163.74
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 115.94
+    },
+    "winner": "Jojo",
+    "margin": 47.8
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 141.62
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 153.02
+    },
+    "winner": "Michael",
+    "margin": 11.4
+  },
+  {
+    "week": 14,
+    "playoff": false,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 135.68
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 195.22
+    },
+    "winner": "BangBang4949",
+    "margin": 59.54
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 101.16
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 134.08
+    },
+    "winner": "JHud01",
+    "margin": 32.92
+  },
+  {
+    "week": 15,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 179.84
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 154.7
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 25.14
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 210.2
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 104.3
+    },
+    "winner": "JHud01",
+    "margin": 105.9
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 123.44
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 73.48
+    },
+    "winner": "LeftofCenter25",
+    "margin": 49.96
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 124.9
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 128.16
+    },
+    "winner": "BangBang4949",
+    "margin": 3.26
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 132.28
+    },
+    "teamB": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 144.94
+    },
+    "winner": "PaulyDsWalnuts",
+    "margin": 12.66
+  },
+  {
+    "week": 16,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "Jarrin",
+      "team": "Jarrin's Playas",
+      "points": 101.68
+    },
+    "teamB": {
+      "owner": "Delvineo",
+      "team": "Icy Hot",
+      "points": 172.22
+    },
+    "winner": "Delvineo",
+    "margin": 70.54
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "theFFChef",
+      "team": "The Titanic",
+      "points": 79.2
+    },
+    "teamB": {
+      "owner": "Jojo",
+      "team": "Aaron it out",
+      "points": 127.82
+    },
+    "winner": "Jojo",
+    "margin": 48.62
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": true,
+    "championship": false,
+    "teamA": {
+      "owner": "LeftofCenter25",
+      "team": "Nacho Forever",
+      "points": 120.14
+    },
+    "teamB": {
+      "owner": "BangBang4949",
+      "team": "BANG BANG",
+      "points": 108.5
+    },
+    "winner": "LeftofCenter25",
+    "margin": 11.64
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": false,
+    "championship": true,
+    "teamA": {
+      "owner": "PaulyDsWalnuts",
+      "team": "PAULIESWALNUTS",
+      "points": 134.08
+    },
+    "teamB": {
+      "owner": "JHud01",
+      "team": "strike1st strike hard no mercy",
+      "points": 160.34
+    },
+    "winner": "JHud01",
+    "margin": 26.26
+  },
+  {
+    "week": 17,
+    "playoff": true,
+    "consolation": false,
+    "championship": false,
+    "teamA": {
+      "owner": "RedZoneGuru",
+      "team": "RedZone King",
+      "points": 130.5
+    },
+    "teamB": {
+      "owner": "Michael",
+      "team": "Michael's Team",
+      "points": 179.62
+    },
+    "winner": "Michael",
+    "margin": 49.12
+  }
+]
