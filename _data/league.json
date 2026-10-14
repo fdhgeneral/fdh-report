@@ -66,6 +66,10 @@
     },
     "avatar": "b1c5e14e9216afab119a473ba9516274",
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2024",
+    "shard": 482,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -196,10 +200,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2024",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 482,
     "last_message_id": "1180086656733048832",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -213,9 +213,9 @@
     "last_read_id": null,
     "league_id": "1111435856142790656",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": 1172491672299245568,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": 1172491672303439872,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -306,11 +306,6 @@
     },
     "avatar": "b1c5e14e9216afab119a473ba9516274",
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2025",
-    "shard": 698,
-    "last_message_id": "1311995607971287040",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -441,6 +436,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2025",
+    "season_type": "regular",
+    "shard": 698,
+    "sport": "nfl",
+    "last_message_id": "1311995607971287040",
+    "draft_id": "1181711268491227137",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -449,15 +450,9 @@
     "last_message_text_map": null,
     "last_message_time": 1767166637941,
     "last_pinned_message_id": null,
-    "draft_id": "1181711268491227137",
     "last_read_id": null,
     "league_id": "1181711268491227136",
     "previous_league_id": "1111435856142790656",
-    "bracket_id": 1304400747290435584,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": 1304400747294629888,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -476,6 +471,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": 1304400747290435584,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": 1304400747294629888,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 12
   },
   "1378834732145455104": {
@@ -491,7 +491,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 4,
+      "last_report": 5,
       "waiver_budget": 250,
       "disable_adds": 0,
       "divisions": 3,
@@ -541,15 +541,14 @@
       "leg": 6,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
-      "daily_waivers_last_ran": 13
+      "daily_waivers_last_ran": 14
     },
     "avatar": "61399ba08f1d8ae014685b7c9f7cf2ce",
     "company_id": null,
-    "last_message_id": "1415629410442223616",
-    "sport": "nfl",
     "shard": 392,
     "season": "2026",
     "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -680,18 +679,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1415994460092821504",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1378834732162256896",
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791874861874,
+    "last_message_time": 1791961896493,
     "last_pinned_message_id": "1385014338133168128",
+    "draft_id": "1378834732162256896",
     "last_read_id": null,
     "league_id": "1378834732145455104",
     "previous_league_id": "1181711268491227136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -710,11 +715,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 12
   }
 }
