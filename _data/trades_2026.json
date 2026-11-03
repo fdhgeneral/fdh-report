@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "status": "complete",
+    "type": "trade",
+    "metadata": null,
+    "created": 1793243732402,
+    "settings": null,
+    "leg": 8,
+    "draft_picks": [],
+    "creator": "1128420934681079808",
+    "transaction_id": "1421370869573320704",
+    "adds": {
+      "5001": 7,
+      "8167": 12,
+      "9487": 7
+    },
+    "drops": {
+      "5001": 12,
+      "8167": 7,
+      "9487": 12
+    },
+    "consenter_ids": [
+      7,
+      12
+    ],
+    "roster_ids": [
+      7,
+      12
+    ],
+    "status_updated": 1793289620572,
+    "waiver_budget": [],
+    "week": 8,
+    "league_id": "1378834732145455104"
+  }
+]
